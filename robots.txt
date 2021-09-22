@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /about/ 
+Disallow: /lib/
+Disallow: /js/
+Disallow: /css/
+Disallow: /img/
+Disallow: /ctf-wiki/
+Disallow: /hacktricks/
+Disallow: /cyberchef/
+Disallow: reverse-shell-generator
+Sitemap: https://in1t0.github.io//sitemap.xml
