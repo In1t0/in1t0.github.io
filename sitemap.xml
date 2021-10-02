@@ -2,7 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://in1t0.github.io/Academy%20@%20HackTheBox/</loc>
+    
+    <lastmod>2021-10-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://in1t0.github.io/Love%20@%20HackTheBox/</loc>
+    
+    <lastmod>2021-10-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://in1t0.github.io/Blackfield%20@%20HackTheBox/</loc>
+    
+    <lastmod>2021-10-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://in1t0.github.io/Doctor%20@%20HackTheBox/</loc>
+    
+    <lastmod>2021-10-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://in1t0.github.io/Bolt%20@%20HackTheBox/</loc>
+    
+    <lastmod>2021-10-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://in1t0.github.io/Nibbles%20@%20HackTheBox/</loc>
+    
+    <lastmod>2021-10-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://in1t0.github.io/Bashed%20@%20HackTheBox/</loc>
+    
+    <lastmod>2021-10-02</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://in1t0.github.io/Shocker%20@%20HackTheBox/</loc>
+    
+    <lastmod>2021-10-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://in1t0.github.io/Dyplesher%20@%20HackTheBox/</loc>
     
     <lastmod>2021-10-02</lastmod>
     
@@ -16,21 +72,7 @@
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/Bashed%20@%20HackTheBox/</loc>
-    
-    <lastmod>2021-09-30</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://in1t0.github.io/Jewel%20@%20HackTheBox/</loc>
-    
-    <lastmod>2021-09-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://in1t0.github.io/Nibbles%20@%20HackTheBox/</loc>
     
     <lastmod>2021-09-30</lastmod>
     
@@ -47,13 +89,6 @@
     <loc>https://in1t0.github.io/Sunday%20@%20HackTheBox/</loc>
     
     <lastmod>2021-09-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://in1t0.github.io/Bolt%20@%20HackTheBox/</loc>
-    
-    <lastmod>2021-09-29</lastmod>
     
   </url>
   
@@ -75,27 +110,6 @@
     <loc>https://in1t0.github.io/Travel%20@%20HackTheBox/</loc>
     
     <lastmod>2021-09-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://in1t0.github.io/Dyplesher%20@%20HackTheBox/</loc>
-    
-    <lastmod>2021-09-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://in1t0.github.io/Doctor%20@%20HackTheBox/</loc>
-    
-    <lastmod>2021-09-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://in1t0.github.io/Blackfield%20@%20HackTheBox/</loc>
-    
-    <lastmod>2021-09-26</lastmod>
     
   </url>
   
@@ -122,13 +136,6 @@
   
   <url>
     <loc>https://in1t0.github.io/Compromised%20@%20HackTheBox/</loc>
-    
-    <lastmod>2021-09-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://in1t0.github.io/Academy%20@%20HackTheBox/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -233,7 +240,7 @@
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/2019-07-16-XCTF_WEB_NaNNaNNaNNaN-Batman/</loc>
+    <loc>https://in1t0.github.io/2019-07-04-Jarvisoj_web_%E7%A5%9E%E7%9B%BE%E5%B1%80%E7%9A%84%E7%A7%98%E5%AF%86/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -247,7 +254,7 @@
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/2019-07-04-Jarvisoj_web_%E7%A5%9E%E7%9B%BE%E5%B1%80%E7%9A%84%E7%A7%98%E5%AF%86/</loc>
+    <loc>https://in1t0.github.io/2019-07-16-XCTF_WEB_NaNNaNNaNNaN-Batman/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -359,6 +366,13 @@
   </url>
   
   <url>
+    <loc>https://in1t0.github.io/2019-07-24-BUUCTF_WEB_Dropbox/</loc>
+    
+    <lastmod>2021-09-22</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://in1t0.github.io/2020-07-25-BUUCTF_WEB_BabySQli/</loc>
     
     <lastmod>2021-09-22</lastmod>
@@ -367,13 +381,6 @@
   
   <url>
     <loc>https://in1t0.github.io/2019-07-25-BUUCTF_WEB_ikun/</loc>
-    
-    <lastmod>2021-09-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://in1t0.github.io/2019-07-24-BUUCTF_WEB_Dropbox/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -604,13 +611,6 @@
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/Love%20@%20HackTheBox/</loc>
-    
-    <lastmod>2021-09-22</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://in1t0.github.io/Popcorn%20@%20HackTheBox/</loc>
     
     <lastmod>2021-09-22</lastmod>
@@ -618,14 +618,14 @@
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/SpringBootVulExploit/</loc>
+    <loc>https://in1t0.github.io/Tenten%20@%20HackTheBox/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/Tenten%20@%20HackTheBox/</loc>
+    <loc>https://in1t0.github.io/SpringBootVulExploit/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
