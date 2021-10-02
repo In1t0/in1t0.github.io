@@ -2,7 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://in1t0.github.io/%E6%9C%AA%E5%91%BD%E5%90%8D/</loc>
+    <loc>https://in1t0.github.io/Tricks/</loc>
+    
+    <lastmod>2021-10-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://in1t0.github.io/Mirai%20@%20HackTheBox/</loc>
     
     <lastmod>2021-10-02</lastmod>
     
@@ -317,14 +324,14 @@
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/2020-07-31-_2020_%E9%9D%92%E9%BE%99%E7%BB%84_AreUSerialz1/</loc>
+    <loc>https://in1t0.github.io/2020-07-08-BUUCTF_WEB_HardSQL1/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/2020-07-08-BUUCTF_WEB_HardSQL1/</loc>
+    <loc>https://in1t0.github.io/2020-07-31-_2020_%E9%9D%92%E9%BE%99%E7%BB%84_AreUSerialz1/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -380,14 +387,14 @@
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/2020-07-25-BUUCTF_WEB_BabySQli/</loc>
+    <loc>https://in1t0.github.io/2019-07-25-BUUCTF_WEB_ikun/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/2019-07-25-BUUCTF_WEB_ikun/</loc>
+    <loc>https://in1t0.github.io/2020-07-25-BUUCTF_WEB_BabySQli/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -555,14 +562,14 @@
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/Lame%20@%20HackTheBox/</loc>
+    <loc>https://in1t0.github.io/Legacy%20@%20HackTheBox/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/Legacy%20@%20HackTheBox/</loc>
+    <loc>https://in1t0.github.io/Lame%20@%20HackTheBox/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -753,14 +760,14 @@
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/tags/Tools/</loc>
+    <loc>https://in1t0.github.io/tags/Pen/</loc>
     <lastmod>2021-10-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/tags/Pen/</loc>
+    <loc>https://in1t0.github.io/tags/Tools/</loc>
     <lastmod>2021-10-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
