@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://in1t0.github.io/Sniper%20@%20HackTheBox/</loc>
+    <loc>https://in1t0.github.io/Tricks/</loc>
     
     <lastmod>2021-10-03</lastmod>
     
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/Tricks/</loc>
+    <loc>https://in1t0.github.io/Sniper%20@%20HackTheBox/</loc>
     
     <lastmod>2021-10-03</lastmod>
     
@@ -275,28 +275,7 @@
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/2019-07-16-XCTF_WEB_ics-04/</loc>
-    
-    <lastmod>2021-09-22</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://in1t0.github.io/2019-07-09-Jarvisoj_web_Easy_Gallery/</loc>
-    
-    <lastmod>2021-09-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://in1t0.github.io/2019-07-18-XCTF_WEB_bug/</loc>
-    
-    <lastmod>2021-09-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://in1t0.github.io/2019-07-24-BUUCTF_WEB_Hack-World/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -310,7 +289,28 @@
   </url>
   
   <url>
+    <loc>https://in1t0.github.io/2019-07-16-XCTF_WEB_ics-04/</loc>
+    
+    <lastmod>2021-09-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://in1t0.github.io/2019-07-18-XCTF_WEB_bug/</loc>
+    
+    <lastmod>2021-09-22</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://in1t0.github.io/2019-07-20-XCTF_WEB_ics-07/</loc>
+    
+    <lastmod>2021-09-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://in1t0.github.io/2019-07-24-BUUCTF_WEB_Hack-World/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -331,6 +331,13 @@
   </url>
   
   <url>
+    <loc>https://in1t0.github.io/2020-07-08-BUUCTF_WEB_BabySQL1/</loc>
+    
+    <lastmod>2021-09-22</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://in1t0.github.io/2020-07-08-BUUCTF_WEB_HardSQL1/</loc>
     
     <lastmod>2021-09-22</lastmod>
@@ -339,13 +346,6 @@
   
   <url>
     <loc>https://in1t0.github.io/2020-07-31-_2020_%E9%9D%92%E9%BE%99%E7%BB%84_AreUSerialz1/</loc>
-    
-    <lastmod>2021-09-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://in1t0.github.io/2020-07-08-BUUCTF_WEB_BabySQL1/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -366,6 +366,13 @@
   </url>
   
   <url>
+    <loc>https://in1t0.github.io/2019-07-16-XCTF_WEB_Cat/</loc>
+    
+    <lastmod>2021-09-22</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://in1t0.github.io/2019-07-16-XCTF_WEB_ics-05/</loc>
     
     <lastmod>2021-09-22</lastmod>
@@ -373,7 +380,14 @@
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/2019-07-16-XCTF_WEB_Cat/</loc>
+    <loc>https://in1t0.github.io/2019-07-19-XCTF_WEB_web2/</loc>
+    
+    <lastmod>2021-09-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://in1t0.github.io/2019-07-20-sql/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -401,14 +415,7 @@
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/2019-07-19-XCTF_WEB_web2/</loc>
-    
-    <lastmod>2021-09-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://in1t0.github.io/2019-07-20-sql/</loc>
+    <loc>https://in1t0.github.io/2019-07-04-Jarvisoj_web_IN_A_Mess/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -416,13 +423,6 @@
   
   <url>
     <loc>https://in1t0.github.io/2019-07-07-Jarvisoj_web_Chopper/</loc>
-    
-    <lastmod>2021-09-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://in1t0.github.io/2019-07-04-Jarvisoj_web_IN_A_Mess/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -604,14 +604,14 @@
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/Attended%20@%20HackTheBox/</loc>
+    <loc>https://in1t0.github.io/Arctic%20@%20HackTheBox/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/Arctic%20@%20HackTheBox/</loc>
+    <loc>https://in1t0.github.io/Attended%20@%20HackTheBox/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -739,6 +739,13 @@
   </url>
   
   <url>
+    <loc>https://in1t0.github.io/tags/sql/</loc>
+    <lastmod>2021-10-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://in1t0.github.io/tags/PHP/</loc>
     <lastmod>2021-10-03</lastmod>
     <changefreq>daily</changefreq>
@@ -746,7 +753,7 @@
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/tags/sql/</loc>
+    <loc>https://in1t0.github.io/tags/Web-Security-Learning/</loc>
     <lastmod>2021-10-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -767,7 +774,7 @@
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/tags/Web-Security-Learning/</loc>
+    <loc>https://in1t0.github.io/tags/Pen/</loc>
     <lastmod>2021-10-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -775,13 +782,6 @@
   
   <url>
     <loc>https://in1t0.github.io/tags/Tools/</loc>
-    <lastmod>2021-10-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://in1t0.github.io/tags/Pen/</loc>
     <lastmod>2021-10-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
