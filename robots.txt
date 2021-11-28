@@ -12,4 +12,4 @@ Disallow: /ctf-wiki/
 Disallow: /hacktricks/
 Disallow: /cyberchef/
 Disallow: reverse-shell-generator
-Sitemap: https://in1t0.github.io//sitemap.xml
+Sitemap: https://in1t0.github.io/sitemap.xml
