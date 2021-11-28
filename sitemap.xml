@@ -471,6 +471,13 @@
   </url>
   
   <url>
+    <loc>https://in1t0.github.io/2019-11-28-BUUCTF_WEB_[zjctf]NiZhuanSiWei/</loc>
+    
+    <lastmod>2021-09-22</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://in1t0.github.io/2020-02-28-BUUCTF_WEB_EasySQL1/</loc>
     
     <lastmod>2021-09-22</lastmod>
@@ -479,13 +486,6 @@
   
   <url>
     <loc>https://in1t0.github.io/2020-07-08-BUUCTF_WEB_BabySQL1/</loc>
-    
-    <lastmod>2021-09-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://in1t0.github.io/2019-11-28-BUUCTF_WEB_[zjctf]NiZhuanSiWei/</loc>
     
     <lastmod>2021-09-22</lastmod>
     
@@ -907,14 +907,14 @@
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/tags/HackTheBox/</loc>
+    <loc>https://in1t0.github.io/tags/AWD/</loc>
     <lastmod>2021-11-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://in1t0.github.io/tags/AWD/</loc>
+    <loc>https://in1t0.github.io/tags/HackTheBox/</loc>
     <lastmod>2021-11-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
