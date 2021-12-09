@@ -1,4 +1,4 @@
-User-agent: *
+User-agent: Googlebot
 Allow: /
 Allow: /archives/
 Allow: /categories/
@@ -6,9 +6,11 @@ Allow: /tags/
 Allow: /about/ 
 Allow: /css/
 Allow: /js/
+
 Disallow: /lib/
-Disallow: /ctf-wiki/
-Disallow: /hacktricks/
-Disallow: /cyberchef/
-Disallow: /reverse-shell-generator/
+allow: /ctf-wiki/
+allow: /hacktricks/
+allow: /cyberchef/
+allow: /reverse-shell-generator/
+
 Sitemap: https://in1t0.github.io/sitemap.xml
