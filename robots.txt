@@ -6,11 +6,9 @@ Allow: /tags/
 Allow: /about/ 
 Allow: /css/
 Allow: /js/
+Allow: /ctf-wiki/
+Allow: /hacktricks/
+Allow: /cyberchef/
+Allow: /reverse-shell-generator/
 
-Disallow: /lib/
-allow: /ctf-wiki/
-allow: /hacktricks/
-allow: /cyberchef/
-allow: /reverse-shell-generator/
-
-Sitemap: https://in1t0.github.io/sitemap.xml
+Sitemap: https://in1t0.github.io/google.xml
