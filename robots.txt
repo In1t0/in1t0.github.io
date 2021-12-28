@@ -11,4 +11,4 @@ Allow: /hacktricks/
 Allow: /cyberchef/
 Allow: /reverse-shell-generator/
 
-Sitemap: https://in1t0.github.io/google.xml
+Sitemap: http://in1t0.github.io/sitemap.xml
