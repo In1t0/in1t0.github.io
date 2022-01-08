@@ -88,8 +88,8 @@ https://in1t0.github.io/Beep%20@%20HackTheBox.html
 https://in1t0.github.io/Dynstr%20@%20HackTheBox.html
 https://in1t0.github.io/Laboratory%20@%20HackTheBox.html
 https://in1t0.github.io/Popcorn%20@%20HackTheBox.html
-https://in1t0.github.io/Tenten%20@%20HackTheBox.html
 https://in1t0.github.io/SpringBootVulExploit.html
+https://in1t0.github.io/Tenten%20@%20HackTheBox.html
 https://in1t0.github.io/Ttenet%20@%20HackTheBox.html
 https://in1t0.github.io/Validation%20@%20HackTheBox.html
 https://in1t0.github.io/Knife%20@%20HackTheBox.html
