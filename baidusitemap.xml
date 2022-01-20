@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://in1t0.github.io/SpringBootVulExploit.html</loc>
+    <lastmod>2022-01-20</lastmod>
+  </url>
+  <url>
+    <loc>https://in1t0.github.io/Developer%20@%20HackTheBox.html</loc>
+    <lastmod>2022-01-11</lastmod>
+  </url>
+  <url>
     <loc>https://in1t0.github.io/EarlyAccess%20@%20HackTheBox.html</loc>
     <lastmod>2022-01-09</lastmod>
   </url>
@@ -297,11 +305,11 @@
     <lastmod>2021-09-22</lastmod>
   </url>
   <url>
-    <loc>https://in1t0.github.io/Sharp%20@%20HackTheBox.html</loc>
+    <loc>https://in1t0.github.io/Previse%20@%20HackTheBox.html</loc>
     <lastmod>2021-09-22</lastmod>
   </url>
   <url>
-    <loc>https://in1t0.github.io/Previse%20@%20HackTheBox.html</loc>
+    <loc>https://in1t0.github.io/Sharp%20@%20HackTheBox.html</loc>
     <lastmod>2021-09-22</lastmod>
   </url>
   <url>
@@ -362,10 +370,6 @@
   </url>
   <url>
     <loc>https://in1t0.github.io/Popcorn%20@%20HackTheBox.html</loc>
-    <lastmod>2021-09-22</lastmod>
-  </url>
-  <url>
-    <loc>https://in1t0.github.io/SpringBootVulExploit.html</loc>
     <lastmod>2021-09-22</lastmod>
   </url>
   <url>
