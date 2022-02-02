@@ -11635,8 +11635,8 @@ figure.highlight .section {
 }
 @media screen and (min-width: 1472px) {
   .is-2-column .container {
-    max-width: 1280px;
-    width: 1280px;
+    max-width: 1152px;
+    width: 1152px;
   }
   .is-1-column .container {
     max-width: 960px;
@@ -11662,14 +11662,6 @@ figure.highlight .section {
   .section {
     padding: 1.5rem 1rem;
   }
-}
-body {
-  background-image: url("../img/bg_small.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  opacity: 0.999;
 }
 body {
   counter-reset: card;

@@ -1,3 +1,7 @@
+https://in1t0.github.io/Union%20@%20HackTheBox.html
+https://in1t0.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F.html
+https://in1t0.github.io/Admirertoo%20@%20HackTheBox.html
+https://in1t0.github.io/Jet%20@%20HackThebox.html
 https://in1t0.github.io/Developer%20@%20HackTheBox.html
 https://in1t0.github.io/SpringBootVulExploit.html
 https://in1t0.github.io/EarlyAccess%20@%20HackTheBox.html
@@ -72,8 +76,8 @@ https://in1t0.github.io/Monitors%20@%20HackTheBox.html
 https://in1t0.github.io/Proper%20@%20HackTheBox.html
 https://in1t0.github.io/Fuse%20@%20HackTheBox.html
 https://in1t0.github.io/Horizontall%20@%20HackTheBox.html
-https://in1t0.github.io/Pit%20@%20HackTheBox.html
 https://in1t0.github.io/Pivotapi%20@%20HackTheBox.html
+https://in1t0.github.io/Pit%20@%20HackTheBox.html
 https://in1t0.github.io/Previse%20@%20HackTheBox.html
 https://in1t0.github.io/Sharp%20@%20HackTheBox.html
 https://in1t0.github.io/Bastard%20@%20HackTheBox.html
