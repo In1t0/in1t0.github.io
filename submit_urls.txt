@@ -1,3 +1,4 @@
+https://in1t0.github.io/NodeBlog%20@%20HackTheBox.html
 https://in1t0.github.io/Flustered%20@%20HackTheBox.html
 https://in1t0.github.io/Reel2%20@%20HackTheBox.html
 https://in1t0.github.io/sqli-labs.html

@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://in1t0.github.io/NodeBlog%20@%20HackTheBox.html</loc>
+    
+    <lastmod>2022-02-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://in1t0.github.io/Flustered%20@%20HackTheBox.html</loc>
     
     <lastmod>2022-02-10</lastmod>
@@ -967,7 +976,7 @@
 
   <url>
     <loc>https://in1t0.github.io/</loc>
-    <lastmod>2022-02-10</lastmod>
+    <lastmod>2022-02-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
