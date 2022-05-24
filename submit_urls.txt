@@ -14,8 +14,8 @@ https://in1t0.github.io/Pivotapi%20@%20HackTheBox.html
 https://in1t0.github.io/NodeBlog%20@%20HackTheBox.html
 https://in1t0.github.io/OpenKeyS%20@%20HackTheBox.html
 https://in1t0.github.io/Jet%20@%20HackThebox.html
-https://in1t0.github.io/Fuse%20@%20HackTheBox.html
 https://in1t0.github.io/Hackintosh%20%E8%B0%83%E6%95%99%E7%AC%94%E8%AE%B0.html
+https://in1t0.github.io/Fuse%20@%20HackTheBox.html
 https://in1t0.github.io/Dynstr%20@%20HackTheBox.html
 https://in1t0.github.io/Flustered%20@%20HackTheBox.html
 https://in1t0.github.io/Bucket%20@%20HackTheBox.html
