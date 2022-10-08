@@ -1,0 +1,1445 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>收集的各种工具 - iN1t0</title><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#fcee09"><meta name="application-name" content="iN1t0&#039;s Blog"><meta name="msapplication-TileImage" content="/img/avatar.png"><meta name="msapplication-TileColor" content="#fcee09"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="iN1t0&#039;s Blog"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="脚本小子就是我。"><meta property="og:type" content="blog"><meta property="og:title" content="收集的各种工具"><meta property="og:url" content="https://in1t0.github.io/%E6%94%B6%E9%9B%86%E7%9A%84%E5%90%84%E7%A7%8D%E5%B7%A5%E5%85%B7.html"><meta property="og:site_name" content="iN1t0"><meta property="og:description" content="脚本小子就是我。"><meta property="og:locale" content="en_US"><meta property="og:image" content="https://in1t0.github.io/img/og_image.png"><meta property="article:published_time" content="2021-08-03T16:00:00.000Z"><meta property="article:modified_time" content="2022-10-08T07:01:03.993Z"><meta property="article:author" content="iN1t0"><meta property="article:tag" content="Tools"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://in1t0.github.io/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://in1t0.github.io/%E6%94%B6%E9%9B%86%E7%9A%84%E5%90%84%E7%A7%8D%E5%B7%A5%E5%85%B7.html"},"headline":"收集的各种工具","image":["https://in1t0.github.io/img/og_image.png"],"datePublished":"2021-08-03T16:00:00.000Z","dateModified":"2022-10-08T07:01:03.993Z","author":{"@type":"Person","name":"iN1t0"},"publisher":{"@type":"Organization","name":"iN1t0","logo":{"@type":"ImageObject","url":{"text":"iN1t0's Blog"}}},"description":"脚本小子就是我。"}</script><link rel="canonical" href="https://in1t0.github.io/%E6%94%B6%E9%9B%86%E7%9A%84%E5%90%84%E7%A7%8D%E5%B7%A5%E5%85%B7.html"><link rel="alternate" href="/atom.xml" title="iN1t0" type="application/atom+xml"><link rel="icon" href="/img/avatar.png"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link rel="stylesheet" href="https://unpkg.com/highlight.js@9.12.0/styles/monokai.css"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://unpkg.com/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://unpkg.com/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://unpkg.com/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://unpkg.com/pace-js@1.2.4/pace.min.js"></script><!--!--><!--!--><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const $tabMenu = document.querySelector(`a[href="${location.hash}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(location.hash);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">iN1t0&#039;s Blog</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="Catalogue" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2021-08-03T16:00:00.000Z" title="8/4/2021, 12:00:00 AM">2021-08-04</time></span><span class="level-item">Updated&nbsp;<time dateTime="2022-10-08T07:01:03.993Z" title="10/8/2022, 3:01:03 PM">2022-10-08</time></span><span class="level-item"><a class="link-muted" href="/categories/%E5%B7%A5%E5%85%B7%E5%8F%8A%E6%8A%80%E5%B7%A7/">工具及技巧</a></span><span class="level-item">an hour read (About 8753 words)</span></div></div><h1 class="title is-3 is-size-4-mobile">收集的各种工具</h1><div class="content"><p>脚本小子就是我。</p>
+<span id="more"></span>
+<h1 id="WhatWeb"><a href="#WhatWeb" class="headerlink" title="WhatWeb"></a>WhatWeb</h1><p><code>https://github.com/urbanadventurer/WhatWeb</code></p>
+<blockquote>
+<p>Next generation web scanner</p>
+</blockquote>
+<h1 id="AggressorScripts-0x727"><a href="#AggressorScripts-0x727" class="headerlink" title="AggressorScripts_0x727"></a>AggressorScripts_0x727</h1><p><code>https://github.com/0x727/AggressorScripts_0x727</code></p>
+<blockquote>
+<p>Cobalt Strike AggressorScripts For Red Team</p>
+</blockquote>
+<h1 id="GitTools"><a href="#GitTools" class="headerlink" title="GitTools"></a>GitTools</h1><p><code>https://github.com/internetwache/GitTools</code></p>
+<blockquote>
+<p>A repository with 3 tools for pwn’ing websites with .git repositories available</p>
+</blockquote>
+<h1 id="aliyun-accesskey-Tools"><a href="#aliyun-accesskey-Tools" class="headerlink" title="aliyun-accesskey-Tools"></a>aliyun-accesskey-Tools</h1><p><code>https://github.com/mrknow001/aliyun-accesskey-Tools</code></p>
+<blockquote>
+<p>阿里云accesskey利用工具</p>
+</blockquote>
+<h1 id="enum4linux-ng"><a href="#enum4linux-ng" class="headerlink" title="enum4linux-ng"></a>enum4linux-ng</h1><p><code>https://github.com/cddmp/enum4linux-ng</code></p>
+<blockquote>
+<p>A next generation version of enum4linux (a Windows/Samba enumeration tool) with additional features like JSON/YAML export. Aimed for security professionals and CTF players.</p>
+</blockquote>
+<h1 id="Sunflower-get-Password"><a href="#Sunflower-get-Password" class="headerlink" title="Sunflower_get_Password"></a>Sunflower_get_Password</h1><p><code>https://github.com/wafinfo/Sunflower_get_Password</code></p>
+<blockquote>
+<p>一款针对向日葵的识别码和验证码提取工具</p>
+</blockquote>
+<h1 id="webshell-bypassed-human"><a href="#webshell-bypassed-human" class="headerlink" title="webshell-bypassed-human"></a>webshell-bypassed-human</h1><p><code>https://github.com/Macr0phag3/webshell-bypassed-human</code></p>
+<blockquote>
+<p>过人 webshell 的生成工具</p>
+</blockquote>
+<h1 id="tig"><a href="#tig" class="headerlink" title="tig"></a>tig</h1><p><code>https://github.com/wgpsec/tig</code></p>
+<blockquote>
+<p>Threat Intelligence Gathering 威胁情报收集，旨在提高蓝队拿到攻击 IP 后对其进行威胁情报信息收集的效率。</p>
+</blockquote>
+<h1 id="spp"><a href="#spp" class="headerlink" title="spp"></a>spp</h1><p><code>https://github.com/esrrhs/spp</code></p>
+<blockquote>
+<p>简单强大的多协议双向代理工具 A simple and powerful proxy</p>
+</blockquote>
+<h1 id="gobusterdns"><a href="#gobusterdns" class="headerlink" title="gobusterdns"></a>gobusterdns</h1><p><code>https://github.com/timwhitez/gobusterdns</code></p>
+<blockquote>
+<p>lite version of gobuster. Only subdomain brute. 内网轻量化子域名爆破工具</p>
+</blockquote>
+<h1 id="gnc"><a href="#gnc" class="headerlink" title="gnc"></a>gnc</h1><p><code>https://github.com/canc3s/gnc</code></p>
+<blockquote>
+<p>golang 版本的 nc ，支持平时使用的大部分功能，并增加了流量rc4加密</p>
+</blockquote>
+<h1 id="Kunlun-M"><a href="#Kunlun-M" class="headerlink" title="Kunlun-M"></a>Kunlun-M</h1><p><code>https://github.com/LoRexxar/Kunlun-M/</code></p>
+<blockquote>
+<p>KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScript的语义扫描，基础安全、组件安全扫描，Chrome Ext\Solidity的基础扫描。</p>
+</blockquote>
+<h1 id="awd-watchbird"><a href="#awd-watchbird" class="headerlink" title="awd-watchbird"></a>awd-watchbird</h1><p><code>https://github.com/leohearts/awd-watchbird</code></p>
+<blockquote>
+<p>A powerful PHP WAF for AWD</p>
+</blockquote>
+<h1 id="Pass-to-hash-EWS"><a href="#Pass-to-hash-EWS" class="headerlink" title="Pass-to-hash-EWS"></a>Pass-to-hash-EWS</h1><p><code>https://github.com/pentest-tools-public/Pass-to-hash-EWS</code></p>
+<blockquote>
+<p>ntlmv1 ntlmv2 hash获取需配合unc路径触发</p>
+</blockquote>
+<h1 id="CrossNet-Beta"><a href="#CrossNet-Beta" class="headerlink" title="CrossNet-Beta"></a>CrossNet-Beta</h1><p><code>https://github.com/dr0op/CrossNet-Beta</code></p>
+<blockquote>
+<p>红队行动中利用白利用、免杀、自动判断网络环境生成钓鱼可执行文件。</p>
+</blockquote>
+<h1 id="autoenum"><a href="#autoenum" class="headerlink" title="autoenum"></a>autoenum</h1><p><code>https://github.com/Gr1mmie/autoenum</code></p>
+<blockquote>
+<p>Automatic Service Enumeration Script</p>
+</blockquote>
+<h1 id="linux提权"><a href="#linux提权" class="headerlink" title="linux提权"></a>linux提权</h1><h1 id="openam-CVE-2021-35464"><a href="#openam-CVE-2021-35464" class="headerlink" title="openam-CVE-2021-35464"></a>openam-CVE-2021-35464</h1><p><code>https://github.com/Y4er/openam-CVE-2021-35464</code></p>
+<blockquote>
+<p>openam-CVE-2021-35464 tomcat 执行命令回显</p>
+</blockquote>
+<h1 id="SourceMapX"><a href="#SourceMapX" class="headerlink" title="SourceMapX"></a>SourceMapX</h1><p><code>https://github.com/insightglacier/SourceMapX</code></p>
+<blockquote>
+<p>批量扫描并恢复sourcemap的源代码文件</p>
+</blockquote>
+<h1 id="ysoserial"><a href="#ysoserial" class="headerlink" title="ysoserial"></a>ysoserial</h1><p><code>https://github.com/frohoff/ysoserial</code></p>
+<blockquote>
+<p>A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.</p>
+</blockquote>
+<h1 id="zero-crack"><a href="#zero-crack" class="headerlink" title="zero-crack"></a>zero-crack</h1><p><code>https://github.com/0-sec/zero-crack</code></p>
+<blockquote>
+<p>webapps crack tools</p>
+</blockquote>
+<h1 id="jwt-tool"><a href="#jwt-tool" class="headerlink" title="jwt_tool"></a>jwt_tool</h1><p><code>https://github.com/ticarpi/jwt_tool</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="RedBook"><a href="#RedBook" class="headerlink" title="RedBook"></a>RedBook</h1><p><code>https://github.com/satan1a/RedBook</code></p>
+<blockquote>
+<p>基于Threathunting-book基础上完善的狩猎视角红队handbook</p>
+</blockquote>
+<h1 id="lxd-alpine-builder"><a href="#lxd-alpine-builder" class="headerlink" title="lxd-alpine-builder"></a>lxd-alpine-builder</h1><p><code>https://github.com/saghul/lxd-alpine-builder</code></p>
+<blockquote>
+<p>Build Alpine Linux images for LXD</p>
+</blockquote>
+<h1 id="beanshooter"><a href="#beanshooter" class="headerlink" title="beanshooter"></a>beanshooter</h1><p><code>https://github.com/qtc-de/beanshooter</code></p>
+<blockquote>
+<p>JMX enumeration and attacking tool.</p>
+</blockquote>
+<h1 id="ServerScan"><a href="#ServerScan" class="headerlink" title="ServerScan"></a>ServerScan</h1><p><code>https://github.com/Adminisme/ServerScan</code></p>
+<blockquote>
+<p>ServerScan一款使用Golang开发的高并发网络扫描、服务探测工具。</p>
+</blockquote>
+<h1 id="GoPEInjection"><a href="#GoPEInjection" class="headerlink" title="GoPEInjection"></a>GoPEInjection</h1><p><code>https://github.com/malware-unicorn/GoPEInjection</code></p>
+<blockquote>
+<p>Golang PE injection on windows</p>
+</blockquote>
+<h1 id="impacket"><a href="#impacket" class="headerlink" title="impacket"></a>impacket</h1><p><code>https://github.com/SecureAuthCorp/impacket</code></p>
+<blockquote>
+<p>Impacket is a collection of Python classes for working with network protocols.</p>
+</blockquote>
+<h1 id="Neo-reGeorg"><a href="#Neo-reGeorg" class="headerlink" title="Neo-reGeorg"></a>Neo-reGeorg</h1><p><code>https://github.com/L-codes/Neo-reGeorg</code></p>
+<blockquote>
+<p>Neo-reGeorg is a project that seeks to aggressively refactor reGeorg</p>
+</blockquote>
+<h1 id="SweetPotato"><a href="#SweetPotato" class="headerlink" title="SweetPotato"></a>SweetPotato</h1><p><code>https://github.com/uknowsec/SweetPotato</code></p>
+<blockquote>
+<p>Modifying SweetPotato to support load shellcode and webshell</p>
+</blockquote>
+<h1 id="SleepyCrypt"><a href="#SleepyCrypt" class="headerlink" title="SleepyCrypt"></a>SleepyCrypt</h1><p><code>https://github.com/SolomonSklash/SleepyCrypt</code></p>
+<blockquote>
+<p>A shellcode function to encrypt a running process image when sleeping.</p>
+</blockquote>
+<h1 id="Penetration-Testing-Case"><a href="#Penetration-Testing-Case" class="headerlink" title="Penetration_Testing_Case"></a>Penetration_Testing_Case</h1><p><code>https://github.com/r35tart/Penetration_Testing_Case</code></p>
+<blockquote>
+<p>用于记录分享一些有趣的案例</p>
+</blockquote>
+<h1 id="GitGot"><a href="#GitGot" class="headerlink" title="GitGot"></a>GitGot</h1><p><code>https://github.com/BishopFox/GitGot</code></p>
+<blockquote>
+<p>Semi-automated, feedback-driven tool to rapidly search through troves of public data on GitHub for sensitive secrets.</p>
+</blockquote>
+<h1 id="SharpRDPLog"><a href="#SharpRDPLog" class="headerlink" title="SharpRDPLog"></a>SharpRDPLog</h1><p><code>https://github.com/Adminisme/SharpRDPLog</code></p>
+<blockquote>
+<p>Windows rdp相关的登录记录导出工具，可用于后渗透中Windows服务器的信息收集阶段。输出内容包括：本地rdp端口、mstsc缓存、cmdkey缓存、登录成功、失败日志事件。</p>
+</blockquote>
+<h1 id="OffensiveRust"><a href="#OffensiveRust" class="headerlink" title="OffensiveRust"></a>OffensiveRust</h1><p><code>https://github.com/trickster0/OffensiveRust</code></p>
+<blockquote>
+<p>Rust Weaponization for Red Team Engagements.</p>
+</blockquote>
+<h1 id="WerTrigger"><a href="#WerTrigger" class="headerlink" title="WerTrigger"></a>WerTrigger</h1><p><code>https://github.com/sailay1996/WerTrigger</code></p>
+<blockquote>
+<p>Weaponizing for privileged file writes bugs with windows problem reporting</p>
+</blockquote>
+<h1 id="SirepRAT"><a href="#SirepRAT" class="headerlink" title="SirepRAT"></a>SirepRAT</h1><p><code>https://github.com/SafeBreach-Labs/SirepRAT</code></p>
+<blockquote>
+<p>Remote Command Execution as SYSTEM on Windows IoT Core (releases available for Python2.7 &amp; Python3)</p>
+</blockquote>
+<h1 id="ExploitRemotingService"><a href="#ExploitRemotingService" class="headerlink" title="ExploitRemotingService"></a>ExploitRemotingService</h1><p><code>https://github.com/tyranid/ExploitRemotingService</code></p>
+<blockquote>
+<p>A tool to exploit .NET Remoting Services</p>
+</blockquote>
+<h1 id="HackBrowserData"><a href="#HackBrowserData" class="headerlink" title="HackBrowserData"></a>HackBrowserData</h1><p><code>https://github.com/moonD4rk/HackBrowserData</code></p>
+<blockquote>
+<p>Decrypt passwords/cookies/history/bookmarks from the browser. 一款可全平台运行的浏览器数据导出解密工具。</p>
+</blockquote>
+<h1 id="ThinkphpGUI"><a href="#ThinkphpGUI" class="headerlink" title="ThinkphpGUI"></a>ThinkphpGUI</h1><p><code>https://github.com/Lotus6/ThinkphpGUI</code></p>
+<blockquote>
+<p>Thinkphp(GUI)漏洞利用工具，支持各版本TP漏洞检测，命令执行，getshell。</p>
+</blockquote>
+<h1 id="SharpHook"><a href="#SharpHook" class="headerlink" title="SharpHook"></a>SharpHook</h1><p><code>https://github.com/IlanKalendarov/SharpHook</code></p>
+<blockquote>
+<p>SharpHook is an offensive API hooking tool designed to catch various credentials within the API call.</p>
+</blockquote>
+<h1 id="bylibrary"><a href="#bylibrary" class="headerlink" title="bylibrary"></a>bylibrary</h1><p><code>https://github.com/BaizeSec/bylibrary</code></p>
+<blockquote>
+<p>白阁文库是白泽Sec安全团队维护的一个漏洞POC和EXP公开项目</p>
+</blockquote>
+<h1 id="JustTryHarder"><a href="#JustTryHarder" class="headerlink" title="JustTryHarder"></a>JustTryHarder</h1><p><code>https://github.com/sinfulz/JustTryHarder</code></p>
+<blockquote>
+<p>JustTryHarder, a cheat sheet which will aid you through the PWK course &amp; the OSCP Exam. (Inspired by PayloadAllTheThings)</p>
+</blockquote>
+<h1 id="UsoDllLoader"><a href="#UsoDllLoader" class="headerlink" title="UsoDllLoader"></a>UsoDllLoader</h1><p><code>https://github.com/itm4n/UsoDllLoader</code></p>
+<blockquote>
+<p>Windows - Weaponizing privileged file writes with the Update Session Orchestrator service</p>
+</blockquote>
+<h1 id="CVE-2021-24085"><a href="#CVE-2021-24085" class="headerlink" title="CVE-2021-24085"></a>CVE-2021-24085</h1><p><code>https://github.com/sourceincite/CVE-2021-24085</code></p>
+<blockquote>
+<p>This is a Proof of Concept for CVE-2021-24085.</p>
+</blockquote>
+<h1 id="RedTeam-BCS"><a href="#RedTeam-BCS" class="headerlink" title="RedTeam-BCS"></a>RedTeam-BCS</h1><p><code>https://github.com/Mel0day/RedTeam-BCS</code></p>
+<blockquote>
+<p>BCS（北京网络安全大会）2019 红队行动会议重点内容</p>
+</blockquote>
+<h1 id="smartping"><a href="#smartping" class="headerlink" title="smartping"></a>smartping</h1><p><code>https://github.com/smartping/smartping</code></p>
+<blockquote>
+<p>综合性网络质量(PING)检测工具，支持正/反向PING绘图、互PING拓扑绘图与报警、全国PING延迟地图与在线检测工具等功能</p>
+</blockquote>
+<h1 id="bypassAV"><a href="#bypassAV" class="headerlink" title="bypassAV"></a>bypassAV</h1><h1 id="PythonHackingBook1"><a href="#PythonHackingBook1" class="headerlink" title="PythonHackingBook1"></a>PythonHackingBook1</h1><p><code>https://github.com/xuanhun/PythonHackingBook1</code></p>
+<blockquote>
+<p>Python黑客编程之极速入门</p>
+</blockquote>
+<h1 id="sak1to-shell"><a href="#sak1to-shell" class="headerlink" title="sak1to-shell"></a>sak1to-shell</h1><p><code>https://github.com/d4rk007/sak1to-shell</code></p>
+<blockquote>
+<p>Multi-threaded, multi-os/platform (Linux/Windows) c2 server and Windows reverse TCP shell client both written in C.</p>
+</blockquote>
+<h1 id="goblin"><a href="#goblin" class="headerlink" title="goblin"></a>goblin</h1><p><code>https://github.com/xiecat/goblin</code></p>
+<blockquote>
+<p>一款适用于红蓝对抗中的仿真钓鱼系统</p>
+</blockquote>
+<h1 id="520apkhook"><a href="#520apkhook" class="headerlink" title="520apkhook"></a>520apkhook</h1><p><code>https://github.com/cleverbao/520apkhook</code></p>
+<blockquote>
+<p>把msf生成的安卓远控附加进普通的app中，并进行加固隐藏特征。可以绕过常见的手机安全管家。</p>
+</blockquote>
+<h1 id="Spring-Boot-Vulnerability"><a href="#Spring-Boot-Vulnerability" class="headerlink" title="Spring-Boot-Vulnerability"></a>Spring-Boot-Vulnerability</h1><p><code>https://github.com/pyn3rd/Spring-Boot-Vulnerability</code></p>
+<blockquote>
+<p>Actuator endpoints allow you to monitor and interact with your Spring application. Spring Boot includes a number of built-in endpoints and you can also add your own. For example the health endpoint provides basic application health information. The following endpoints are available:</p>
+</blockquote>
+<h1 id="anti-honeypot"><a href="#anti-honeypot" class="headerlink" title="anti-honeypot"></a>anti-honeypot</h1><p><code>https://github.com/cnrstar/anti-honeypot</code></p>
+<blockquote>
+<p>一款可以检测WEB蜜罐并阻断请求的Chrome插件</p>
+</blockquote>
+<h1 id="sWebScanner"><a href="#sWebScanner" class="headerlink" title="sWebScanner"></a>sWebScanner</h1><p><code>https://github.com/s7ckTeam/sWebScanner</code></p>
+<blockquote>
+<p>作为一个网络安全从业人员，在测试网站目录时，常用的就是御剑，7kb等几款，使用下来始终觉得缺少了什么东西，于是重复造了一个轮子，此版本支持自定义字典，返回大小，代理IP模式，爆破模式</p>
+</blockquote>
+<h1 id="CVE-2021-1675-LPE"><a href="#CVE-2021-1675-LPE" class="headerlink" title="CVE-2021-1675-LPE"></a>CVE-2021-1675-LPE</h1><p><code>https://github.com/hlldz/CVE-2021-1675-LPE</code></p>
+<blockquote>
+<p>Local Privilege Escalation Edition for CVE-2021-1675/CVE-2021-34527</p>
+</blockquote>
+<h1 id="goDomain"><a href="#goDomain" class="headerlink" title="goDomain"></a>goDomain</h1><p><code>https://github.com/Rvn0xsy/goDomain</code></p>
+<blockquote>
+<p>Windows活动目录中的LDAP信息收集工具</p>
+</blockquote>
+<h1 id="CVE-2020-14181"><a href="#CVE-2020-14181" class="headerlink" title="CVE-2020-14181"></a>CVE-2020-14181</h1><p><code>https://github.com/Rival420/CVE-2020-14181</code></p>
+<blockquote>
+<p>POC For CVE-2020-1481 - Jira Username Enumerator/Validator</p>
+</blockquote>
+<h1 id="fingerprint"><a href="#fingerprint" class="headerlink" title="fingerprint"></a>fingerprint</h1><p><code>https://github.com/Lewiswu1209/fingerprint</code></p>
+<blockquote>
+<p>一个cms指纹识别工具</p>
+</blockquote>
+<h1 id="poor-mans-pentest"><a href="#poor-mans-pentest" class="headerlink" title="poor-mans-pentest"></a>poor-mans-pentest</h1><p><code>https://github.com/JohnHammond/poor-mans-pentest</code></p>
+<blockquote>
+<p>This a collection of the code that I have written for the Poor Man’s Pentest presentation.</p>
+</blockquote>
+<h1 id="snmp"><a href="#snmp" class="headerlink" title="snmp"></a>snmp</h1><p><code>https://github.com/dheiland-r7/snmp</code></p>
+<blockquote>
+<p>SNMP data gather scripts</p>
+</blockquote>
+<h1 id="x-ui"><a href="#x-ui" class="headerlink" title="x-ui"></a>x-ui</h1><p><code>https://github.com/vaxilu/x-ui</code></p>
+<blockquote>
+<p>支持多协议多用户的 xray 面板</p>
+</blockquote>
+<h1 id="TPscan"><a href="#TPscan" class="headerlink" title="TPscan"></a>TPscan</h1><p><code>https://github.com/Lucifer1993/TPscan</code></p>
+<blockquote>
+<p>一键ThinkPHP漏洞检测</p>
+</blockquote>
+<h1 id="cve-2020-10977"><a href="#cve-2020-10977" class="headerlink" title="cve-2020-10977"></a>cve-2020-10977</h1><p><code>https://github.com/thewhiteh4t/cve-2020-10977</code></p>
+<blockquote>
+<p>GitLab 12.9.0 Arbitrary File Read</p>
+</blockquote>
+<h1 id="ctf-wiki"><a href="#ctf-wiki" class="headerlink" title="ctf-wiki"></a>ctf-wiki</h1><p><code>https://github.com/ctf-wiki/ctf-wiki</code></p>
+<blockquote>
+<p>Come and join us, we need you!</p>
+</blockquote>
+<h1 id="Fastjson"><a href="#Fastjson" class="headerlink" title="Fastjson"></a>Fastjson</h1><p><code>https://github.com/safe6Sec/Fastjson</code></p>
+<blockquote>
+<p>Fastjson姿势技巧集合</p>
+</blockquote>
+<h1 id="AutoPentest-DRL"><a href="#AutoPentest-DRL" class="headerlink" title="AutoPentest-DRL"></a>AutoPentest-DRL</h1><p><code>https://github.com/crond-jaist/AutoPentest-DRL</code></p>
+<blockquote>
+<p>AutoPentest-DRL: Automated Penetration Testing Using Deep Reinforcement Learning</p>
+</blockquote>
+<h1 id="ligolo-ng"><a href="#ligolo-ng" class="headerlink" title="ligolo-ng"></a>ligolo-ng</h1><p><code>https://github.com/tnpitsecurity/ligolo-ng</code></p>
+<blockquote>
+<p>An advanced, yet simple, tunneling/pivoting tool that uses a TUN interface.</p>
+</blockquote>
+<h1 id="Packer-Fuzzer"><a href="#Packer-Fuzzer" class="headerlink" title="Packer-Fuzzer"></a>Packer-Fuzzer</h1><p><code>https://github.com/rtcatc/Packer-Fuzzer</code></p>
+<blockquote>
+<p>Packer Fuzzer is a fast and efficient scanner for security detection of websites constructed by javascript module bundler such as Webpack.</p>
+</blockquote>
+<h1 id="ShuiZe-0x727"><a href="#ShuiZe-0x727" class="headerlink" title="ShuiZe_0x727"></a>ShuiZe_0x727</h1><p><code>https://github.com/0x727/ShuiZe_0x727</code></p>
+<blockquote>
+<p>信息收集自动化工具</p>
+</blockquote>
+<h1 id="Dictionary-Of-Pentesting"><a href="#Dictionary-Of-Pentesting" class="headerlink" title="Dictionary-Of-Pentesting"></a>Dictionary-Of-Pentesting</h1><p><code>https://github.com/insightglacier/Dictionary-Of-Pentesting</code></p>
+<blockquote>
+<p>Dictionary collection project such as Pentesing, Fuzzing, Bruteforce and BugBounty. 渗透测试、SRC漏洞挖掘、爆破、Fuzzing等字典收集项目。</p>
+</blockquote>
+<h1 id="heapdump-tool"><a href="#heapdump-tool" class="headerlink" title="heapdump_tool"></a>heapdump_tool</h1><p><code>https://github.com/wyzxxz/heapdump_tool</code></p>
+<blockquote>
+<p>heapdump敏感信息查询工具，例如查找 spring heapdump中的密码明文，AK,SK等</p>
+</blockquote>
+<h1 id="HikvisionInformation"><a href="#HikvisionInformation" class="headerlink" title="HikvisionInformation"></a>HikvisionInformation</h1><p><code>https://github.com/Henry4E36/HikvisionInformation</code></p>
+<blockquote>
+<p>Hikvision 流媒体管理服务器敏感信息泄漏</p>
+</blockquote>
+<h1 id="redis-rce"><a href="#redis-rce" class="headerlink" title="redis-rce"></a>redis-rce</h1><p><code>https://github.com/Ridter/redis-rce</code></p>
+<blockquote>
+<p>Redis 4.x/5.x RCE</p>
+</blockquote>
+<h1 id="jdwp-shellifier"><a href="#jdwp-shellifier" class="headerlink" title="jdwp-shellifier"></a>jdwp-shellifier</h1><p><code>https://github.com/IOActive/jdwp-shellifier</code></p>
+<blockquote>
+<p>This exploitation script is meant to be used by pentesters against active JDWP service, in order to gain Remote Code Execution.</p>
+</blockquote>
+<h1 id="Caesar"><a href="#Caesar" class="headerlink" title="Caesar"></a>Caesar</h1><p><code>https://github.com/thunderbarca/Caesar</code></p>
+<blockquote>
+<p>一个全新的敏感文件发现工具</p>
+</blockquote>
+<h1 id="TPLogScan"><a href="#TPLogScan" class="headerlink" title="TPLogScan"></a>TPLogScan</h1><p><code>https://github.com/r3change/TPLogScan</code></p>
+<blockquote>
+<p>ThinkPHP全日志扫描工具，命令行版和BurpSuite插件版</p>
+</blockquote>
+<h1 id="AttackWebFrameworkTools"><a href="#AttackWebFrameworkTools" class="headerlink" title="AttackWebFrameworkTools"></a>AttackWebFrameworkTools</h1><p><code>https://github.com/Anonymous-ghost/AttackWebFrameworkTools</code></p>
+<blockquote>
+<p>本软件首先集成危害性较大框架和部分主流cms的rce(无需登录,或者登录绕过执行rce)和反序列化(利用链简单)。上传getshell。sql注入等高危漏洞直接就可以拿权限出数据。其次对一些构造复杂exp漏洞进行检测。傻瓜式导入url即可实现批量测试,能一键getshell检测绝不sql注入或者不是只检测。其中thinkphp 集成所有rce Exp Struts2漏洞集成了shack2 和k8 漏洞利用工具所有Exp并对他们的exp进行优化和修复此工具的所集成漏洞全部是基于平时实战中所得到的经验从而写入到工具里。例如:通达oA一键getshell实战测试 struts2一键getshell 等等</p>
+</blockquote>
+<h1 id="jsEncrypter"><a href="#jsEncrypter" class="headerlink" title="jsEncrypter"></a>jsEncrypter</h1><p><code>https://github.com/c0ny1/jsEncrypter</code></p>
+<blockquote>
+<p>一个用于前端加密Fuzz的Burp Suite插件</p>
+</blockquote>
+<h1 id="Dir-Scan-ByQT5"><a href="#Dir-Scan-ByQT5" class="headerlink" title="Dir_Scan_ByQT5"></a>Dir_Scan_ByQT5</h1><p><code>https://github.com/In1t0/Dir_Scan_ByQT5</code></p>
+<blockquote>
+<p>qt实现仿御剑风格路径扫描工具，增加延时，代理池Bypass功能，同时支持批量扫描，附带简单whois信息搜集与端口扫描模块，界面更加美观。</p>
+</blockquote>
+<h1 id="webshell"><a href="#webshell" class="headerlink" title="webshell"></a>webshell</h1><p><code>https://github.com/pureqh/webshell</code></p>
+<blockquote>
+<p>免杀webshell生成工具</p>
+</blockquote>
+<h1 id="ntlm-theft"><a href="#ntlm-theft" class="headerlink" title="ntlm_theft"></a>ntlm_theft</h1><p><code>https://github.com/Greenwolf/ntlm_theft</code></p>
+<blockquote>
+<p>A tool for generating multiple types of NTLMv2 hash theft files by Jacob Wilkin (Greenwolf)</p>
+</blockquote>
+<h1 id="sliver"><a href="#sliver" class="headerlink" title="sliver"></a>sliver</h1><p><code>https://github.com/BishopFox/sliver</code></p>
+<blockquote>
+<p>Adversary Emulation Framework</p>
+</blockquote>
+<h1 id="dirsearch"><a href="#dirsearch" class="headerlink" title="dirsearch"></a>dirsearch</h1><p><code>https://github.com/maurosoria/dirsearch</code></p>
+<blockquote>
+<p>Web path scanner</p>
+</blockquote>
+<h1 id="privilege-escalation-awesome-scripts-suite"><a href="#privilege-escalation-awesome-scripts-suite" class="headerlink" title="privilege-escalation-awesome-scripts-suite"></a>privilege-escalation-awesome-scripts-suite</h1><p><code>https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite</code></p>
+<blockquote>
+<p>PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)</p>
+</blockquote>
+<h1 id="nbtscanner"><a href="#nbtscanner" class="headerlink" title="nbtscanner"></a>nbtscanner</h1><p><code>https://github.com/jonkgrimes/nbtscanner</code></p>
+<blockquote>
+<p>NetBIOS scanner written in Rust</p>
+</blockquote>
+<h1 id="AUTO-EARN"><a href="#AUTO-EARN" class="headerlink" title="AUTO-EARN"></a>AUTO-EARN</h1><p><code>https://github.com/Echocipher/AUTO-EARN</code></p>
+<blockquote>
+<p>一个利用OneForAll进行子域收集、Shodan API端口扫描、Xray漏洞Fuzz、Server酱的自动化漏洞扫描、即时通知提醒的漏洞挖掘辅助工具</p>
+</blockquote>
+<h1 id="random-c2-profile"><a href="#random-c2-profile" class="headerlink" title="random_c2_profile"></a>random_c2_profile</h1><p><code>https://github.com/threatexpress/random_c2_profile</code></p>
+<blockquote>
+<p>Cobalt Strike random C2 Profile generator</p>
+</blockquote>
+<h1 id="wfuzz"><a href="#wfuzz" class="headerlink" title="wfuzz"></a>wfuzz</h1><p><code>https://github.com/xmendez/wfuzz</code></p>
+<blockquote>
+<p>Web application fuzzer</p>
+</blockquote>
+<h1 id="OneForAll"><a href="#OneForAll" class="headerlink" title="OneForAll"></a>OneForAll</h1><p><code>https://github.com/shmilylty/OneForAll</code></p>
+<blockquote>
+<p>OneForAll是一款功能强大的子域收集工具</p>
+</blockquote>
+<h1 id="ExploitRemotingService-Compiled"><a href="#ExploitRemotingService-Compiled" class="headerlink" title="ExploitRemotingService_Compiled"></a>ExploitRemotingService_Compiled</h1><p><code>https://github.com/parteeksingh005/ExploitRemotingService_Compiled</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="CMSeeK"><a href="#CMSeeK" class="headerlink" title="CMSeeK"></a>CMSeeK</h1><p><code>https://github.com/Tuhinshubhra/CMSeeK</code></p>
+<blockquote>
+<p>CMS Detection and Exploitation suite - Scan WordPress, Joomla, Drupal and over 180 other CMSs</p>
+</blockquote>
+<h1 id="Hikvision-Brute-Force"><a href="#Hikvision-Brute-Force" class="headerlink" title="Hikvision-Brute-Force"></a>Hikvision-Brute-Force</h1><p><code>https://github.com/random-robbie/Hikvision-Brute-Force</code></p>
+<blockquote>
+<p>Brute Force Hikvision Devices that only allow PIN passwords</p>
+</blockquote>
+<h1 id="ByPass-JuicyPotato-T00ls"><a href="#ByPass-JuicyPotato-T00ls" class="headerlink" title="ByPass_JuicyPotato_T00ls"></a>ByPass_JuicyPotato_T00ls</h1><p><code>https://github.com/wanglaizi/ByPass_JuicyPotato_T00ls</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="ActuatorExploit"><a href="#ActuatorExploit" class="headerlink" title="ActuatorExploit"></a>ActuatorExploit</h1><p><code>https://github.com/LFYSec/ActuatorExploit</code></p>
+<blockquote>
+<p>SpringBoot Actuator未授权自动化利用，支持信息泄漏/RCE</p>
+</blockquote>
+<h1 id="EASY-HWID-SPOOFER"><a href="#EASY-HWID-SPOOFER" class="headerlink" title="EASY-HWID-SPOOFER"></a>EASY-HWID-SPOOFER</h1><p><code>https://github.com/FiYHer/EASY-HWID-SPOOFER</code></p>
+<blockquote>
+<p>基于内核模式的硬件信息欺骗工具</p>
+</blockquote>
+<h1 id="shiro-550-with-NoCC"><a href="#shiro-550-with-NoCC" class="headerlink" title="shiro-550-with-NoCC"></a>shiro-550-with-NoCC</h1><p><code>https://github.com/dr0op/shiro-550-with-NoCC</code></p>
+<blockquote>
+<p>奇安信北京攻防团队： Shiro-550 不依赖CC链利用工具</p>
+</blockquote>
+<h1 id="UnmanagedPowerShell"><a href="#UnmanagedPowerShell" class="headerlink" title="UnmanagedPowerShell"></a>UnmanagedPowerShell</h1><p><code>https://github.com/leechristensen/UnmanagedPowerShell</code></p>
+<blockquote>
+<p>Executes PowerShell from an unmanaged process</p>
+</blockquote>
+<h1 id="gitbook-docker"><a href="#gitbook-docker" class="headerlink" title="gitbook-docker"></a>gitbook-docker</h1><p><code>https://github.com/IanSmith123/gitbook-docker</code></p>
+<blockquote>
+<p>dockerize gitbook server</p>
+</blockquote>
+<h1 id="unwebpack-sourcemap"><a href="#unwebpack-sourcemap" class="headerlink" title="unwebpack-sourcemap"></a>unwebpack-sourcemap</h1><p><code>https://github.com/rarecoil/unwebpack-sourcemap</code></p>
+<blockquote>
+<p>Extract uncompiled, uncompressed SPA code from Webpack source maps.</p>
+</blockquote>
+<h1 id="post-hub"><a href="#post-hub" class="headerlink" title="post-hub"></a>post-hub</h1><p><code>https://github.com/ybdt/post-hub</code></p>
+<blockquote>
+<p>内网渗透：C2、免杀、代理、横向</p>
+</blockquote>
+<h1 id="proxy-pool"><a href="#proxy-pool" class="headerlink" title="proxy_pool"></a>proxy_pool</h1><h1 id="EHole"><a href="#EHole" class="headerlink" title="EHole"></a>EHole</h1><p><code>https://github.com/EdgeSecurityTeam/EHole</code></p>
+<blockquote>
+<p>EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具</p>
+</blockquote>
+<h1 id="Digital-Privacy"><a href="#Digital-Privacy" class="headerlink" title="Digital-Privacy"></a>Digital-Privacy</h1><p><code>https://github.com/ffffffff0x/Digital-Privacy</code></p>
+<blockquote>
+<p>一个关于数字隐私搜集、保护、清理集一体的方案,外加开源信息收集(OSINT)对抗</p>
+</blockquote>
+<h1 id="IIS-ShortName-Scanner"><a href="#IIS-ShortName-Scanner" class="headerlink" title="IIS_ShortName_Scanner"></a>IIS_ShortName_Scanner</h1><p><code>https://github.com/zzb1999/IIS_ShortName_Scanner</code></p>
+<blockquote>
+<p>短文件漏洞利用</p>
+</blockquote>
+<h1 id="juicy-potato"><a href="#juicy-potato" class="headerlink" title="juicy-potato"></a>juicy-potato</h1><p><code>https://github.com/ohpe/juicy-potato</code></p>
+<blockquote>
+<p>A sugared version of RottenPotatoNG, with a bit of juice, i.e. another Local Privilege Escalation tool, from a Windows Service Accounts to NT AUTHORITY\SYSTEM.</p>
+</blockquote>
+<h1 id="AppInfoScanner"><a href="#AppInfoScanner" class="headerlink" title="AppInfoScanner"></a>AppInfoScanner</h1><p><code>https://github.com/kelvinBen/AppInfoScanner</code></p>
+<blockquote>
+<p>一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。</p>
+</blockquote>
+<h1 id="sharpwmi"><a href="#sharpwmi" class="headerlink" title="sharpwmi"></a>sharpwmi</h1><p><code>https://github.com/QAX-A-Team/sharpwmi</code></p>
+<blockquote>
+<p>sharpwmi是一个基于rpc的横向移动工具，具有上传文件和执行命令功能。</p>
+</blockquote>
+<h1 id="loginBrute"><a href="#loginBrute" class="headerlink" title="loginBrute"></a>loginBrute</h1><p><code>https://github.com/1uffyD9/loginBrute</code></p>
+<blockquote>
+<p>Python3 script to bruteforce on login page where having CSRF token validation</p>
+</blockquote>
+<h1 id="CSAgent"><a href="#CSAgent" class="headerlink" title="CSAgent"></a>CSAgent</h1><p><code>https://github.com/Twi1ight/CSAgent</code></p>
+<blockquote>
+<p>CobaltStrike 4.x通用白嫖及汉化加载器</p>
+</blockquote>
+<h1 id="CVE-2021-21985"><a href="#CVE-2021-21985" class="headerlink" title="CVE-2021-21985"></a>CVE-2021-21985</h1><p><code>https://github.com/r0ckysec/CVE-2021-21985</code></p>
+<blockquote>
+<p>CVE-2021-21985 VMware vCenter Server远程代码执行漏洞 EXP (更新可回显EXP)</p>
+</blockquote>
+<h1 id="JSINFO-SCAN"><a href="#JSINFO-SCAN" class="headerlink" title="JSINFO-SCAN"></a>JSINFO-SCAN</h1><p><code>https://github.com/p1g3/JSINFO-SCAN</code></p>
+<blockquote>
+<p>递归式寻找域名和api。</p>
+</blockquote>
+<h1 id="php-8-1-0-dev-backdoor-rce"><a href="#php-8-1-0-dev-backdoor-rce" class="headerlink" title="php-8.1.0-dev-backdoor-rce"></a>php-8.1.0-dev-backdoor-rce</h1><p><code>https://github.com/flast101/php-8.1.0-dev-backdoor-rce</code></p>
+<blockquote>
+<p>PHP 8.1.0-dev Backdoor System Shell Script</p>
+</blockquote>
+<h1 id="RedisWriteFile"><a href="#RedisWriteFile" class="headerlink" title="RedisWriteFile"></a>RedisWriteFile</h1><p><code>https://github.com/r35tart/RedisWriteFile</code></p>
+<blockquote>
+<p>通过 Redis 主从写出无损文件</p>
+</blockquote>
+<h1 id="passive-scan-client"><a href="#passive-scan-client" class="headerlink" title="passive-scan-client"></a>passive-scan-client</h1><p><code>https://github.com/c0ny1/passive-scan-client</code></p>
+<blockquote>
+<p>Burp被动扫描流量转发插件</p>
+</blockquote>
+<h1 id="LinuxCheck"><a href="#LinuxCheck" class="headerlink" title="LinuxCheck"></a>LinuxCheck</h1><p><code>https://github.com/al0ne/LinuxCheck</code></p>
+<blockquote>
+<p>linux系统自动化应急响应工具，支持基础配置/网络流量/任务计划/环境变量/用户信息/Services/bash/恶意文件/内核Rootkit/SSH/Webshell/挖矿文件/挖矿进程检查等12类70项检查</p>
+</blockquote>
+<h1 id="ysoserial-net"><a href="#ysoserial-net" class="headerlink" title="ysoserial.net"></a>ysoserial.net</h1><p><code>https://github.com/pwntester/ysoserial.net</code></p>
+<blockquote>
+<p>Deserialization payload generator for a variety of .NET formatters</p>
+</blockquote>
+<h1 id="yjdirscan"><a href="#yjdirscan" class="headerlink" title="yjdirscan"></a>yjdirscan</h1><p><code>https://github.com/foryujian/yjdirscan</code></p>
+<blockquote>
+<p>御剑目录扫描专业版，简单实用的命令行网站目录扫描工具，支持爬虫、fuzz、自定义字典、字典变量、UA修改、假404自动过滤、扫描控速等功能。</p>
+</blockquote>
+<h1 id="ds-store-exp"><a href="#ds-store-exp" class="headerlink" title="ds_store_exp"></a>ds_store_exp</h1><p><code>https://github.com/lijiejie/ds_store_exp</code></p>
+<blockquote>
+<p>A .DS_Store file disclosure exploit. It parses .DS_Store file and downloads files recursively.</p>
+</blockquote>
+<h1 id="awd-chroot-cheater"><a href="#awd-chroot-cheater" class="headerlink" title="awd-chroot-cheater"></a>awd-chroot-cheater</h1><p><code>https://github.com/leohearts/awd-chroot-cheater</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="CVE-2017-7921-EXP"><a href="#CVE-2017-7921-EXP" class="headerlink" title="CVE-2017-7921-EXP"></a>CVE-2017-7921-EXP</h1><p><code>https://github.com/JrDw0/CVE-2017-7921-EXP</code></p>
+<blockquote>
+<p>Hikvision camera CVE-2017-7921-EXP</p>
+</blockquote>
+<h1 id="SplunkWhisperer2"><a href="#SplunkWhisperer2" class="headerlink" title="SplunkWhisperer2"></a>SplunkWhisperer2</h1><p><code>https://github.com/cnotin/SplunkWhisperer2</code></p>
+<blockquote>
+<p>Local privilege escalation, or remote code execution, through Splunk Universal Forwarder (UF) misconfigurations</p>
+</blockquote>
+<h1 id="Medusa"><a href="#Medusa" class="headerlink" title="Medusa"></a>Medusa</h1><p><code>https://github.com/Ascotbe/Medusa</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="k4l0ng-WAF"><a href="#k4l0ng-WAF" class="headerlink" title="k4l0ng_WAF"></a>k4l0ng_WAF</h1><p><code>https://github.com/dr0op/k4l0ng_WAF</code></p>
+<blockquote>
+<p>A broute detect WAF by PHP using to AWD</p>
+</blockquote>
+<h1 id="slopShell"><a href="#slopShell" class="headerlink" title="slopShell"></a>slopShell</h1><p><code>https://github.com/oldkingcone/slopShell</code></p>
+<blockquote>
+<p>the only php webshell you need.</p>
+</blockquote>
+<h1 id="jexboss"><a href="#jexboss" class="headerlink" title="jexboss"></a>jexboss</h1><p><code>https://github.com/joaomatosf/jexboss</code></p>
+<blockquote>
+<p>JexBoss: Jboss (and Java Deserialization Vulnerabilities) verify and EXploitation Tool</p>
+</blockquote>
+<h1 id="SCShell"><a href="#SCShell" class="headerlink" title="SCShell"></a>SCShell</h1><p><code>https://github.com/Mr-Un1k0d3r/SCShell</code></p>
+<blockquote>
+<p>Fileless lateral movement tool that relies on ChangeServiceConfigA to run command</p>
+</blockquote>
+<h1 id="WebCrack"><a href="#WebCrack" class="headerlink" title="WebCrack"></a>WebCrack</h1><p><code>https://github.com/yzddmr6/WebCrack</code></p>
+<blockquote>
+<p>WebCrack是一款web后台弱口令/万能密码批量检测工具，在工具中导入后台地址即可进行自动化检测。</p>
+</blockquote>
+<h1 id="capa"><a href="#capa" class="headerlink" title="capa"></a>capa</h1><p><code>https://github.com/fireeye/capa</code></p>
+<blockquote>
+<p>The FLARE team’s open-source tool to identify capabilities in executable files.</p>
+</blockquote>
+<h1 id="SAP-GW-RCE-exploit"><a href="#SAP-GW-RCE-exploit" class="headerlink" title="SAP_GW_RCE_exploit"></a>SAP_GW_RCE_exploit</h1><p><code>https://github.com/chipik/SAP_GW_RCE_exploit</code></p>
+<blockquote>
+<p>SAP Gateway RCE exploits</p>
+</blockquote>
+<h1 id="weird-proxies"><a href="#weird-proxies" class="headerlink" title="weird_proxies"></a>weird_proxies</h1><p><code>https://github.com/GrrrDog/weird_proxies</code></p>
+<blockquote>
+<p>Reverse proxies cheatsheet</p>
+</blockquote>
+<h1 id="ssh-dos-python"><a href="#ssh-dos-python" class="headerlink" title="ssh-dos-python"></a>ssh-dos-python</h1><p><code>https://github.com/leohearts/ssh-dos-python</code></p>
+<blockquote>
+<p>“Mild” denial of service for ssh with python</p>
+</blockquote>
+<h1 id="p0wny-shell"><a href="#p0wny-shell" class="headerlink" title="p0wny-shell"></a>p0wny-shell</h1><p><code>https://github.com/flozz/p0wny-shell</code></p>
+<blockquote>
+<p>Single-file PHP shell</p>
+</blockquote>
+<h1 id="tplmap"><a href="#tplmap" class="headerlink" title="tplmap"></a>tplmap</h1><p><code>https://github.com/epinna/tplmap</code></p>
+<blockquote>
+<p>Server-Side Template Injection and Code Injection Detection and Exploitation Tool</p>
+</blockquote>
+<h1 id="Aggressor"><a href="#Aggressor" class="headerlink" title="Aggressor"></a>Aggressor</h1><p><code>https://github.com/k8gege/Aggressor</code></p>
+<blockquote>
+<p>Ladon for Cobalt Strike, Large Network Penetration Scanner, vulnerability / exploit / detection / MS17010 / password/brute-force/psexec/atexec/sshexec/webshell/smbexec/netcat/osscan/netscan/struts2Poc/weblogicExp</p>
+</blockquote>
+<h1 id="CVE-2021-3493"><a href="#CVE-2021-3493" class="headerlink" title="CVE-2021-3493"></a>CVE-2021-3493</h1><p><code>https://github.com/inspiringz/CVE-2021-3493</code></p>
+<blockquote>
+<p>CVE-2021-3493 Ubuntu OverlayFS Local Privesc (Interactive Bash Shell &amp; Execute Command Entered)</p>
+</blockquote>
+<h1 id="Pricking"><a href="#Pricking" class="headerlink" title="Pricking"></a>Pricking</h1><p><code>https://github.com/Rvn0xsy/Pricking</code></p>
+<blockquote>
+<p>Watering hole attacks Phishing attacks Automated deployment.</p>
+</blockquote>
+<h1 id="finger-user-enum"><a href="#finger-user-enum" class="headerlink" title="finger-user-enum"></a>finger-user-enum</h1><p><code>https://github.com/pentestmonkey/finger-user-enum</code></p>
+<blockquote>
+<p>Username guessing tool primarily for use against the default Solaris finger service. Also supports relaying of queries through another finger server.</p>
+</blockquote>
+<h1 id="woodpecker-framwork-release"><a href="#woodpecker-framwork-release" class="headerlink" title="woodpecker-framwork-release"></a>woodpecker-framwork-release</h1><p><code>https://github.com/woodpecker-framework/woodpecker-framwork-release</code></p>
+<blockquote>
+<p>高危漏洞精准检测与深度利用框架</p>
+</blockquote>
+<h1 id="SMBGhost-RCE-PoC"><a href="#SMBGhost-RCE-PoC" class="headerlink" title="SMBGhost_RCE_PoC"></a>SMBGhost_RCE_PoC</h1><p><code>https://github.com/chompie1337/SMBGhost_RCE_PoC</code></p>
+<blockquote>
+<p>RCE PoC for CVE-2020-0796 “SMBGhost”</p>
+</blockquote>
+<h1 id="weaver-exp"><a href="#weaver-exp" class="headerlink" title="weaver_exp"></a>weaver_exp</h1><p><code>https://github.com/z1un/weaver_exp</code></p>
+<blockquote>
+<p>泛微OA漏洞综合利用脚本</p>
+</blockquote>
+<h1 id="EgGateWayGetShell"><a href="#EgGateWayGetShell" class="headerlink" title="EgGateWayGetShell"></a>EgGateWayGetShell</h1><p><code>https://github.com/heikanet/EgGateWayGetShell</code></p>
+<blockquote>
+<p>锐捷EG易网关批量GetShell / Code By:Tas9er</p>
+</blockquote>
+<h1 id="exphub"><a href="#exphub" class="headerlink" title="exphub"></a>exphub</h1><p><code>https://github.com/zhzyker/exphub</code></p>
+<blockquote>
+<p>Exphub[漏洞利用脚本库] 包括Webloigc、Struts2、Tomcat、Nexus、Solr、Jboss、Drupal的漏洞利用脚本，最新添加CVE-2020-14882、CVE-2020-11444、CVE-2020-10204、CVE-2020-10199、CVE-2020-1938、CVE-2020-2551、CVE-2020-2555、CVE-2020-2883、CVE-2019-17558、CVE-2019-6340</p>
+</blockquote>
+<h1 id="Ladon"><a href="#Ladon" class="headerlink" title="Ladon"></a>Ladon</h1><p><code>https://github.com/k8gege/Ladon</code></p>
+<blockquote>
+<p>大型内网渗透扫描器&amp;Cobalt Strike，Ladon8.9内置120个模块，包含信息收集/存活主机/端口扫描/服务识别/密码爆破/漏洞检测/漏洞利用。漏洞检测含MS17010/SMBGhost/Weblogic/ActiveMQ/Tomcat/Struts2，密码口令爆破(Mysql/Oracle/MSSQL)/FTP/SSH(Linux)/VNC/Windows(IPC/WMI/SMB/Netbios/LDAP/SmbHash/WmiHash/Winrm),远程执行命令(smbexec/wmiexe/psexec/atexec/sshexec/webshell),降权提权Runas、GetSystem，Poc/Exploit,支持Cobalt Strike 3.X-4.0</p>
+</blockquote>
+<h1 id="SQLInjectionWiki"><a href="#SQLInjectionWiki" class="headerlink" title="SQLInjectionWiki"></a>SQLInjectionWiki</h1><p><code>https://github.com/Dm2333/SQLInjectionWiki</code></p>
+<blockquote>
+<p>一个专注于聚合和记录各种SQL注入方法的wiki</p>
+</blockquote>
+<h1 id="pocassist"><a href="#pocassist" class="headerlink" title="pocassist"></a>pocassist</h1><p><code>https://github.com/jweny/pocassist</code></p>
+<blockquote>
+<p>全新的开源漏洞测试框架，实现poc在线编辑、运行、批量测试。使用文档：</p>
+</blockquote>
+<h1 id="oFx"><a href="#oFx" class="headerlink" title="oFx"></a>oFx</h1><p><code>https://github.com/bigblackhat/oFx</code></p>
+<blockquote>
+<p>漏洞批量扫描框架，0Day/1Day全网概念验证，<del>刷洞，刷肉鸡用</del></p>
+</blockquote>
+<h1 id="firefox-decrypt"><a href="#firefox-decrypt" class="headerlink" title="firefox_decrypt"></a>firefox_decrypt</h1><p><code>https://github.com/unode/firefox_decrypt</code></p>
+<blockquote>
+<p>Firefox Decrypt is a tool to extract passwords from Mozilla (Firefox™, Waterfox™, Thunderbird®, SeaMonkey®) profiles</p>
+</blockquote>
+<h1 id="OpenDoor"><a href="#OpenDoor" class="headerlink" title="OpenDoor"></a>OpenDoor</h1><p><code>https://github.com/stanislav-web/OpenDoor</code></p>
+<blockquote>
+<p>OWASP WEB Directory Scanner</p>
+</blockquote>
+<h1 id="web-sec"><a href="#web-sec" class="headerlink" title="web-sec"></a>web-sec</h1><p><code>https://github.com/ReAbout/web-sec</code></p>
+<blockquote>
+<p>WEB安全手册，漏洞理解，漏洞利用，代码审计和渗透测试总结。【持续更新】</p>
+</blockquote>
+<h1 id="nmaps"><a href="#nmaps" class="headerlink" title="nmaps"></a>nmaps</h1><p><code>https://github.com/CTF-MissFeng/nmaps</code></p>
+<blockquote>
+<p>采用Golang编写的新一代端口及指纹扫描器</p>
+</blockquote>
+<h1 id="Chankro"><a href="#Chankro" class="headerlink" title="Chankro"></a>Chankro</h1><p><code>https://github.com/TarlogicSecurity/Chankro</code></p>
+<blockquote>
+<p>Herramienta para evadir disable_functions y open_basedir</p>
+</blockquote>
+<h1 id="OXID"><a href="#OXID" class="headerlink" title="OXID"></a>OXID</h1><p><code>https://github.com/canc3s/OXID</code></p>
+<blockquote>
+<p>通过windows的DCOM接口进行网卡进行信息枚举，无需认证，只要目标的135端口开放即可获得信息。可以有效提高内网渗透的效率，定位多网卡主机。</p>
+</blockquote>
+<h1 id="CVE-2021-1675"><a href="#CVE-2021-1675" class="headerlink" title="CVE-2021-1675"></a>CVE-2021-1675</h1><p><code>https://github.com/cube0x0/CVE-2021-1675</code></p>
+<blockquote>
+<p>C# and Impacket implementation of PrintNightmare CVE-2021-1675/CVE-2021-34527</p>
+</blockquote>
+<h1 id="distrobuilder"><a href="#distrobuilder" class="headerlink" title="distrobuilder"></a>distrobuilder</h1><p><code>https://github.com/lxc/distrobuilder</code></p>
+<blockquote>
+<p>System container image builder for LXC and LXD</p>
+</blockquote>
+<h1 id="evil-winrm"><a href="#evil-winrm" class="headerlink" title="evil-winrm"></a>evil-winrm</h1><p><code>https://github.com/Hackplayers/evil-winrm</code></p>
+<blockquote>
+<p>The ultimate WinRM shell for hacking/pentesting</p>
+</blockquote>
+<h1 id="Sublist3r"><a href="#Sublist3r" class="headerlink" title="Sublist3r"></a>Sublist3r</h1><p><code>https://github.com/aboul3la/Sublist3r</code></p>
+<blockquote>
+<p>Fast subdomains enumeration tool for penetration testers</p>
+</blockquote>
+<h1 id="InScan"><a href="#InScan" class="headerlink" title="InScan"></a>InScan</h1><p><code>https://github.com/inbug-team/InScan</code></p>
+<blockquote>
+<p>边界打点后的自动化渗透工具</p>
+</blockquote>
+<h1 id="Stowaway"><a href="#Stowaway" class="headerlink" title="Stowaway"></a>Stowaway</h1><p><code>https://github.com/ph4ntonn/Stowaway</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="CNVD-2021-26058"><a href="#CNVD-2021-26058" class="headerlink" title="CNVD-2021-26058"></a>CNVD-2021-26058</h1><p><code>https://github.com/fengwenhua/CNVD-2021-26058</code></p>
+<blockquote>
+<p>亿赛通电子文档安全管理系统-rce-exp</p>
+</blockquote>
+<h1 id="fastcrawler"><a href="#fastcrawler" class="headerlink" title="fastcrawler"></a>fastcrawler</h1><p><code>https://github.com/vmnguyen/fastcrawler</code></p>
+<blockquote>
+<p>Super fast http crawler written in Go</p>
+</blockquote>
+<h1 id="vba-obfuscator"><a href="#vba-obfuscator" class="headerlink" title="vba-obfuscator"></a>vba-obfuscator</h1><p><code>https://github.com/bonnetn/vba-obfuscator</code></p>
+<blockquote>
+<p>2018 School project - PoC of malware code obfuscation in Word macros</p>
+</blockquote>
+<h1 id="SQLEXP"><a href="#SQLEXP" class="headerlink" title="SQLEXP"></a>SQLEXP</h1><p><code>https://github.com/ggg4566/SQLEXP</code></p>
+<blockquote>
+<p>SQL 注入利用工具，存在waf的情况下自定义编写tamper脚本 dump数据</p>
+</blockquote>
+<h1 id="FxxkXSS"><a href="#FxxkXSS" class="headerlink" title="FxxkXSS"></a>FxxkXSS</h1><p><code>https://github.com/Yeuoly/FxxkXSS</code></p>
+<blockquote>
+<p>将令你眼前一亮的XSS利用工具！</p>
+</blockquote>
+<h1 id="saucerframe"><a href="#saucerframe" class="headerlink" title="saucerframe"></a>saucerframe</h1><p><code>https://github.com/saucer-man/saucerframe</code></p>
+<blockquote>
+<p>python3批量poc检测工具</p>
+</blockquote>
+<h1 id="c-jwt-cracker"><a href="#c-jwt-cracker" class="headerlink" title="c-jwt-cracker"></a>c-jwt-cracker</h1><p><code>https://github.com/brendan-rius/c-jwt-cracker</code></p>
+<blockquote>
+<p>JWT brute force cracker written in C</p>
+</blockquote>
+<h1 id="FileDownloadServer"><a href="#FileDownloadServer" class="headerlink" title="FileDownloadServer"></a>FileDownloadServer</h1><p><code>https://github.com/TheKingOfDuck/FileDownloadServer</code></p>
+<blockquote>
+<p>一个可以查看文件传输进度的Web项目</p>
+</blockquote>
+<h1 id="PHP"><a href="#PHP" class="headerlink" title="PHP"></a>PHP</h1><p><code>https://github.com/admin360bug/PHP</code></p>
+<blockquote>
+<p>PHP训练靶场</p>
+</blockquote>
+<h1 id="PocList"><a href="#PocList" class="headerlink" title="PocList"></a>PocList</h1><p><code>https://github.com/Yang0615777/PocList</code></p>
+<blockquote>
+<p>Alibaba-Nacos-Unauthorized/ApacheDruid-RCE_CVE-2021-25646/MS-Exchange-SSRF-CVE-2021-26885/Oracle-WebLogic-CVE-2021-2109_RCE/RG-CNVD-2021-14536/RJ-SSL-VPN-UltraVires/Redis-Unauthorized-RCE/TDOA-V11.7-GetOnlineCookie/VMware-vCenter-GetAnyFile/yongyou-GRP-U8-XXE/Oracle-WebLogic-CVE-2020-14883/Oracle-WebLogic-CVE-2020-14882/Apache-Solr-GetAnyFile/F5…</p>
+</blockquote>
+<h1 id="nps"><a href="#nps" class="headerlink" title="nps"></a>nps</h1><p><code>https://github.com/ehang-io/nps</code></p>
+<blockquote>
+<p>一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.</p>
+</blockquote>
+<h1 id="WebMonitor"><a href="#WebMonitor" class="headerlink" title="WebMonitor"></a>WebMonitor</h1><p><code>https://github.com/LogicJake/WebMonitor</code></p>
+<blockquote>
+<p>实时监控网页变化，并发送通知（Monitor web page changes in real time and send notifications）</p>
+</blockquote>
+<h1 id="exploit-laravel-cve-2018-15133"><a href="#exploit-laravel-cve-2018-15133" class="headerlink" title="exploit_laravel_cve-2018-15133"></a>exploit_laravel_cve-2018-15133</h1><p><code>https://github.com/aljavier/exploit_laravel_cve-2018-15133</code></p>
+<blockquote>
+<p>Exploit for Laravel Remote Code Execution with API_KEY (CVE-2018-15133)</p>
+</blockquote>
+<h1 id="RedTeamTools"><a href="#RedTeamTools" class="headerlink" title="RedTeamTools"></a>RedTeamTools</h1><p><code>https://github.com/lengjibo/RedTeamTools</code></p>
+<blockquote>
+<p>记录自己编写、修改的部分工具</p>
+</blockquote>
+<h1 id="php-reverse-shell"><a href="#php-reverse-shell" class="headerlink" title="php-reverse-shell"></a>php-reverse-shell</h1><p><code>https://github.com/ivan-sincek/php-reverse-shell</code></p>
+<blockquote>
+<p>PHP reverse shell script. Works on Linux OS, macOS, and Windows OS.</p>
+</blockquote>
+<h1 id="webwrap"><a href="#webwrap" class="headerlink" title="webwrap"></a>webwrap</h1><p><code>https://github.com/mxrch/webwrap</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="ENScan"><a href="#ENScan" class="headerlink" title="ENScan"></a>ENScan</h1><p><code>https://github.com/wgpsec/ENScan</code></p>
+<blockquote>
+<p>基于爱企查的一款企业信息查询工具，为了更快速的获取企业的信息，省去收集的麻烦过程，web端于plat平台上线</p>
+</blockquote>
+<h1 id="openfire-shells"><a href="#openfire-shells" class="headerlink" title="openfire_shells"></a>openfire_shells</h1><p><code>https://github.com/22CB7139/openfire_shells</code></p>
+<blockquote>
+<p>后台插件getshell</p>
+</blockquote>
+<h1 id="Penetration-Testing-POC"><a href="#Penetration-Testing-POC" class="headerlink" title="Penetration_Testing_POC"></a>Penetration_Testing_POC</h1><p><code>https://github.com/Mr-xn/Penetration_Testing_POC</code></p>
+<blockquote>
+<p>渗透测试有关的POC、EXP、脚本、提权、小工具等—About penetration-testing python-script poc getshell csrf xss cms php-getshell domainmod-xss penetration-testing-poc csrf-webshell cobub-razor cve rce sql sql-poc poc-exp bypass oa-getshell cve-cms</p>
+</blockquote>
+<h1 id="Hosts-scan"><a href="#Hosts-scan" class="headerlink" title="Hosts_scan"></a>Hosts_scan</h1><p><code>https://github.com/fofapro/Hosts_scan</code></p>
+<blockquote>
+<p>这是一个用于IP和域名碰撞匹配访问的小工具，旨意用来匹配出渗透过程中需要绑定hosts才能访问的弱主机或内部系统。</p>
+</blockquote>
+<h1 id="pwcrack-framework"><a href="#pwcrack-framework" class="headerlink" title="pwcrack-framework"></a>pwcrack-framework</h1><p><code>https://github.com/L-codes/pwcrack-framework</code></p>
+<blockquote>
+<p>Password Crack Framework</p>
+</blockquote>
+<h1 id="powercat"><a href="#powercat" class="headerlink" title="powercat"></a>powercat</h1><p><code>https://github.com/besimorhino/powercat</code></p>
+<blockquote>
+<p>netshell features all in version 2 powershell</p>
+</blockquote>
+<h1 id="onlinetools"><a href="#onlinetools" class="headerlink" title="onlinetools"></a>onlinetools</h1><p><code>https://github.com/iceyhexman/onlinetools</code></p>
+<blockquote>
+<p>在线cms识别|信息泄露|工控|系统|物联网安全|cms漏洞扫描|nmap端口扫描|子域名获取|待续..</p>
+</blockquote>
+<h1 id="CheeseTools"><a href="#CheeseTools" class="headerlink" title="CheeseTools"></a>CheeseTools</h1><p><code>https://github.com/klezVirus/CheeseTools</code></p>
+<blockquote>
+<p>Self-developed tools for Lateral Movement/Code Execution</p>
+</blockquote>
+<h1 id="Kunyu"><a href="#Kunyu" class="headerlink" title="Kunyu"></a>Kunyu</h1><p><code>https://github.com/knownsec/Kunyu</code></p>
+<blockquote>
+<p>Kunyu, more efficient corporate asset collection</p>
+</blockquote>
+<h1 id="CVE-2021-40444"><a href="#CVE-2021-40444" class="headerlink" title="CVE-2021-40444"></a>CVE-2021-40444</h1><p><code>https://github.com/lockedbyte/CVE-2021-40444</code></p>
+<blockquote>
+<p>CVE-2021-40444 PoC</p>
+</blockquote>
+<h1 id="swagger-hack"><a href="#swagger-hack" class="headerlink" title="swagger-hack"></a>swagger-hack</h1><p><code>https://github.com/jayus0821/swagger-hack</code></p>
+<blockquote>
+<p>自动化爬取并自动测试所有swagger接口</p>
+</blockquote>
+<h1 id="webrtc-proxy"><a href="#webrtc-proxy" class="headerlink" title="webrtc-proxy"></a>webrtc-proxy</h1><p><code>https://github.com/iiiusky/webrtc-proxy</code></p>
+<blockquote>
+<p>反向代理+webrtc 神不知鬼不觉的获取真实IP</p>
+</blockquote>
+<h1 id="JSFinder"><a href="#JSFinder" class="headerlink" title="JSFinder"></a>JSFinder</h1><p><code>https://github.com/Threezh1/JSFinder</code></p>
+<blockquote>
+<p>JSFinder is a tool for quickly extracting URLs and subdomains from JS files on a website.</p>
+</blockquote>
+<h1 id="xmldecoder-payload-generator"><a href="#xmldecoder-payload-generator" class="headerlink" title="xmldecoder-payload-generator"></a>xmldecoder-payload-generator</h1><p><code>https://github.com/woodpecker-appstore/xmldecoder-payload-generator</code></p>
+<blockquote>
+<p>Java XMLDecoder payload generator</p>
+</blockquote>
+<h1 id="bypassAV2"><a href="#bypassAV2" class="headerlink" title="bypassAV2"></a>bypassAV2</h1><p><code>https://github.com/b1ank1108/bypassAV</code></p>
+<blockquote>
+<p>破产版免杀</p>
+</blockquote>
+<h1 id="dumpall"><a href="#dumpall" class="headerlink" title="dumpall"></a>dumpall</h1><p><code>https://github.com/0xHJK/dumpall</code></p>
+<blockquote>
+<p>一款信息泄漏利用工具，适用于.git/.svn源代码泄漏和.DS_Store泄漏</p>
+</blockquote>
+<h1 id="bbscope"><a href="#bbscope" class="headerlink" title="bbscope"></a>bbscope</h1><p><code>https://github.com/sw33tLie/bbscope</code></p>
+<blockquote>
+<p>Scope gathering tool for HackerOne, Bugcrowd, and Intigriti!</p>
+</blockquote>
+<h1 id="Glass"><a href="#Glass" class="headerlink" title="Glass"></a>Glass</h1><p><code>https://github.com/s7ckTeam/Glass</code></p>
+<blockquote>
+<p>Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。</p>
+</blockquote>
+<h1 id="TP-Scanner"><a href="#TP-Scanner" class="headerlink" title="TP_Scanner"></a>TP_Scanner</h1><p><code>https://github.com/fengx1a0/TP_Scanner</code></p>
+<blockquote>
+<p>ThinkPHP扫描器</p>
+</blockquote>
+<h1 id="csplugin"><a href="#csplugin" class="headerlink" title="csplugin"></a>csplugin</h1><p><code>https://github.com/422926799/csplugin</code></p>
+<blockquote>
+<p>自己开的cs插件</p>
+</blockquote>
+<h1 id="warAntShell"><a href="#warAntShell" class="headerlink" title="warAntShell"></a>warAntShell</h1><h1 id="Pentest-Cheatsheets"><a href="#Pentest-Cheatsheets" class="headerlink" title="Pentest-Cheatsheets"></a>Pentest-Cheatsheets</h1><p><code>https://github.com/Tib3rius/Pentest-Cheatsheets</code></p>
+<blockquote>
+<p>Install sphinx and the “Read The Docs” theme:</p>
+</blockquote>
+<h1 id="GUI-Tools"><a href="#GUI-Tools" class="headerlink" title="GUI_Tools"></a>GUI_Tools</h1><p><code>https://github.com/ghealer/GUI_Tools</code></p>
+<blockquote>
+<p>一个由各种图形化渗透工具组成的工具集</p>
+</blockquote>
+<h1 id="MS17-010"><a href="#MS17-010" class="headerlink" title="MS17-010"></a>MS17-010</h1><p><code>https://github.com/For-ACGN/MS17-010</code></p>
+<blockquote>
+<p>An EternalBlue exploit implementation in pure go</p>
+</blockquote>
+<h1 id="Bypass-Disable-functions-Shell"><a href="#Bypass-Disable-functions-Shell" class="headerlink" title="Bypass_Disable_functions_Shell"></a>Bypass_Disable_functions_Shell</h1><p><code>https://github.com/l3m0n/Bypass_Disable_functions_Shell</code></p>
+<blockquote>
+<p>一个各种方式突破Disable_functions达到命令执行的shell</p>
+</blockquote>
+<h1 id="CobaltStrikeDetected"><a href="#CobaltStrikeDetected" class="headerlink" title="CobaltStrikeDetected"></a>CobaltStrikeDetected</h1><p><code>https://github.com/huoji120/CobaltStrikeDetected</code></p>
+<blockquote>
+<p>40行代码检测到大部分CobaltStrike的shellcode</p>
+</blockquote>
+<h1 id="FrpProPlugin"><a href="#FrpProPlugin" class="headerlink" title="FrpProPlugin"></a>FrpProPlugin</h1><p><code>https://github.com/mstxq17/FrpProPlugin</code></p>
+<blockquote>
+<p>frp0.33修改版,过流量检测,免杀,支持加载远程配置文件可用于cs直接使用的插件</p>
+</blockquote>
+<h1 id="pidrila"><a href="#pidrila" class="headerlink" title="pidrila"></a>pidrila</h1><p><code>https://github.com/enemy-submarine/pidrila</code></p>
+<blockquote>
+<p>Python Interactive Deepweb-oriented Rapid Intelligent Link Analyzer</p>
+</blockquote>
+<h1 id="NATBypass"><a href="#NATBypass" class="headerlink" title="NATBypass"></a>NATBypass</h1><p><code>https://github.com/cw1997/NATBypass</code></p>
+<blockquote>
+<p>一款lcx在golang下的实现</p>
+</blockquote>
+<h1 id="whatweb-plus"><a href="#whatweb-plus" class="headerlink" title="whatweb-plus"></a>whatweb-plus</h1><p><code>https://github.com/winezer0/whatweb-plus</code></p>
+<blockquote>
+<p>whatweb 增强版 合并多个指纹库 8000+插件（提供exe版）</p>
+</blockquote>
+<h1 id="rustcat"><a href="#rustcat" class="headerlink" title="rustcat"></a>rustcat</h1><p><code>https://github.com/robiot/rustcat</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="HackReport"><a href="#HackReport" class="headerlink" title="HackReport"></a>HackReport</h1><p><code>https://github.com/awake1t/HackReport</code></p>
+<blockquote>
+<p>渗透测试报告/资料文档/渗透经验文档/安全书籍</p>
+</blockquote>
+<h1 id="JS-Forward"><a href="#JS-Forward" class="headerlink" title="JS-Forward"></a>JS-Forward</h1><p><code>https://github.com/G-Security-Team/JS-Forward</code></p>
+<blockquote>
+<p>前端参数加密渗透测试通用解决方案</p>
+</blockquote>
+<h1 id="PocOrExp-in-Github"><a href="#PocOrExp-in-Github" class="headerlink" title="PocOrExp_in_Github"></a>PocOrExp_in_Github</h1><p><code>https://github.com/ycdxsb/PocOrExp_in_Github</code></p>
+<blockquote>
+<p>聚合Github上已有的Poc或者Exp，CVE信息来自CVE官网。Auto Collect Poc Or Exp from Github by CVE ID.</p>
+</blockquote>
+<h1 id="Watchdog"><a href="#Watchdog" class="headerlink" title="Watchdog"></a>Watchdog</h1><p><code>https://github.com/CTF-MissFeng/Watchdog</code></p>
+<blockquote>
+<p>Watchdog是bayonet修改版，重新优化了数据库及web及扫描程序,加入多节点</p>
+</blockquote>
+<h1 id="JDCaptchaCrack"><a href="#JDCaptchaCrack" class="headerlink" title="JDCaptchaCrack"></a>JDCaptchaCrack</h1><p><code>https://github.com/gebiWangshushu/JDCaptchaCrack</code></p>
+<blockquote>
+<p>Python + Selenium+chromedirver 破解京东登录滑块验证码</p>
+</blockquote>
+<h1 id="kerbrute"><a href="#kerbrute" class="headerlink" title="kerbrute"></a>kerbrute</h1><p><code>https://github.com/ropnop/kerbrute/</code></p>
+<blockquote>
+<p>A tool to perform Kerberos pre-auth bruteforcing</p>
+</blockquote>
+<h1 id="LinkFinder"><a href="#LinkFinder" class="headerlink" title="LinkFinder"></a>LinkFinder</h1><p><code>https://github.com/GerbenJavado/LinkFinder</code></p>
+<blockquote>
+<p>A python script that finds endpoints in JavaScript files</p>
+</blockquote>
+<h1 id="NEW-xp-CAPTCHA"><a href="#NEW-xp-CAPTCHA" class="headerlink" title="NEW_xp_CAPTCHA"></a>NEW_xp_CAPTCHA</h1><p><code>https://github.com/smxiazi/NEW_xp_CAPTCHA</code></p>
+<blockquote>
+<p>xp_CAPTCHA(白嫖版) burp 验证码 识别 burp插件</p>
+</blockquote>
+<h1 id="reconftw"><a href="#reconftw" class="headerlink" title="reconftw"></a>reconftw</h1><p><code>https://github.com/six2dez/reconftw</code></p>
+<blockquote>
+<p>reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities</p>
+</blockquote>
+<h1 id="findweb"><a href="#findweb" class="headerlink" title="findweb"></a>findweb</h1><p><code>https://github.com/vmnguyen/findweb</code></p>
+<blockquote>
+<p>Go tool to find http or https service from list of IPs or domains</p>
+</blockquote>
+<h1 id="chisel"><a href="#chisel" class="headerlink" title="chisel"></a>chisel</h1><p><code>https://github.com/jpillora/chisel</code></p>
+<blockquote>
+<p>A fast TCP/UDP tunnel over HTTP</p>
+</blockquote>
+<h1 id="FireKylin"><a href="#FireKylin" class="headerlink" title="FireKylin"></a>FireKylin</h1><p><code>https://github.com/MountCloud/FireKylin</code></p>
+<blockquote>
+<p>火麒麟-网络安全应急响应工具(系统痕迹采集)Cybersecurity emergency response tool.</p>
+</blockquote>
+<h1 id="DomainBorrowing"><a href="#DomainBorrowing" class="headerlink" title="DomainBorrowing"></a>DomainBorrowing</h1><p><code>https://github.com/Dliv3/DomainBorrowing</code></p>
+<blockquote>
+<p>Domain Borrowing PoC</p>
+</blockquote>
+<h1 id="WebBatchRequest"><a href="#WebBatchRequest" class="headerlink" title="WebBatchRequest"></a>WebBatchRequest</h1><p><code>https://github.com/ScriptKid-Beta/WebBatchRequest</code></p>
+<blockquote>
+<p>WEB批量请求器（WebBatchRequest）是对目标地址批量进行快速的存活探测、Title获取，简单的banner识别，支持HTTP代理以及可自定义HTTP请求用于批量的漏洞验证等的一款基于JAVA编写的轻量工具。</p>
+</blockquote>
+<h1 id="ruler"><a href="#ruler" class="headerlink" title="ruler"></a>ruler</h1><p><code>https://github.com/sensepost/ruler</code></p>
+<blockquote>
+<p>A tool to abuse Exchange services</p>
+</blockquote>
+<h1 id="OSCPRepo"><a href="#OSCPRepo" class="headerlink" title="OSCPRepo"></a>OSCPRepo</h1><p><code>https://github.com/rewardone/OSCPRepo</code></p>
+<blockquote>
+<p>A list of commands, scripts, resources, and more that I have gathered and attempted to consolidate for use as OSCP (and more) study material. Commands in ‘Usefulcommands’ Keepnote. Bookmarks and reading material in ‘BookmarkList’ CherryTree. Reconscan Py2 and Py3. Custom ISO building.</p>
+</blockquote>
+<h1 id="vulmap"><a href="#vulmap" class="headerlink" title="vulmap"></a>vulmap</h1><p><code>https://github.com/zhzyker/vulmap</code></p>
+<blockquote>
+<p>Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描, 并且具备漏洞验证功能</p>
+</blockquote>
+<h1 id="CVE-2021-1675-Powershell"><a href="#CVE-2021-1675-Powershell" class="headerlink" title="CVE-2021-1675_Powershell"></a>CVE-2021-1675_Powershell</h1><p><code>https://github.com/calebstewart/CVE-2021-1675</code></p>
+<blockquote>
+<p>Pure PowerShell implementation of CVE-2021-1675 Print Spooler Local Privilege Escalation (PrintNightmare)</p>
+</blockquote>
+<h1 id="LSpider"><a href="#LSpider" class="headerlink" title="LSpider"></a>LSpider</h1><p><code>https://github.com/knownsec/LSpider</code></p>
+<blockquote>
+<p>LSpider 一个为被动扫描器定制的前端爬虫</p>
+</blockquote>
+<h1 id="LaZagne"><a href="#LaZagne" class="headerlink" title="LaZagne"></a>LaZagne</h1><p><code>https://github.com/AlessandroZ/LaZagne</code></p>
+<blockquote>
+<p>Credentials recovery project</p>
+</blockquote>
+<h1 id="Name-That-Hash"><a href="#Name-That-Hash" class="headerlink" title="Name-That-Hash"></a>Name-That-Hash</h1><p><code>https://github.com/HashPals/Name-That-Hash</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="Drupalgeddon2"><a href="#Drupalgeddon2" class="headerlink" title="Drupalgeddon2"></a>Drupalgeddon2</h1><p><code>https://github.com/dreadlocked/Drupalgeddon2</code></p>
+<blockquote>
+<p>Exploit for Drupal v7.x + v8.x (Drupalgeddon 2 / CVE-2018-7600 / SA-CORE-2018-002)</p>
+</blockquote>
+<h1 id="xlsKami"><a href="#xlsKami" class="headerlink" title="xlsKami"></a>xlsKami</h1><p><code>https://github.com/aaaddress1/xlsKami</code></p>
+<blockquote>
+<p>Out-of-the-Box Tool to Obfuscate Excel XLS. Include Obfuscation &amp; Hide for Cell Labels &amp; BoundSheets</p>
+</blockquote>
+<h1 id="hacktricks"><a href="#hacktricks" class="headerlink" title="hacktricks"></a>hacktricks</h1><p><code>https://github.com/carlospolop/hacktricks</code></p>
+<blockquote>
+<p>Welcome to the page where you will find each trick/technique/whatever I have learnt in CTFs, real life apps, and reading researches and news.</p>
+</blockquote>
+<h1 id="mimikatz"><a href="#mimikatz" class="headerlink" title="mimikatz"></a>mimikatz</h1><h1 id="PLtools"><a href="#PLtools" class="headerlink" title="PLtools"></a>PLtools</h1><p><code>https://github.com/Lucifer1993/PLtools</code></p>
+<blockquote>
+<p>整理一些内网常用渗透小工具</p>
+</blockquote>
+<h1 id="SpringBoot-Actuator"><a href="#SpringBoot-Actuator" class="headerlink" title="SpringBoot-Actuator"></a>SpringBoot-Actuator</h1><p><code>https://github.com/rabbitmask/SB-Actuator</code></p>
+<blockquote>
+<p>Spring Boot Actuator未授权访问【XXE、RCE】单/多目标检测</p>
+</blockquote>
+<h1 id="Pentest-Note"><a href="#Pentest-Note" class="headerlink" title="Pentest_Note"></a>Pentest_Note</h1><p><code>https://github.com/xiaoy-sec/Pentest_Note</code></p>
+<blockquote>
+<p>渗透测试常规操作记录</p>
+</blockquote>
+<h1 id="e-message-exp"><a href="#e-message-exp" class="headerlink" title="e-message_exp"></a>e-message_exp</h1><p><code>https://github.com/hhxy/e-message_exp</code></p>
+<blockquote>
+<p>e-mesaage &lt;=4.15 后台jar包上传exp</p>
+</blockquote>
+<h1 id="vulnerability-paper"><a href="#vulnerability-paper" class="headerlink" title="vulnerability-paper"></a>vulnerability-paper</h1><p><code>https://github.com/MrWQ/vulnerability-paper</code></p>
+<blockquote>
+<p>收集的文章</p>
+</blockquote>
+<h1 id="Fofa-collect"><a href="#Fofa-collect" class="headerlink" title="Fofa-collect"></a>Fofa-collect</h1><p><code>https://github.com/FishM4n/Fofa-collect</code></p>
+<blockquote>
+<p>Fofa采集工具</p>
+</blockquote>
+<h1 id="PowerSploit"><a href="#PowerSploit" class="headerlink" title="PowerSploit"></a>PowerSploit</h1><p><code>https://github.com/PowerShellMafia/PowerSploit</code></p>
+<blockquote>
+<p>PowerSploit - A PowerShell Post-Exploitation Framework</p>
+</blockquote>
+<h1 id="judas"><a href="#judas" class="headerlink" title="judas"></a>judas</h1><p><code>https://github.com/canc3s/judas</code></p>
+<blockquote>
+<p>轻便的恶意反代</p>
+</blockquote>
+<h1 id="gixy"><a href="#gixy" class="headerlink" title="gixy"></a>gixy</h1><p><code>https://github.com/yandex/gixy</code></p>
+<blockquote>
+<p>Nginx configuration static analyzer</p>
+</blockquote>
+<h1 id="PeiQi-WIKI-POC"><a href="#PeiQi-WIKI-POC" class="headerlink" title="PeiQi-WIKI-POC"></a>PeiQi-WIKI-POC</h1><p><code>https://github.com/PeiQi0/PeiQi-WIKI-POC</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="pwncat"><a href="#pwncat" class="headerlink" title="pwncat"></a>pwncat</h1><p><code>https://github.com/calebstewart/pwncat</code></p>
+<blockquote>
+<p>Fancy reverse and bind shell handler</p>
+</blockquote>
+<h1 id="dir"><a href="#dir" class="headerlink" title="dir"></a>dir</h1><h1 id="Huan"><a href="#Huan" class="headerlink" title="Huan"></a>Huan</h1><p><code>https://github.com/frkngksl/Huan</code></p>
+<blockquote>
+<p>Encrypted PE Loader Generator</p>
+</blockquote>
+<h1 id="CVE-2018-7600"><a href="#CVE-2018-7600" class="headerlink" title="CVE-2018-7600"></a>CVE-2018-7600</h1><p><code>https://github.com/pimps/CVE-2018-7600</code></p>
+<blockquote>
+<p>Exploit for Drupal 7 &lt;= 7.57 CVE-2018-7600</p>
+</blockquote>
+<h1 id="SharPyShell"><a href="#SharPyShell" class="headerlink" title="SharPyShell"></a>SharPyShell</h1><p><code>https://github.com/antonioCoco/SharPyShell</code></p>
+<blockquote>
+<p>SharPyShell - tiny and obfuscated ASP.NET webshell for C# web applications</p>
+</blockquote>
+<h1 id="NetNTLMtoSilverTicket"><a href="#NetNTLMtoSilverTicket" class="headerlink" title="NetNTLMtoSilverTicket"></a>NetNTLMtoSilverTicket</h1><p><code>https://github.com/NotMedic/NetNTLMtoSilverTicket</code></p>
+<blockquote>
+<p>SpoolSample -&gt; Responder w/NetNTLM Downgrade -&gt; NetNTLMv1 -&gt; NTLM -&gt; Kerberos Silver Ticket</p>
+</blockquote>
+<h1 id="host-scan"><a href="#host-scan" class="headerlink" title="host_scan"></a>host_scan</h1><p><code>https://github.com/cyal1/host_scan</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="CVE-2020-14179"><a href="#CVE-2020-14179" class="headerlink" title="CVE-2020-14179"></a>CVE-2020-14179</h1><p><code>https://github.com/c0brabaghdad1/CVE-2020-14179</code></p>
+<blockquote>
+<p>CVE-2020-14179 Scanner</p>
+</blockquote>
+<h1 id="Defeat-Defender"><a href="#Defeat-Defender" class="headerlink" title="Defeat-Defender"></a>Defeat-Defender</h1><p><code>https://github.com/swagkarna/Defeat-Defender</code></p>
+<blockquote>
+<p>Powerful batch script to dismantle complete windows defender protection and even bypass tamper protection ..Disable Windows-Defender Permanently….Hack windows. POC</p>
+</blockquote>
+<h1 id="feroxbuster"><a href="#feroxbuster" class="headerlink" title="feroxbuster"></a>feroxbuster</h1><p><code>https://github.com/epi052/feroxbuster</code></p>
+<blockquote>
+<p>A fast, simple, recursive content discovery tool written in Rust.</p>
+</blockquote>
+<h1 id="DiscoverSubdomain"><a href="#DiscoverSubdomain" class="headerlink" title="DiscoverSubdomain"></a>DiscoverSubdomain</h1><p><code>https://github.com/coco413/DiscoverSubdomain</code></p>
+<blockquote>
+<p>前渗透信息探测工具集-子域名</p>
+</blockquote>
+<h1 id="gus-proxy"><a href="#gus-proxy" class="headerlink" title="gus-proxy"></a>gus-proxy</h1><p><code>https://github.com/wrfly/gus-proxy</code></p>
+<blockquote>
+<p>“打一枪换一个地方” 一个HTTP代理</p>
+</blockquote>
+<h1 id="OA-EXP"><a href="#OA-EXP" class="headerlink" title="OA-EXP"></a>OA-EXP</h1><p><code>https://github.com/XiaoBai-12138/OA-EXP</code></p>
+<blockquote>
+<p>红队工具：各大OA利用工具，万户、致远、通达等</p>
+</blockquote>
+<h1 id="pydictor"><a href="#pydictor" class="headerlink" title="pydictor"></a>pydictor</h1><p><code>https://www.github.com/landgrey/pydictor</code></p>
+<blockquote>
+<p>A powerful and useful hacker dictionary builder for a brute-force attack</p>
+</blockquote>
+<h1 id="ThinkphpRCE"><a href="#ThinkphpRCE" class="headerlink" title="ThinkphpRCE"></a>ThinkphpRCE</h1><p><code>https://github.com/sukabuliet/ThinkphpRCE</code></p>
+<blockquote>
+<p>Thinkphp rce扫描脚本，附带日志扫描</p>
+</blockquote>
+<h1 id="CVE-2021-21985-PoC"><a href="#CVE-2021-21985-PoC" class="headerlink" title="CVE-2021-21985_PoC"></a>CVE-2021-21985_PoC</h1><p><code>https://github.com/alt3kx/CVE-2021-21985_PoC</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="hooker"><a href="#hooker" class="headerlink" title="hooker"></a>hooker</h1><p><code>https://github.com/CreditTone/hooker</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="lightsocks"><a href="#lightsocks" class="headerlink" title="lightsocks"></a>lightsocks</h1><p><code>https://github.com/gwuhaolin/lightsocks</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="subDomainsBrute"><a href="#subDomainsBrute" class="headerlink" title="subDomainsBrute"></a>subDomainsBrute</h1><p><code>https://github.com/lijiejie/subDomainsBrute</code></p>
+<blockquote>
+<p>A fast sub domain brute tool for pentesters</p>
+</blockquote>
+<h1 id="Cerberus"><a href="#Cerberus" class="headerlink" title="Cerberus"></a>Cerberus</h1><p><code>https://github.com/YagamiiLight/Cerberus</code></p>
+<blockquote>
+<p>一款功能强大的漏洞扫描器，子域名爆破使用aioDNS，asyncio异步快速扫描，覆盖目标全方位资产进行批量漏洞扫描，中间件信息收集，自动收集ip代理，探测Waf信息时自动使用来保护本机真实Ip，在本机Ip被Waf杀死后，自动切换代理Ip进行扫描，Waf信息收集(国内外100+款waf信息)包括安全狗，云锁，阿里云，云盾，腾讯云等，提供部分已知waf bypass 方案，中间件漏洞检测(Thinkphp,weblogic等 CVE-2018-5955,CVE-2018-12613,CVE-2018-11759等)，支持SQL注入, XSS, 命令执行,文件包含, ssrf 漏洞扫描, 支持自定义漏洞邮箱推送功能</p>
+</blockquote>
+<h1 id="Responder"><a href="#Responder" class="headerlink" title="Responder"></a>Responder</h1><p><code>https://github.com/SpiderLabs/Responder</code></p>
+<blockquote>
+<p>Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication.</p>
+</blockquote>
+<h1 id="RW-Password"><a href="#RW-Password" class="headerlink" title="RW_Password"></a>RW_Password</h1><p><code>https://github.com/r35tart/RW_Password</code></p>
+<blockquote>
+<p>此项目用来提取收集以往泄露的密码中符合条件的强弱密码</p>
+</blockquote>
+<h1 id="AttackDetection"><a href="#AttackDetection" class="headerlink" title="AttackDetection"></a>AttackDetection</h1><p><code>https://github.com/ptresearch/AttackDetection</code></p>
+<blockquote>
+<p>Attack Detection</p>
+</blockquote>
+<h1 id="frida-ssl-logger"><a href="#frida-ssl-logger" class="headerlink" title="frida_ssl_logger"></a>frida_ssl_logger</h1><p><code>https://github.com/BigFaceCat2017/frida_ssl_logger</code></p>
+<blockquote>
+<p>ssl_logger based on frida</p>
+</blockquote>
+<h1 id="ESFileExplorerOpenPortVuln"><a href="#ESFileExplorerOpenPortVuln" class="headerlink" title="ESFileExplorerOpenPortVuln"></a>ESFileExplorerOpenPortVuln</h1><p><code>https://github.com/fs0c131y/ESFileExplorerOpenPortVuln</code></p>
+<blockquote>
+<p>ES File Explorer Open Port Vulnerability - CVE-2019-6447</p>
+</blockquote>
+<h1 id="windows-exec-ways"><a href="#windows-exec-ways" class="headerlink" title="windows_exec_ways"></a>windows_exec_ways</h1><p><code>https://github.com/Jumbo-WJB/windows_exec_ways</code></p>
+<blockquote>
+<p>windows_exec_ways with msf</p>
+</blockquote>
+<h1 id="ipio"><a href="#ipio" class="headerlink" title="ipio"></a>ipio</h1><p><code>https://github.com/txthinking/ipio</code></p>
+<blockquote>
+<p>tun2socks5, tun2brookserver, tun2brookwsserver, tun2brookwssserver. IPv4 and IPv6, TCP and UDP. 让系统所有流量全部走socks5, brook server, brook wsserver, brook wssserver.</p>
+</blockquote>
+<h1 id="web-hub"><a href="#web-hub" class="headerlink" title="web-hub"></a>web-hub</h1><p><code>https://github.com/ybdt/web-hub</code></p>
+<blockquote>
+<p>Web打点：收集、识别、检测、利用、挖掘</p>
+</blockquote>
+<h1 id="report"><a href="#report" class="headerlink" title="report"></a>report</h1><p><code>https://github.com/CTF-MissFeng/report</code></p>
+<blockquote>
+<p>乙方渗透测试漏洞报告管理系统</p>
+</blockquote>
+<h1 id="gonsole"><a href="#gonsole" class="headerlink" title="gonsole"></a>gonsole</h1><p><code>https://github.com/maxlandon/gonsole</code></p>
+<blockquote>
+<p>Integrated console application library, using Go structs as commands, with menus, completions, hints, history, Vim mode, $EDITOR usage, and more …</p>
+</blockquote>
+<h1 id="BerylEnigma"><a href="#BerylEnigma" class="headerlink" title="BerylEnigma"></a>BerylEnigma</h1><p><code>https://github.com/ffffffff0x/BerylEnigma</code></p>
+<blockquote>
+<p>一个为渗透测试与CTF而制作的工具集，主要实现一些加解密的功能。</p>
+</blockquote>
+<h1 id="redis-rogue-server"><a href="#redis-rogue-server" class="headerlink" title="redis-rogue-server"></a>redis-rogue-server</h1><p><code>https://github.com/Dliv3/redis-rogue-server</code></p>
+<blockquote>
+<p>Redis 4.x/5.x RCE</p>
+</blockquote>
+<h1 id="awesome-security-weixin-official-accounts"><a href="#awesome-security-weixin-official-accounts" class="headerlink" title="awesome-security-weixin-official-accounts"></a>awesome-security-weixin-official-accounts</h1><p><code>https://github.com/DropsOfZut/awesome-security-weixin-official-accounts</code></p>
+<blockquote>
+<p>网络安全类公众号推荐，欢迎大家推荐</p>
+</blockquote>
+<h1 id="AwesomeScript"><a href="#AwesomeScript" class="headerlink" title="AwesomeScript"></a>AwesomeScript</h1><p><code>https://github.com/AntSwordProject/AwesomeScript</code></p>
+<blockquote>
+<p>AntSword Shell 脚本分享/示例</p>
+</blockquote>
+<h1 id="KnockOutlook"><a href="#KnockOutlook" class="headerlink" title="KnockOutlook"></a>KnockOutlook</h1><p><code>https://github.com/eksperience/KnockOutlook</code></p>
+<blockquote>
+<p>A little tool to play with Outlook</p>
+</blockquote>
+<h1 id="reGeorg"><a href="#reGeorg" class="headerlink" title="reGeorg"></a>reGeorg</h1><p><code>https://github.com/sensepost/reGeorg</code></p>
+<blockquote>
+<p>The successor to reDuh, pwn a bastion webserver and create SOCKS proxies through the DMZ. Pivot and pwn.</p>
+</blockquote>
+<h1 id="SUDO-KILLER"><a href="#SUDO-KILLER" class="headerlink" title="SUDO_KILLER"></a>SUDO_KILLER</h1><p><code>https://github.com/TH3xACE/SUDO_KILLER</code></p>
+<blockquote>
+<p>A tool to identify and exploit sudo rules’ misconfigurations and vulnerabilities within sudo for linux privilege escalation.</p>
+</blockquote>
+<h1 id="SrcData"><a href="#SrcData" class="headerlink" title="SrcData"></a>SrcData</h1><p><code>https://github.com/sshenlian/SrcData</code></p>
+<blockquote>
+<p>SRC资料 收集的各位师傅的</p>
+</blockquote>
+<h1 id="go-shellcode-webimg-load"><a href="#go-shellcode-webimg-load" class="headerlink" title="go-shellcode-webimg-load"></a>go-shellcode-webimg-load</h1><p><code>https://github.com/TRYblog/go-shellcode-webimg-load</code></p>
+<blockquote>
+<p>golang shellcode loader 远程图片隐写加载执行 无文件落地</p>
+</blockquote>
+<h1 id="local-exploits"><a href="#local-exploits" class="headerlink" title="local-exploits"></a>local-exploits</h1><p><code>https://github.com/bcoles/local-exploits</code></p>
+<blockquote>
+<p>Various local exploits</p>
+</blockquote>
+<h1 id="weblogger"><a href="#weblogger" class="headerlink" title="weblogger"></a>weblogger</h1><p><code>https://github.com/wupco/weblogger</code></p>
+<blockquote>
+<p>针对ctf线下赛流量抓取(php)、真实环境流量抓取分析的工具</p>
+</blockquote>
+<h1 id="POC-EXP"><a href="#POC-EXP" class="headerlink" title="POC-EXP"></a>POC-EXP</h1><p><code>https://github.com/7hang/POC-EXP</code></p>
+<blockquote>
+<p>Web端POC-EXP 整理</p>
+</blockquote>
+<h1 id="SharpBeacon"><a href="#SharpBeacon" class="headerlink" title="SharpBeacon"></a>SharpBeacon</h1><p><code>https://github.com/mai1zhi2/SharpBeacon</code></p>
+<blockquote>
+<p>CobaltStrike Beacon written in .Net 4 用.net重写了stager及Beacon，其中包括正常上线、文件管理、进程管理、令牌管理、结合SysCall进行注入、原生端口转发、关ETW等一系列功能</p>
+</blockquote>
+<h1 id="CloudFail"><a href="#CloudFail" class="headerlink" title="CloudFail"></a>CloudFail</h1><p><code>https://github.com/m0rtem/CloudFail</code></p>
+<blockquote>
+<p>Utilize misconfigured DNS and old database records to find hidden IP’s behind the CloudFlare network</p>
+</blockquote>
+<h1 id="taowu-cobalt-strike"><a href="#taowu-cobalt-strike" class="headerlink" title="taowu-cobalt-strike"></a>taowu-cobalt-strike</h1><p><code>https://github.com/pandasec888/taowu-cobalt-strike</code></p>
+<blockquote>
+<p>基于cobalt strike平台的红队自动化框架</p>
+</blockquote>
+<h1 id="kubernetes-hardening-guidance"><a href="#kubernetes-hardening-guidance" class="headerlink" title="kubernetes-hardening-guidance"></a>kubernetes-hardening-guidance</h1><p><code>https://github.com/rootsongjc/kubernetes-hardening-guidance</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="aem-hacker"><a href="#aem-hacker" class="headerlink" title="aem-hacker"></a>aem-hacker</h1><p><code>https://github.com/0ang3el/aem-hacker</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="Masscan-to-Nmap"><a href="#Masscan-to-Nmap" class="headerlink" title="Masscan_to_Nmap"></a>Masscan_to_Nmap</h1><p><code>https://github.com/Purp1eW0lf/Masscan_to_Nmap</code></p>
+<blockquote>
+<p>Python script that runs Masscan against an IP to collect open ports, feed those ports to Nmap, which finds service versions and runs default scripts. Built with CTFs in mind.</p>
+</blockquote>
+<h1 id="ProxyPoolWithUI"><a href="#ProxyPoolWithUI" class="headerlink" title="ProxyPoolWithUI"></a>ProxyPoolWithUI</h1><p><code>https://github.com/OxOOo/ProxyPoolWithUI</code></p>
+<blockquote>
+<p>Python编写的HTTP代理池，集成WEB管理界面，无外部数据库依赖，可直接运行，兼容Windows,Linux和macOS。Free Proxy Pool with Web UI on Windows, Linux, and macOS.</p>
+</blockquote>
+<h1 id="HikPwn"><a href="#HikPwn" class="headerlink" title="HikPwn"></a>HikPwn</h1><p><code>https://github.com/4n4nk3/HikPwn</code></p>
+<blockquote>
+<p>HikPwn, a simple scanner for Hikvision devices with basic vulnerability scanning capabilities written in Python 3.8.</p>
+</blockquote>
+<h1 id="SatanSword"><a href="#SatanSword" class="headerlink" title="SatanSword"></a>SatanSword</h1><p><code>https://github.com/Lucifer1993/SatanSword</code></p>
+<blockquote>
+<p>红队综合渗透框架</p>
+</blockquote>
+<h1 id="ILSpy"><a href="#ILSpy" class="headerlink" title="ILSpy"></a>ILSpy</h1><p><code>https://github.com/icsharpcode/ILSpy</code></p>
+<blockquote>
+<p>.NET Decompiler with support for PDB generation, ReadyToRun, Metadata (&amp;more) - cross-platform!</p>
+</blockquote>
+<h1 id="dirmap"><a href="#dirmap" class="headerlink" title="dirmap"></a>dirmap</h1><p><code>https://github.com/H4ckForJob/dirmap</code></p>
+<blockquote>
+<p>An advanced web directory &amp; file scanning tool that will be more powerful than DirBuster, Dirsearch, cansina, and Yu Jian.一个高级web目录、文件扫描工具，功能将会强于DirBuster、Dirsearch、cansina、御剑。</p>
+</blockquote>
+<h1 id="HIkPy"><a href="#HIkPy" class="headerlink" title="HIkPy"></a>HIkPy</h1><p><code>https://github.com/Gonzera/HIkPy</code></p>
+<blockquote>
+<p>Checks HikVision Cameras for an old vulnerability.</p>
+</blockquote>
+<h1 id="DBJ"><a href="#DBJ" class="headerlink" title="DBJ"></a>DBJ</h1><p><code>https://github.com/wgpsec/DBJ</code></p>
+<blockquote>
+<p>大宝剑-边界资产梳理工具（红队、蓝队、企业组织架构、子域名、Web资产梳理、Web指纹识别、ICON_Hash资产匹配）</p>
+</blockquote>
+<h1 id="leprechaun"><a href="#leprechaun" class="headerlink" title="leprechaun"></a>leprechaun</h1><p><code>https://github.com/vonahisec/leprechaun</code></p>
+<blockquote>
+<p>This tool is used to map out the network data flow to help penetration testers identify potentially valuable targets.</p>
+</blockquote>
+<h1 id="shiro-attack"><a href="#shiro-attack" class="headerlink" title="shiro_attack"></a>shiro_attack</h1><p><code>https://github.com/j1anFen/shiro_attack</code></p>
+<blockquote>
+<p>shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马）</p>
+</blockquote>
+<h1 id="MYSQL-SQL-BYPASS-WIKI"><a href="#MYSQL-SQL-BYPASS-WIKI" class="headerlink" title="MYSQL_SQL_BYPASS_WIKI"></a>MYSQL_SQL_BYPASS_WIKI</h1><p><code>https://github.com/aleenzz/MYSQL_SQL_BYPASS_WIKI</code></p>
+<blockquote>
+<p>mysql注入,bypass的一些心得</p>
+</blockquote>
+<h1 id="WMIHACKER"><a href="#WMIHACKER" class="headerlink" title="WMIHACKER"></a>WMIHACKER</h1><p><code>https://github.com/360-Linton-Lab/WMIHACKER</code></p>
+<blockquote>
+<p>A Bypass Anti-virus Software Lateral Movement Command Execution Tool</p>
+</blockquote>
+<h1 id="DarkEye"><a href="#DarkEye" class="headerlink" title="DarkEye"></a>DarkEye</h1><p><code>https://github.com/b1gcat/DarkEye</code></p>
+<blockquote>
+<p>渗透测试情报收集工具</p>
+</blockquote>
+<h1 id="dfunc-bypasser"><a href="#dfunc-bypasser" class="headerlink" title="dfunc-bypasser"></a>dfunc-bypasser</h1><p><code>https://github.com/teambi0s/dfunc-bypasser</code></p>
+<blockquote>
+<p>This tool is for letting you know how strong your disable_functions is and how you can bypass that.</p>
+</blockquote>
+<h1 id="weblogic-infodetector"><a href="#weblogic-infodetector" class="headerlink" title="weblogic-infodetector"></a>weblogic-infodetector</h1><p><code>https://github.com/woodpecker-appstore/weblogic-infodetector</code></p>
+<blockquote>
+<p>woodpecker框架weblogic信息探测插件</p>
+</blockquote>
+<h1 id="ADHuntTool"><a href="#ADHuntTool" class="headerlink" title="ADHuntTool"></a>ADHuntTool</h1><p><code>https://github.com/Mr-Un1k0d3r/ADHuntTool</code></p>
+<blockquote>
+<p>official repo for the AdHuntTool (part of the old RedTeamCSharpScripts repo)</p>
+</blockquote>
+<h1 id="windows-resources"><a href="#windows-resources" class="headerlink" title="windows-resources"></a>windows-resources</h1><h1 id="Catch-Browser"><a href="#Catch-Browser" class="headerlink" title="Catch-Browser"></a>Catch-Browser</h1><p><code>https://github.com/SD-XD/Catch-Browser</code></p>
+<blockquote>
+<p>This is a crawler password tool</p>
+</blockquote>
+<h1 id="exp-hub"><a href="#exp-hub" class="headerlink" title="exp-hub"></a>exp-hub</h1><p><code>https://github.com/ybdt/exp-hub</code></p>
+<blockquote>
+<p>Nday漏洞复现：打点漏洞、提权漏洞、横向漏洞、域漏洞</p>
+</blockquote>
+<h1 id="HiveNightmare"><a href="#HiveNightmare" class="headerlink" title="HiveNightmare"></a>HiveNightmare</h1><p><code>https://github.com/GossiTheDog/HiveNightmare</code></p>
+<blockquote>
+<p>Exploit allowing you to read registry hives as non-admin on Windows 10 and 11</p>
+</blockquote>
+<h1 id="MemoryShell"><a href="#MemoryShell" class="headerlink" title="MemoryShell"></a>MemoryShell</h1><p><code>https://github.com/su18/MemoryShell</code></p>
+<blockquote>
+<p>JavaWeb MemoryShell Inject/Scan/Killer/Protect Research &amp; Exploring</p>
+</blockquote>
+<h1 id="Godzilla"><a href="#Godzilla" class="headerlink" title="Godzilla"></a>Godzilla</h1><p><code>https://github.com/BeichenDream/Godzilla</code></p>
+<blockquote>
+<p>哥斯拉</p>
+</blockquote>
+<h1 id="chunked-coding-converter"><a href="#chunked-coding-converter" class="headerlink" title="chunked-coding-converter"></a>chunked-coding-converter</h1><p><code>https://github.com/c0ny1/chunked-coding-converter</code></p>
+<blockquote>
+<p>Burp suite 分块传输辅助插件</p>
+</blockquote>
+<h1 id="JuicyPotato"><a href="#JuicyPotato" class="headerlink" title="JuicyPotato"></a>JuicyPotato</h1><p><code>https://github.com/uknowsec/JuicyPotato</code></p>
+<blockquote>
+<p>Modifying JuicyPotato to support load shellcode and webshell</p>
+</blockquote>
+<h1 id="awspx"><a href="#awspx" class="headerlink" title="awspx"></a>awspx</h1><p><code>https://github.com/FSecureLABS/awspx</code></p>
+<blockquote>
+<p>A graph-based tool for visualizing effective access and resource relationships in AWS environments.</p>
+</blockquote>
+<h1 id="adalanche"><a href="#adalanche" class="headerlink" title="adalanche"></a>adalanche</h1><p><code>https://github.com/lkarlslund/adalanche</code></p>
+<blockquote>
+<p>Active Directory ACL Visualizer and Explorer - who’s really Domain Admin?</p>
+</blockquote>
+<h1 id="checkburp"><a href="#checkburp" class="headerlink" title="checkburp"></a>checkburp</h1><p><code>https://github.com/TomAPU/checkburp</code></p>
+<blockquote>
+<p>Detect burp</p>
+</blockquote>
+<h1 id="CTFWPS"><a href="#CTFWPS" class="headerlink" title="CTFWPS"></a>CTFWPS</h1><p><code>https://github.com/HackerYunen/CTFWPS</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="fixgz"><a href="#fixgz" class="headerlink" title="fixgz"></a>fixgz</h1><p><code>https://github.com/yonjar/fixgz</code></p>
+<blockquote>
+<p>There is NO About …</p>
+</blockquote>
+<h1 id="wabt"><a href="#wabt" class="headerlink" title="wabt"></a>wabt</h1><p><code>https://github.com/WebAssembly/wabt</code></p>
+<blockquote>
+<p>The WebAssembly Binary Toolkit</p>
+</blockquote>
+<h1 id="SecurityInterviewGuide"><a href="#SecurityInterviewGuide" class="headerlink" title="SecurityInterviewGuide"></a>SecurityInterviewGuide</h1><p><code>https://github.com/FeeiCN/SecurityInterviewGuide</code></p>
+<blockquote>
+<p>网络信息安全从业者面试指南（持续补充各公司招聘面试题目和侧重点）</p>
+</blockquote>
+<h1 id="ReiAyanami"><a href="#ReiAyanami" class="headerlink" title="ReiAyanami"></a>ReiAyanami</h1><p><code>https://github.com/Ascotbe/ReiAyanami</code></p>
+<blockquote>
+<p>这是一个快速内网端口扫描的项目</p>
+</blockquote>
+<h1 id="CVE-2021-23132"><a href="#CVE-2021-23132" class="headerlink" title="CVE-2021-23132"></a>CVE-2021-23132</h1><p><code>https://github.com/HoangKien1020/CVE-2021-23132</code></p>
+<blockquote>
+<p>com_media allowed paths that are not intended for image uploads to RCE</p>
+</blockquote>
+<h1 id="POChouse"><a href="#POChouse" class="headerlink" title="POChouse"></a>POChouse</h1><p><code>https://github.com/DawnFlame/POChouse</code></p>
+<blockquote>
+<p>POC&amp;EXP仓库、hvv弹药库、Nday、1day</p>
+</blockquote>
+<h1 id="fastjson-rce-tool"><a href="#fastjson-rce-tool" class="headerlink" title="fastjson_rce_tool"></a>fastjson_rce_tool</h1><p><code>https://github.com/wyzxxz/fastjson_rce_tool</code></p>
+<blockquote>
+<p>fastjson命令执行自动化利用工具， remote code execute，JNDI服务利用工具 RMI/LDAP，利用部分场景回显，内存shell</p>
+</blockquote>
+<h1 id="nishang-0-7-6"><a href="#nishang-0-7-6" class="headerlink" title="nishang-0.7.6"></a>nishang-0.7.6</h1><h1 id="spawn"><a href="#spawn" class="headerlink" title="spawn"></a>spawn</h1><p><code>https://github.com/boku7/spawn</code></p>
+<blockquote>
+<p>Cobalt Strike BOF that spawns a sacrificial process, injects it with shellcode, and executes payload. Built to evade EDR/UserLand hooks by spawning sacrificial process with Arbitrary Code Guard (ACG), BlockDll, and PPID spoofing.</p>
+</blockquote>
+<h1 id="SharpDetectionNTLMSSP"><a href="#SharpDetectionNTLMSSP" class="headerlink" title="SharpDetectionNTLMSSP"></a>SharpDetectionNTLMSSP</h1><p><code>https://github.com/RowTeam/SharpDetectionNTLMSSP</code></p>
+<blockquote>
+<p>利用 NTLMSSP 探测 Windows 信息</p>
+</blockquote>
+<h1 id="WeblogicScan"><a href="#WeblogicScan" class="headerlink" title="WeblogicScan"></a>WeblogicScan</h1><p><code>https://github.com/rabbitmask/WeblogicScan</code></p>
+<blockquote>
+<p>Weblogic一键漏洞检测工具，V1.5，更新时间：20200730</p>
+</blockquote>
+<h1 id="bscan"><a href="#bscan" class="headerlink" title="bscan"></a>bscan</h1><p><code>https://github.com/broken5/bscan</code></p>
+<blockquote>
+<p>bscan的是一款强大、简单、实用、高效的HTTP扫描器。</p>
+</blockquote>
+<h1 id="zuthaka"><a href="#zuthaka" class="headerlink" title="zuthaka"></a>zuthaka</h1><p><code>https://github.com/pucarasec/zuthaka</code></p>
+<blockquote>
+<p>Zuthaka is an open source application designed to assist red-teaming efforts, by simplifying the task of managing different APTs and other post-exploitation tools.</p>
+</blockquote>
+<h1 id="BloodHound"><a href="#BloodHound" class="headerlink" title="BloodHound"></a>BloodHound</h1><p><code>https://github.com/BloodHoundAD/BloodHound</code></p>
+<blockquote>
+<p>Six Degrees of Domain Admin</p>
+</blockquote>
+<h1 id="Finger"><a href="#Finger" class="headerlink" title="Finger"></a>Finger</h1><p><code>https://github.com/EASY233/Finger</code></p>
+<blockquote>
+<p>一款红队在大量的资产中存活探测与重点攻击系统指纹探测工具</p>
+</blockquote>
+<h1 id="virus"><a href="#virus" class="headerlink" title="virus"></a>virus</h1><p><code>https://github.com/Ascotbe/virus</code></p>
+<blockquote>
+<p>病毒&amp;免杀脚本&amp;乱七八糟的脚本</p>
+</blockquote>
+<h1 id="penum"><a href="#penum" class="headerlink" title="penum"></a>penum</h1><p><code>https://github.com/drtychai/penum</code></p>
+<blockquote>
+<p>Parallelized enumeration tool for red team engagements and bug bounty programs.</p>
+</blockquote>
+<h1 id="As-Exploits"><a href="#As-Exploits" class="headerlink" title="As-Exploits"></a>As-Exploits</h1><p><code>https://github.com/yzddmr6/As-Exploits</code></p>
+<blockquote>
+<p>中国蚁剑后渗透框架</p>
+</blockquote>
+<h1 id="MDAT"><a href="#MDAT" class="headerlink" title="MDAT"></a>MDAT</h1><h1 id="krbrelayx"><a href="#krbrelayx" class="headerlink" title="krbrelayx"></a>krbrelayx</h1><p><code>https://github.com/dirkjanm/krbrelayx</code></p>
+<blockquote>
+<p>Kerberos unconstrained delegation abuse toolkit</p>
+</blockquote>
+<h1 id="SprayingToolkit"><a href="#SprayingToolkit" class="headerlink" title="SprayingToolkit"></a>SprayingToolkit</h1><p><code>https://github.com/byt3bl33d3r/SprayingToolkit</code></p>
+<blockquote>
+<p>Scripts to make password spraying attacks against Lync/S4B, OWA &amp; O365 a lot quicker, less painful and more efficient</p>
+</blockquote>
+<h1 id="MeetC2"><a href="#MeetC2" class="headerlink" title="MeetC2"></a>MeetC2</h1><p><code>https://github.com/CMatri/MeetC2</code></p>
+<blockquote>
+<p>Modular C2 framework aiming to ease post exploitation for red teamers.</p>
+</blockquote>
+<h1 id="PassDecode-jar"><a href="#PassDecode-jar" class="headerlink" title="PassDecode-jar"></a>PassDecode-jar</h1><p><code>https://github.com/Rvn0xsy/PassDecode-jar</code></p>
+<blockquote>
+<p>帆软/致远密码解密工具</p>
+</blockquote>
+<h1 id="BadAssMacros"><a href="#BadAssMacros" class="headerlink" title="BadAssMacros"></a>BadAssMacros</h1><p><code>https://github.com/Inf0secRabbit/BadAssMacros</code></p>
+<blockquote>
+<p>BadAssMacros - C# based automated Malicous Macro Generator.</p>
+</blockquote>
+<h1 id="bufferfly"><a href="#bufferfly" class="headerlink" title="bufferfly"></a>bufferfly</h1><p><code>https://github.com/dr0op/bufferfly</code></p>
+<blockquote>
+<p>攻防演习/渗透测试资产处理小工具，对攻防演习/渗透测试前的信息搜集到的大批量资产/域名进行存活检测、获取标题头、语料提取、常见web端口检测等。</p>
+</blockquote>
+<h1 id="chikienumerator"><a href="#chikienumerator" class="headerlink" title="chikienumerator"></a>chikienumerator</h1><p><code>https://gitlab.com/HispaGatos/chikienumerator</code></p>
+<blockquote>
+<p>Go tool to enumerate server/s for CTF and for RL</p>
+</blockquote>
+<h1 id="GTFOBins-github-io"><a href="#GTFOBins-github-io" class="headerlink" title="GTFOBins.github.io"></a>GTFOBins.github.io</h1><p><code>https://github.com/GTFOBins/GTFOBins.github.io</code></p>
+<blockquote>
+<p>GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems</p>
+</blockquote>
+<h1 id="linux-kernel-exploits"><a href="#linux-kernel-exploits" class="headerlink" title="linux-kernel-exploits"></a>linux-kernel-exploits</h1><p><code>https://github.com/SecWiki/linux-kernel-exploits</code></p>
+<blockquote>
+<p>linux-kernel-exploits Linux平台提权漏洞集合</p>
+</blockquote>
+<h1 id="About-Attack"><a href="#About-Attack" class="headerlink" title="About-Attack"></a>About-Attack</h1><p><code>https://github.com/lintstar/About-Attack</code></p>
+<blockquote>
+<p>一个旨在通过应用场景 / 标签对 Github 红队向工具 / 资源进行分类收集，降低红队技术门槛的手册【持续更新】</p>
+</blockquote>
+<h1 id="AliyunAccessKeyTools"><a href="#AliyunAccessKeyTools" class="headerlink" title="AliyunAccessKeyTools"></a>AliyunAccessKeyTools</h1><p><code>https://github.com/NS-Sp4ce/AliyunAccessKeyTools</code></p>
+<blockquote>
+<p>阿里云AccessKey泄漏利用工具</p>
+</blockquote>
+<h1 id="C2concealer"><a href="#C2concealer" class="headerlink" title="C2concealer"></a>C2concealer</h1><p><code>https://github.com/FortyNorthSecurity/C2concealer</code></p>
+<blockquote>
+<p>C2concealer is a command line tool that generates randomized C2 malleable profiles for use in Cobalt Strike.</p>
+</blockquote>
+<h1 id="drupwn"><a href="#drupwn" class="headerlink" title="drupwn"></a>drupwn</h1><p><code>https://github.com/immunIT/drupwn</code></p>
+<blockquote>
+<p>Drupal enumeration &amp; exploitation tool</p>
+</blockquote>
+<h1 id="vscan"><a href="#vscan" class="headerlink" title="vscan"></a>vscan</h1><p><code>https://github.com/veo/vscan</code></p>
+<blockquote>
+<p>开源、轻量、快速、跨平台 的红队(redteam)外网打点扫描器，功能 端口扫描(port scan) 指纹识别(fingerprint) nday检测(nday check) 智能爆破 (admin brute) 敏感文件扫描(file fuzz)</p>
+</blockquote>
+<h1 id="dnSpy"><a href="#dnSpy" class="headerlink" title="dnSpy"></a>dnSpy</h1><p><code>https://github.com/dnSpy/dnSpy</code></p>
+<blockquote>
+<p>.NET debugger and assembly editor</p>
+</blockquote>
+<h1 id="SharpRDPThief"><a href="#SharpRDPThief" class="headerlink" title="SharpRDPThief"></a>SharpRDPThief</h1><p><code>https://github.com/passthehashbrowns/SharpRDPThief</code></p>
+<blockquote>
+<p>A C# implementation of RDPThief to steal credentials from RDP.</p>
+</blockquote>
+</div><div class="article-licensing box"><div class="licensing-title"><p>收集的各种工具</p><p><a href="https://in1t0.github.io/收集的各种工具.html">https://in1t0.github.io/收集的各种工具.html</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>Author</h6><p>iN1t0</p></div></div><div class="level-item is-narrow"><div><h6>Posted on</h6><p>2021-08-04</p></div></div><div class="level-item is-narrow"><div><h6>Updated on</h6><p>2022-10-08</p></div></div><div class="level-item is-narrow"><div><h6>Licensed under</h6><p><a class="icons" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="icon fab fa-creative-commons"></i></a><a class="icons" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="icon fab fa-creative-commons-by"></i></a><a class="icons" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="icon fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/Tools/">Tools</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/Intelligence%20@%20HackTheBox.html"><i class="level-item fas fa-chevron-left"></i><span class="level-item">Intelligence @ HackTheBox</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/BountyHunter%20@%20HackTheBox.html"><span class="level-item">BountyHunter @ HackTheBox</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><!--!--></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1 is-sticky"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/avatar.png" alt="iN1t0"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">iN1t0</p><p class="is-size-6 is-block">咸鱼一条.</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>China</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Posts</p><a href="/archives"><p class="title">105</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Categories</p><a href="/categories"><p class="title">2</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Tags</p><a href="/tags"><p class="title">9</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/In1t0" target="_blank" rel="noopener">Follow</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/In1t0"><i class="fab fa-github"></i></a></div></div></div><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">Links</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://in1t0.github.io/reverse-shell-generator/" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">reverse-shell</span></span><span class="level-right"><span class="level-item tag">in1t0.github.io</span></span></a></li><li><a class="level is-mobile" href="https://in1t0.github.io/cyberchef/" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">cyberchef</span></span><span class="level-right"><span class="level-item tag">in1t0.github.io</span></span></a></li><li><a class="level is-mobile" href="https://in1t0.github.io/ctf-wiki/" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">ctf-wiki</span></span><span class="level-right"><span class="level-item tag">in1t0.github.io</span></span></a></li><li><a class="level is-mobile" href="https://in1t0.github.io/bash_tutorial/" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">bash_tutorial</span></span><span class="level-right"><span class="level-item tag">in1t0.github.io</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">Categories</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/%E5%B7%A5%E5%85%B7%E5%8F%8A%E6%8A%80%E5%B7%A7/"><span class="level-start"><span class="level-item">工具及技巧</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/%E8%A7%A3%E9%A2%98%E8%AE%B0%E5%BD%95/"><span class="level-start"><span class="level-item">解题记录</span></span><span class="level-end"><span class="level-item tag">88</span></span></a></li></ul></div></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">Archives</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2022/02/"><span class="level-start"><span class="level-item">February 2022</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li><li><a class="level is-mobile" href="/archives/2022/01/"><span class="level-start"><span class="level-item">January 2022</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/12/"><span class="level-start"><span class="level-item">December 2021</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/11/"><span class="level-start"><span class="level-item">November 2021</span></span><span class="level-end"><span class="level-item tag">9</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/10/"><span class="level-start"><span class="level-item">October 2021</span></span><span class="level-end"><span class="level-item tag">16</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/09/"><span class="level-start"><span class="level-item">September 2021</span></span><span class="level-end"><span class="level-item tag">35</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/08/"><span class="level-start"><span class="level-item">August 2021</span></span><span class="level-end"><span class="level-item tag">5</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/07/"><span class="level-start"><span class="level-item">July 2021</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/06/"><span class="level-start"><span class="level-item">June 2021</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/05/"><span class="level-start"><span class="level-item">May 2021</span></span><span class="level-end"><span class="level-item tag">24</span></span></a></li><li><a class="level is-mobile" href="/archives/2020/06/"><span class="level-start"><span class="level-item">June 2020</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="column-right-shadow is-hidden-widescreen is-sticky"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3 is-sticky"><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">Catalogue</h3><ul class="menu-list"><li><a class="level is-mobile" href="#WhatWeb"><span class="level-left"><span class="level-item">1</span><span class="level-item">WhatWeb</span></span></a></li><li><a class="level is-mobile" href="#AggressorScripts-0x727"><span class="level-left"><span class="level-item">2</span><span class="level-item">AggressorScripts_0x727</span></span></a></li><li><a class="level is-mobile" href="#GitTools"><span class="level-left"><span class="level-item">3</span><span class="level-item">GitTools</span></span></a></li><li><a class="level is-mobile" href="#aliyun-accesskey-Tools"><span class="level-left"><span class="level-item">4</span><span class="level-item">aliyun-accesskey-Tools</span></span></a></li><li><a class="level is-mobile" href="#enum4linux-ng"><span class="level-left"><span class="level-item">5</span><span class="level-item">enum4linux-ng</span></span></a></li><li><a class="level is-mobile" href="#Sunflower-get-Password"><span class="level-left"><span class="level-item">6</span><span class="level-item">Sunflower_get_Password</span></span></a></li><li><a class="level is-mobile" href="#webshell-bypassed-human"><span class="level-left"><span class="level-item">7</span><span class="level-item">webshell-bypassed-human</span></span></a></li><li><a class="level is-mobile" href="#tig"><span class="level-left"><span class="level-item">8</span><span class="level-item">tig</span></span></a></li><li><a class="level is-mobile" href="#spp"><span class="level-left"><span class="level-item">9</span><span class="level-item">spp</span></span></a></li><li><a class="level is-mobile" href="#gobusterdns"><span class="level-left"><span class="level-item">10</span><span class="level-item">gobusterdns</span></span></a></li><li><a class="level is-mobile" href="#gnc"><span class="level-left"><span class="level-item">11</span><span class="level-item">gnc</span></span></a></li><li><a class="level is-mobile" href="#Kunlun-M"><span class="level-left"><span class="level-item">12</span><span class="level-item">Kunlun-M</span></span></a></li><li><a class="level is-mobile" href="#awd-watchbird"><span class="level-left"><span class="level-item">13</span><span class="level-item">awd-watchbird</span></span></a></li><li><a class="level is-mobile" href="#Pass-to-hash-EWS"><span class="level-left"><span class="level-item">14</span><span class="level-item">Pass-to-hash-EWS</span></span></a></li><li><a class="level is-mobile" href="#CrossNet-Beta"><span class="level-left"><span class="level-item">15</span><span class="level-item">CrossNet-Beta</span></span></a></li><li><a class="level is-mobile" href="#autoenum"><span class="level-left"><span class="level-item">16</span><span class="level-item">autoenum</span></span></a></li><li><a class="level is-mobile" href="#linux提权"><span class="level-left"><span class="level-item">17</span><span class="level-item">linux提权</span></span></a></li><li><a class="level is-mobile" href="#openam-CVE-2021-35464"><span class="level-left"><span class="level-item">18</span><span class="level-item">openam-CVE-2021-35464</span></span></a></li><li><a class="level is-mobile" href="#SourceMapX"><span class="level-left"><span class="level-item">19</span><span class="level-item">SourceMapX</span></span></a></li><li><a class="level is-mobile" href="#ysoserial"><span class="level-left"><span class="level-item">20</span><span class="level-item">ysoserial</span></span></a></li><li><a class="level is-mobile" href="#zero-crack"><span class="level-left"><span class="level-item">21</span><span class="level-item">zero-crack</span></span></a></li><li><a class="level is-mobile" href="#jwt-tool"><span class="level-left"><span class="level-item">22</span><span class="level-item">jwt_tool</span></span></a></li><li><a class="level is-mobile" href="#RedBook"><span class="level-left"><span class="level-item">23</span><span class="level-item">RedBook</span></span></a></li><li><a class="level is-mobile" href="#lxd-alpine-builder"><span class="level-left"><span class="level-item">24</span><span class="level-item">lxd-alpine-builder</span></span></a></li><li><a class="level is-mobile" href="#beanshooter"><span class="level-left"><span class="level-item">25</span><span class="level-item">beanshooter</span></span></a></li><li><a class="level is-mobile" href="#ServerScan"><span class="level-left"><span class="level-item">26</span><span class="level-item">ServerScan</span></span></a></li><li><a class="level is-mobile" href="#GoPEInjection"><span class="level-left"><span class="level-item">27</span><span class="level-item">GoPEInjection</span></span></a></li><li><a class="level is-mobile" href="#impacket"><span class="level-left"><span class="level-item">28</span><span class="level-item">impacket</span></span></a></li><li><a class="level is-mobile" href="#Neo-reGeorg"><span class="level-left"><span class="level-item">29</span><span class="level-item">Neo-reGeorg</span></span></a></li><li><a class="level is-mobile" href="#SweetPotato"><span class="level-left"><span class="level-item">30</span><span class="level-item">SweetPotato</span></span></a></li><li><a class="level is-mobile" href="#SleepyCrypt"><span class="level-left"><span class="level-item">31</span><span class="level-item">SleepyCrypt</span></span></a></li><li><a class="level is-mobile" href="#Penetration-Testing-Case"><span class="level-left"><span class="level-item">32</span><span class="level-item">Penetration_Testing_Case</span></span></a></li><li><a class="level is-mobile" href="#GitGot"><span class="level-left"><span class="level-item">33</span><span class="level-item">GitGot</span></span></a></li><li><a class="level is-mobile" href="#SharpRDPLog"><span class="level-left"><span class="level-item">34</span><span class="level-item">SharpRDPLog</span></span></a></li><li><a class="level is-mobile" href="#OffensiveRust"><span class="level-left"><span class="level-item">35</span><span class="level-item">OffensiveRust</span></span></a></li><li><a class="level is-mobile" href="#WerTrigger"><span class="level-left"><span class="level-item">36</span><span class="level-item">WerTrigger</span></span></a></li><li><a class="level is-mobile" href="#SirepRAT"><span class="level-left"><span class="level-item">37</span><span class="level-item">SirepRAT</span></span></a></li><li><a class="level is-mobile" href="#ExploitRemotingService"><span class="level-left"><span class="level-item">38</span><span class="level-item">ExploitRemotingService</span></span></a></li><li><a class="level is-mobile" href="#HackBrowserData"><span class="level-left"><span class="level-item">39</span><span class="level-item">HackBrowserData</span></span></a></li><li><a class="level is-mobile" href="#ThinkphpGUI"><span class="level-left"><span class="level-item">40</span><span class="level-item">ThinkphpGUI</span></span></a></li><li><a class="level is-mobile" href="#SharpHook"><span class="level-left"><span class="level-item">41</span><span class="level-item">SharpHook</span></span></a></li><li><a class="level is-mobile" href="#bylibrary"><span class="level-left"><span class="level-item">42</span><span class="level-item">bylibrary</span></span></a></li><li><a class="level is-mobile" href="#JustTryHarder"><span class="level-left"><span class="level-item">43</span><span class="level-item">JustTryHarder</span></span></a></li><li><a class="level is-mobile" href="#UsoDllLoader"><span class="level-left"><span class="level-item">44</span><span class="level-item">UsoDllLoader</span></span></a></li><li><a class="level is-mobile" href="#CVE-2021-24085"><span class="level-left"><span class="level-item">45</span><span class="level-item">CVE-2021-24085</span></span></a></li><li><a class="level is-mobile" href="#RedTeam-BCS"><span class="level-left"><span class="level-item">46</span><span class="level-item">RedTeam-BCS</span></span></a></li><li><a class="level is-mobile" href="#smartping"><span class="level-left"><span class="level-item">47</span><span class="level-item">smartping</span></span></a></li><li><a class="level is-mobile" href="#bypassAV"><span class="level-left"><span class="level-item">48</span><span class="level-item">bypassAV</span></span></a></li><li><a class="level is-mobile" href="#PythonHackingBook1"><span class="level-left"><span class="level-item">49</span><span class="level-item">PythonHackingBook1</span></span></a></li><li><a class="level is-mobile" href="#sak1to-shell"><span class="level-left"><span class="level-item">50</span><span class="level-item">sak1to-shell</span></span></a></li><li><a class="level is-mobile" href="#goblin"><span class="level-left"><span class="level-item">51</span><span class="level-item">goblin</span></span></a></li><li><a class="level is-mobile" href="#520apkhook"><span class="level-left"><span class="level-item">52</span><span class="level-item">520apkhook</span></span></a></li><li><a class="level is-mobile" href="#Spring-Boot-Vulnerability"><span class="level-left"><span class="level-item">53</span><span class="level-item">Spring-Boot-Vulnerability</span></span></a></li><li><a class="level is-mobile" href="#anti-honeypot"><span class="level-left"><span class="level-item">54</span><span class="level-item">anti-honeypot</span></span></a></li><li><a class="level is-mobile" href="#sWebScanner"><span class="level-left"><span class="level-item">55</span><span class="level-item">sWebScanner</span></span></a></li><li><a class="level is-mobile" href="#CVE-2021-1675-LPE"><span class="level-left"><span class="level-item">56</span><span class="level-item">CVE-2021-1675-LPE</span></span></a></li><li><a class="level is-mobile" href="#goDomain"><span class="level-left"><span class="level-item">57</span><span class="level-item">goDomain</span></span></a></li><li><a class="level is-mobile" href="#CVE-2020-14181"><span class="level-left"><span class="level-item">58</span><span class="level-item">CVE-2020-14181</span></span></a></li><li><a class="level is-mobile" href="#fingerprint"><span class="level-left"><span class="level-item">59</span><span class="level-item">fingerprint</span></span></a></li><li><a class="level is-mobile" href="#poor-mans-pentest"><span class="level-left"><span class="level-item">60</span><span class="level-item">poor-mans-pentest</span></span></a></li><li><a class="level is-mobile" href="#snmp"><span class="level-left"><span class="level-item">61</span><span class="level-item">snmp</span></span></a></li><li><a class="level is-mobile" href="#x-ui"><span class="level-left"><span class="level-item">62</span><span class="level-item">x-ui</span></span></a></li><li><a class="level is-mobile" href="#TPscan"><span class="level-left"><span class="level-item">63</span><span class="level-item">TPscan</span></span></a></li><li><a class="level is-mobile" href="#cve-2020-10977"><span class="level-left"><span class="level-item">64</span><span class="level-item">cve-2020-10977</span></span></a></li><li><a class="level is-mobile" href="#ctf-wiki"><span class="level-left"><span class="level-item">65</span><span class="level-item">ctf-wiki</span></span></a></li><li><a class="level is-mobile" href="#Fastjson"><span class="level-left"><span class="level-item">66</span><span class="level-item">Fastjson</span></span></a></li><li><a class="level is-mobile" href="#AutoPentest-DRL"><span class="level-left"><span class="level-item">67</span><span class="level-item">AutoPentest-DRL</span></span></a></li><li><a class="level is-mobile" href="#ligolo-ng"><span class="level-left"><span class="level-item">68</span><span class="level-item">ligolo-ng</span></span></a></li><li><a class="level is-mobile" href="#Packer-Fuzzer"><span class="level-left"><span class="level-item">69</span><span class="level-item">Packer-Fuzzer</span></span></a></li><li><a class="level is-mobile" href="#ShuiZe-0x727"><span class="level-left"><span class="level-item">70</span><span class="level-item">ShuiZe_0x727</span></span></a></li><li><a class="level is-mobile" href="#Dictionary-Of-Pentesting"><span class="level-left"><span class="level-item">71</span><span class="level-item">Dictionary-Of-Pentesting</span></span></a></li><li><a class="level is-mobile" href="#heapdump-tool"><span class="level-left"><span class="level-item">72</span><span class="level-item">heapdump_tool</span></span></a></li><li><a class="level is-mobile" href="#HikvisionInformation"><span class="level-left"><span class="level-item">73</span><span class="level-item">HikvisionInformation</span></span></a></li><li><a class="level is-mobile" href="#redis-rce"><span class="level-left"><span class="level-item">74</span><span class="level-item">redis-rce</span></span></a></li><li><a class="level is-mobile" href="#jdwp-shellifier"><span class="level-left"><span class="level-item">75</span><span class="level-item">jdwp-shellifier</span></span></a></li><li><a class="level is-mobile" href="#Caesar"><span class="level-left"><span class="level-item">76</span><span class="level-item">Caesar</span></span></a></li><li><a class="level is-mobile" href="#TPLogScan"><span class="level-left"><span class="level-item">77</span><span class="level-item">TPLogScan</span></span></a></li><li><a class="level is-mobile" href="#AttackWebFrameworkTools"><span class="level-left"><span class="level-item">78</span><span class="level-item">AttackWebFrameworkTools</span></span></a></li><li><a class="level is-mobile" href="#jsEncrypter"><span class="level-left"><span class="level-item">79</span><span class="level-item">jsEncrypter</span></span></a></li><li><a class="level is-mobile" href="#Dir-Scan-ByQT5"><span class="level-left"><span class="level-item">80</span><span class="level-item">Dir_Scan_ByQT5</span></span></a></li><li><a class="level is-mobile" href="#webshell"><span class="level-left"><span class="level-item">81</span><span class="level-item">webshell</span></span></a></li><li><a class="level is-mobile" href="#ntlm-theft"><span class="level-left"><span class="level-item">82</span><span class="level-item">ntlm_theft</span></span></a></li><li><a class="level is-mobile" href="#sliver"><span class="level-left"><span class="level-item">83</span><span class="level-item">sliver</span></span></a></li><li><a class="level is-mobile" href="#dirsearch"><span class="level-left"><span class="level-item">84</span><span class="level-item">dirsearch</span></span></a></li><li><a class="level is-mobile" href="#privilege-escalation-awesome-scripts-suite"><span class="level-left"><span class="level-item">85</span><span class="level-item">privilege-escalation-awesome-scripts-suite</span></span></a></li><li><a class="level is-mobile" href="#nbtscanner"><span class="level-left"><span class="level-item">86</span><span class="level-item">nbtscanner</span></span></a></li><li><a class="level is-mobile" href="#AUTO-EARN"><span class="level-left"><span class="level-item">87</span><span class="level-item">AUTO-EARN</span></span></a></li><li><a class="level is-mobile" href="#random-c2-profile"><span class="level-left"><span class="level-item">88</span><span class="level-item">random_c2_profile</span></span></a></li><li><a class="level is-mobile" href="#wfuzz"><span class="level-left"><span class="level-item">89</span><span class="level-item">wfuzz</span></span></a></li><li><a class="level is-mobile" href="#OneForAll"><span class="level-left"><span class="level-item">90</span><span class="level-item">OneForAll</span></span></a></li><li><a class="level is-mobile" href="#ExploitRemotingService-Compiled"><span class="level-left"><span class="level-item">91</span><span class="level-item">ExploitRemotingService_Compiled</span></span></a></li><li><a class="level is-mobile" href="#CMSeeK"><span class="level-left"><span class="level-item">92</span><span class="level-item">CMSeeK</span></span></a></li><li><a class="level is-mobile" href="#Hikvision-Brute-Force"><span class="level-left"><span class="level-item">93</span><span class="level-item">Hikvision-Brute-Force</span></span></a></li><li><a class="level is-mobile" href="#ByPass-JuicyPotato-T00ls"><span class="level-left"><span class="level-item">94</span><span class="level-item">ByPass_JuicyPotato_T00ls</span></span></a></li><li><a class="level is-mobile" href="#ActuatorExploit"><span class="level-left"><span class="level-item">95</span><span class="level-item">ActuatorExploit</span></span></a></li><li><a class="level is-mobile" href="#EASY-HWID-SPOOFER"><span class="level-left"><span class="level-item">96</span><span class="level-item">EASY-HWID-SPOOFER</span></span></a></li><li><a class="level is-mobile" href="#shiro-550-with-NoCC"><span class="level-left"><span class="level-item">97</span><span class="level-item">shiro-550-with-NoCC</span></span></a></li><li><a class="level is-mobile" href="#UnmanagedPowerShell"><span class="level-left"><span class="level-item">98</span><span class="level-item">UnmanagedPowerShell</span></span></a></li><li><a class="level is-mobile" href="#gitbook-docker"><span class="level-left"><span class="level-item">99</span><span class="level-item">gitbook-docker</span></span></a></li><li><a class="level is-mobile" href="#unwebpack-sourcemap"><span class="level-left"><span class="level-item">100</span><span class="level-item">unwebpack-sourcemap</span></span></a></li><li><a class="level is-mobile" href="#post-hub"><span class="level-left"><span class="level-item">101</span><span class="level-item">post-hub</span></span></a></li><li><a class="level is-mobile" href="#proxy-pool"><span class="level-left"><span class="level-item">102</span><span class="level-item">proxy_pool</span></span></a></li><li><a class="level is-mobile" href="#EHole"><span class="level-left"><span class="level-item">103</span><span class="level-item">EHole</span></span></a></li><li><a class="level is-mobile" href="#Digital-Privacy"><span class="level-left"><span class="level-item">104</span><span class="level-item">Digital-Privacy</span></span></a></li><li><a class="level is-mobile" href="#IIS-ShortName-Scanner"><span class="level-left"><span class="level-item">105</span><span class="level-item">IIS_ShortName_Scanner</span></span></a></li><li><a class="level is-mobile" href="#juicy-potato"><span class="level-left"><span class="level-item">106</span><span class="level-item">juicy-potato</span></span></a></li><li><a class="level is-mobile" href="#AppInfoScanner"><span class="level-left"><span class="level-item">107</span><span class="level-item">AppInfoScanner</span></span></a></li><li><a class="level is-mobile" href="#sharpwmi"><span class="level-left"><span class="level-item">108</span><span class="level-item">sharpwmi</span></span></a></li><li><a class="level is-mobile" href="#loginBrute"><span class="level-left"><span class="level-item">109</span><span class="level-item">loginBrute</span></span></a></li><li><a class="level is-mobile" href="#CSAgent"><span class="level-left"><span class="level-item">110</span><span class="level-item">CSAgent</span></span></a></li><li><a class="level is-mobile" href="#CVE-2021-21985"><span class="level-left"><span class="level-item">111</span><span class="level-item">CVE-2021-21985</span></span></a></li><li><a class="level is-mobile" href="#JSINFO-SCAN"><span class="level-left"><span class="level-item">112</span><span class="level-item">JSINFO-SCAN</span></span></a></li><li><a class="level is-mobile" href="#php-8-1-0-dev-backdoor-rce"><span class="level-left"><span class="level-item">113</span><span class="level-item">php-8.1.0-dev-backdoor-rce</span></span></a></li><li><a class="level is-mobile" href="#RedisWriteFile"><span class="level-left"><span class="level-item">114</span><span class="level-item">RedisWriteFile</span></span></a></li><li><a class="level is-mobile" href="#passive-scan-client"><span class="level-left"><span class="level-item">115</span><span class="level-item">passive-scan-client</span></span></a></li><li><a class="level is-mobile" href="#LinuxCheck"><span class="level-left"><span class="level-item">116</span><span class="level-item">LinuxCheck</span></span></a></li><li><a class="level is-mobile" href="#ysoserial-net"><span class="level-left"><span class="level-item">117</span><span class="level-item">ysoserial.net</span></span></a></li><li><a class="level is-mobile" href="#yjdirscan"><span class="level-left"><span class="level-item">118</span><span class="level-item">yjdirscan</span></span></a></li><li><a class="level is-mobile" href="#ds-store-exp"><span class="level-left"><span class="level-item">119</span><span class="level-item">ds_store_exp</span></span></a></li><li><a class="level is-mobile" href="#awd-chroot-cheater"><span class="level-left"><span class="level-item">120</span><span class="level-item">awd-chroot-cheater</span></span></a></li><li><a class="level is-mobile" href="#CVE-2017-7921-EXP"><span class="level-left"><span class="level-item">121</span><span class="level-item">CVE-2017-7921-EXP</span></span></a></li><li><a class="level is-mobile" href="#SplunkWhisperer2"><span class="level-left"><span class="level-item">122</span><span class="level-item">SplunkWhisperer2</span></span></a></li><li><a class="level is-mobile" href="#Medusa"><span class="level-left"><span class="level-item">123</span><span class="level-item">Medusa</span></span></a></li><li><a class="level is-mobile" href="#k4l0ng-WAF"><span class="level-left"><span class="level-item">124</span><span class="level-item">k4l0ng_WAF</span></span></a></li><li><a class="level is-mobile" href="#slopShell"><span class="level-left"><span class="level-item">125</span><span class="level-item">slopShell</span></span></a></li><li><a class="level is-mobile" href="#jexboss"><span class="level-left"><span class="level-item">126</span><span class="level-item">jexboss</span></span></a></li><li><a class="level is-mobile" href="#SCShell"><span class="level-left"><span class="level-item">127</span><span class="level-item">SCShell</span></span></a></li><li><a class="level is-mobile" href="#WebCrack"><span class="level-left"><span class="level-item">128</span><span class="level-item">WebCrack</span></span></a></li><li><a class="level is-mobile" href="#capa"><span class="level-left"><span class="level-item">129</span><span class="level-item">capa</span></span></a></li><li><a class="level is-mobile" href="#SAP-GW-RCE-exploit"><span class="level-left"><span class="level-item">130</span><span class="level-item">SAP_GW_RCE_exploit</span></span></a></li><li><a class="level is-mobile" href="#weird-proxies"><span class="level-left"><span class="level-item">131</span><span class="level-item">weird_proxies</span></span></a></li><li><a class="level is-mobile" href="#ssh-dos-python"><span class="level-left"><span class="level-item">132</span><span class="level-item">ssh-dos-python</span></span></a></li><li><a class="level is-mobile" href="#p0wny-shell"><span class="level-left"><span class="level-item">133</span><span class="level-item">p0wny-shell</span></span></a></li><li><a class="level is-mobile" href="#tplmap"><span class="level-left"><span class="level-item">134</span><span class="level-item">tplmap</span></span></a></li><li><a class="level is-mobile" href="#Aggressor"><span class="level-left"><span class="level-item">135</span><span class="level-item">Aggressor</span></span></a></li><li><a class="level is-mobile" href="#CVE-2021-3493"><span class="level-left"><span class="level-item">136</span><span class="level-item">CVE-2021-3493</span></span></a></li><li><a class="level is-mobile" href="#Pricking"><span class="level-left"><span class="level-item">137</span><span class="level-item">Pricking</span></span></a></li><li><a class="level is-mobile" href="#finger-user-enum"><span class="level-left"><span class="level-item">138</span><span class="level-item">finger-user-enum</span></span></a></li><li><a class="level is-mobile" href="#woodpecker-framwork-release"><span class="level-left"><span class="level-item">139</span><span class="level-item">woodpecker-framwork-release</span></span></a></li><li><a class="level is-mobile" href="#SMBGhost-RCE-PoC"><span class="level-left"><span class="level-item">140</span><span class="level-item">SMBGhost_RCE_PoC</span></span></a></li><li><a class="level is-mobile" href="#weaver-exp"><span class="level-left"><span class="level-item">141</span><span class="level-item">weaver_exp</span></span></a></li><li><a class="level is-mobile" href="#EgGateWayGetShell"><span class="level-left"><span class="level-item">142</span><span class="level-item">EgGateWayGetShell</span></span></a></li><li><a class="level is-mobile" href="#exphub"><span class="level-left"><span class="level-item">143</span><span class="level-item">exphub</span></span></a></li><li><a class="level is-mobile" href="#Ladon"><span class="level-left"><span class="level-item">144</span><span class="level-item">Ladon</span></span></a></li><li><a class="level is-mobile" href="#SQLInjectionWiki"><span class="level-left"><span class="level-item">145</span><span class="level-item">SQLInjectionWiki</span></span></a></li><li><a class="level is-mobile" href="#pocassist"><span class="level-left"><span class="level-item">146</span><span class="level-item">pocassist</span></span></a></li><li><a class="level is-mobile" href="#oFx"><span class="level-left"><span class="level-item">147</span><span class="level-item">oFx</span></span></a></li><li><a class="level is-mobile" href="#firefox-decrypt"><span class="level-left"><span class="level-item">148</span><span class="level-item">firefox_decrypt</span></span></a></li><li><a class="level is-mobile" href="#OpenDoor"><span class="level-left"><span class="level-item">149</span><span class="level-item">OpenDoor</span></span></a></li><li><a class="level is-mobile" href="#web-sec"><span class="level-left"><span class="level-item">150</span><span class="level-item">web-sec</span></span></a></li><li><a class="level is-mobile" href="#nmaps"><span class="level-left"><span class="level-item">151</span><span class="level-item">nmaps</span></span></a></li><li><a class="level is-mobile" href="#Chankro"><span class="level-left"><span class="level-item">152</span><span class="level-item">Chankro</span></span></a></li><li><a class="level is-mobile" href="#OXID"><span class="level-left"><span class="level-item">153</span><span class="level-item">OXID</span></span></a></li><li><a class="level is-mobile" href="#CVE-2021-1675"><span class="level-left"><span class="level-item">154</span><span class="level-item">CVE-2021-1675</span></span></a></li><li><a class="level is-mobile" href="#distrobuilder"><span class="level-left"><span class="level-item">155</span><span class="level-item">distrobuilder</span></span></a></li><li><a class="level is-mobile" href="#evil-winrm"><span class="level-left"><span class="level-item">156</span><span class="level-item">evil-winrm</span></span></a></li><li><a class="level is-mobile" href="#Sublist3r"><span class="level-left"><span class="level-item">157</span><span class="level-item">Sublist3r</span></span></a></li><li><a class="level is-mobile" href="#InScan"><span class="level-left"><span class="level-item">158</span><span class="level-item">InScan</span></span></a></li><li><a class="level is-mobile" href="#Stowaway"><span class="level-left"><span class="level-item">159</span><span class="level-item">Stowaway</span></span></a></li><li><a class="level is-mobile" href="#CNVD-2021-26058"><span class="level-left"><span class="level-item">160</span><span class="level-item">CNVD-2021-26058</span></span></a></li><li><a class="level is-mobile" href="#fastcrawler"><span class="level-left"><span class="level-item">161</span><span class="level-item">fastcrawler</span></span></a></li><li><a class="level is-mobile" href="#vba-obfuscator"><span class="level-left"><span class="level-item">162</span><span class="level-item">vba-obfuscator</span></span></a></li><li><a class="level is-mobile" href="#SQLEXP"><span class="level-left"><span class="level-item">163</span><span class="level-item">SQLEXP</span></span></a></li><li><a class="level is-mobile" href="#FxxkXSS"><span class="level-left"><span class="level-item">164</span><span class="level-item">FxxkXSS</span></span></a></li><li><a class="level is-mobile" href="#saucerframe"><span class="level-left"><span class="level-item">165</span><span class="level-item">saucerframe</span></span></a></li><li><a class="level is-mobile" href="#c-jwt-cracker"><span class="level-left"><span class="level-item">166</span><span class="level-item">c-jwt-cracker</span></span></a></li><li><a class="level is-mobile" href="#FileDownloadServer"><span class="level-left"><span class="level-item">167</span><span class="level-item">FileDownloadServer</span></span></a></li><li><a class="level is-mobile" href="#PHP"><span class="level-left"><span class="level-item">168</span><span class="level-item">PHP</span></span></a></li><li><a class="level is-mobile" href="#PocList"><span class="level-left"><span class="level-item">169</span><span class="level-item">PocList</span></span></a></li><li><a class="level is-mobile" href="#nps"><span class="level-left"><span class="level-item">170</span><span class="level-item">nps</span></span></a></li><li><a class="level is-mobile" href="#WebMonitor"><span class="level-left"><span class="level-item">171</span><span class="level-item">WebMonitor</span></span></a></li><li><a class="level is-mobile" href="#exploit-laravel-cve-2018-15133"><span class="level-left"><span class="level-item">172</span><span class="level-item">exploit_laravel_cve-2018-15133</span></span></a></li><li><a class="level is-mobile" href="#RedTeamTools"><span class="level-left"><span class="level-item">173</span><span class="level-item">RedTeamTools</span></span></a></li><li><a class="level is-mobile" href="#php-reverse-shell"><span class="level-left"><span class="level-item">174</span><span class="level-item">php-reverse-shell</span></span></a></li><li><a class="level is-mobile" href="#webwrap"><span class="level-left"><span class="level-item">175</span><span class="level-item">webwrap</span></span></a></li><li><a class="level is-mobile" href="#ENScan"><span class="level-left"><span class="level-item">176</span><span class="level-item">ENScan</span></span></a></li><li><a class="level is-mobile" href="#openfire-shells"><span class="level-left"><span class="level-item">177</span><span class="level-item">openfire_shells</span></span></a></li><li><a class="level is-mobile" href="#Penetration-Testing-POC"><span class="level-left"><span class="level-item">178</span><span class="level-item">Penetration_Testing_POC</span></span></a></li><li><a class="level is-mobile" href="#Hosts-scan"><span class="level-left"><span class="level-item">179</span><span class="level-item">Hosts_scan</span></span></a></li><li><a class="level is-mobile" href="#pwcrack-framework"><span class="level-left"><span class="level-item">180</span><span class="level-item">pwcrack-framework</span></span></a></li><li><a class="level is-mobile" href="#powercat"><span class="level-left"><span class="level-item">181</span><span class="level-item">powercat</span></span></a></li><li><a class="level is-mobile" href="#onlinetools"><span class="level-left"><span class="level-item">182</span><span class="level-item">onlinetools</span></span></a></li><li><a class="level is-mobile" href="#CheeseTools"><span class="level-left"><span class="level-item">183</span><span class="level-item">CheeseTools</span></span></a></li><li><a class="level is-mobile" href="#Kunyu"><span class="level-left"><span class="level-item">184</span><span class="level-item">Kunyu</span></span></a></li><li><a class="level is-mobile" href="#CVE-2021-40444"><span class="level-left"><span class="level-item">185</span><span class="level-item">CVE-2021-40444</span></span></a></li><li><a class="level is-mobile" href="#swagger-hack"><span class="level-left"><span class="level-item">186</span><span class="level-item">swagger-hack</span></span></a></li><li><a class="level is-mobile" href="#webrtc-proxy"><span class="level-left"><span class="level-item">187</span><span class="level-item">webrtc-proxy</span></span></a></li><li><a class="level is-mobile" href="#JSFinder"><span class="level-left"><span class="level-item">188</span><span class="level-item">JSFinder</span></span></a></li><li><a class="level is-mobile" href="#xmldecoder-payload-generator"><span class="level-left"><span class="level-item">189</span><span class="level-item">xmldecoder-payload-generator</span></span></a></li><li><a class="level is-mobile" href="#bypassAV2"><span class="level-left"><span class="level-item">190</span><span class="level-item">bypassAV2</span></span></a></li><li><a class="level is-mobile" href="#dumpall"><span class="level-left"><span class="level-item">191</span><span class="level-item">dumpall</span></span></a></li><li><a class="level is-mobile" href="#bbscope"><span class="level-left"><span class="level-item">192</span><span class="level-item">bbscope</span></span></a></li><li><a class="level is-mobile" href="#Glass"><span class="level-left"><span class="level-item">193</span><span class="level-item">Glass</span></span></a></li><li><a class="level is-mobile" href="#TP-Scanner"><span class="level-left"><span class="level-item">194</span><span class="level-item">TP_Scanner</span></span></a></li><li><a class="level is-mobile" href="#csplugin"><span class="level-left"><span class="level-item">195</span><span class="level-item">csplugin</span></span></a></li><li><a class="level is-mobile" href="#warAntShell"><span class="level-left"><span class="level-item">196</span><span class="level-item">warAntShell</span></span></a></li><li><a class="level is-mobile" href="#Pentest-Cheatsheets"><span class="level-left"><span class="level-item">197</span><span class="level-item">Pentest-Cheatsheets</span></span></a></li><li><a class="level is-mobile" href="#GUI-Tools"><span class="level-left"><span class="level-item">198</span><span class="level-item">GUI_Tools</span></span></a></li><li><a class="level is-mobile" href="#MS17-010"><span class="level-left"><span class="level-item">199</span><span class="level-item">MS17-010</span></span></a></li><li><a class="level is-mobile" href="#Bypass-Disable-functions-Shell"><span class="level-left"><span class="level-item">200</span><span class="level-item">Bypass_Disable_functions_Shell</span></span></a></li><li><a class="level is-mobile" href="#CobaltStrikeDetected"><span class="level-left"><span class="level-item">201</span><span class="level-item">CobaltStrikeDetected</span></span></a></li><li><a class="level is-mobile" href="#FrpProPlugin"><span class="level-left"><span class="level-item">202</span><span class="level-item">FrpProPlugin</span></span></a></li><li><a class="level is-mobile" href="#pidrila"><span class="level-left"><span class="level-item">203</span><span class="level-item">pidrila</span></span></a></li><li><a class="level is-mobile" href="#NATBypass"><span class="level-left"><span class="level-item">204</span><span class="level-item">NATBypass</span></span></a></li><li><a class="level is-mobile" href="#whatweb-plus"><span class="level-left"><span class="level-item">205</span><span class="level-item">whatweb-plus</span></span></a></li><li><a class="level is-mobile" href="#rustcat"><span class="level-left"><span class="level-item">206</span><span class="level-item">rustcat</span></span></a></li><li><a class="level is-mobile" href="#HackReport"><span class="level-left"><span class="level-item">207</span><span class="level-item">HackReport</span></span></a></li><li><a class="level is-mobile" href="#JS-Forward"><span class="level-left"><span class="level-item">208</span><span class="level-item">JS-Forward</span></span></a></li><li><a class="level is-mobile" href="#PocOrExp-in-Github"><span class="level-left"><span class="level-item">209</span><span class="level-item">PocOrExp_in_Github</span></span></a></li><li><a class="level is-mobile" href="#Watchdog"><span class="level-left"><span class="level-item">210</span><span class="level-item">Watchdog</span></span></a></li><li><a class="level is-mobile" href="#JDCaptchaCrack"><span class="level-left"><span class="level-item">211</span><span class="level-item">JDCaptchaCrack</span></span></a></li><li><a class="level is-mobile" href="#kerbrute"><span class="level-left"><span class="level-item">212</span><span class="level-item">kerbrute</span></span></a></li><li><a class="level is-mobile" href="#LinkFinder"><span class="level-left"><span class="level-item">213</span><span class="level-item">LinkFinder</span></span></a></li><li><a class="level is-mobile" href="#NEW-xp-CAPTCHA"><span class="level-left"><span class="level-item">214</span><span class="level-item">NEW_xp_CAPTCHA</span></span></a></li><li><a class="level is-mobile" href="#reconftw"><span class="level-left"><span class="level-item">215</span><span class="level-item">reconftw</span></span></a></li><li><a class="level is-mobile" href="#findweb"><span class="level-left"><span class="level-item">216</span><span class="level-item">findweb</span></span></a></li><li><a class="level is-mobile" href="#chisel"><span class="level-left"><span class="level-item">217</span><span class="level-item">chisel</span></span></a></li><li><a class="level is-mobile" href="#FireKylin"><span class="level-left"><span class="level-item">218</span><span class="level-item">FireKylin</span></span></a></li><li><a class="level is-mobile" href="#DomainBorrowing"><span class="level-left"><span class="level-item">219</span><span class="level-item">DomainBorrowing</span></span></a></li><li><a class="level is-mobile" href="#WebBatchRequest"><span class="level-left"><span class="level-item">220</span><span class="level-item">WebBatchRequest</span></span></a></li><li><a class="level is-mobile" href="#ruler"><span class="level-left"><span class="level-item">221</span><span class="level-item">ruler</span></span></a></li><li><a class="level is-mobile" href="#OSCPRepo"><span class="level-left"><span class="level-item">222</span><span class="level-item">OSCPRepo</span></span></a></li><li><a class="level is-mobile" href="#vulmap"><span class="level-left"><span class="level-item">223</span><span class="level-item">vulmap</span></span></a></li><li><a class="level is-mobile" href="#CVE-2021-1675-Powershell"><span class="level-left"><span class="level-item">224</span><span class="level-item">CVE-2021-1675_Powershell</span></span></a></li><li><a class="level is-mobile" href="#LSpider"><span class="level-left"><span class="level-item">225</span><span class="level-item">LSpider</span></span></a></li><li><a class="level is-mobile" href="#LaZagne"><span class="level-left"><span class="level-item">226</span><span class="level-item">LaZagne</span></span></a></li><li><a class="level is-mobile" href="#Name-That-Hash"><span class="level-left"><span class="level-item">227</span><span class="level-item">Name-That-Hash</span></span></a></li><li><a class="level is-mobile" href="#Drupalgeddon2"><span class="level-left"><span class="level-item">228</span><span class="level-item">Drupalgeddon2</span></span></a></li><li><a class="level is-mobile" href="#xlsKami"><span class="level-left"><span class="level-item">229</span><span class="level-item">xlsKami</span></span></a></li><li><a class="level is-mobile" href="#hacktricks"><span class="level-left"><span class="level-item">230</span><span class="level-item">hacktricks</span></span></a></li><li><a class="level is-mobile" href="#mimikatz"><span class="level-left"><span class="level-item">231</span><span class="level-item">mimikatz</span></span></a></li><li><a class="level is-mobile" href="#PLtools"><span class="level-left"><span class="level-item">232</span><span class="level-item">PLtools</span></span></a></li><li><a class="level is-mobile" href="#SpringBoot-Actuator"><span class="level-left"><span class="level-item">233</span><span class="level-item">SpringBoot-Actuator</span></span></a></li><li><a class="level is-mobile" href="#Pentest-Note"><span class="level-left"><span class="level-item">234</span><span class="level-item">Pentest_Note</span></span></a></li><li><a class="level is-mobile" href="#e-message-exp"><span class="level-left"><span class="level-item">235</span><span class="level-item">e-message_exp</span></span></a></li><li><a class="level is-mobile" href="#vulnerability-paper"><span class="level-left"><span class="level-item">236</span><span class="level-item">vulnerability-paper</span></span></a></li><li><a class="level is-mobile" href="#Fofa-collect"><span class="level-left"><span class="level-item">237</span><span class="level-item">Fofa-collect</span></span></a></li><li><a class="level is-mobile" href="#PowerSploit"><span class="level-left"><span class="level-item">238</span><span class="level-item">PowerSploit</span></span></a></li><li><a class="level is-mobile" href="#judas"><span class="level-left"><span class="level-item">239</span><span class="level-item">judas</span></span></a></li><li><a class="level is-mobile" href="#gixy"><span class="level-left"><span class="level-item">240</span><span class="level-item">gixy</span></span></a></li><li><a class="level is-mobile" href="#PeiQi-WIKI-POC"><span class="level-left"><span class="level-item">241</span><span class="level-item">PeiQi-WIKI-POC</span></span></a></li><li><a class="level is-mobile" href="#pwncat"><span class="level-left"><span class="level-item">242</span><span class="level-item">pwncat</span></span></a></li><li><a class="level is-mobile" href="#dir"><span class="level-left"><span class="level-item">243</span><span class="level-item">dir</span></span></a></li><li><a class="level is-mobile" href="#Huan"><span class="level-left"><span class="level-item">244</span><span class="level-item">Huan</span></span></a></li><li><a class="level is-mobile" href="#CVE-2018-7600"><span class="level-left"><span class="level-item">245</span><span class="level-item">CVE-2018-7600</span></span></a></li><li><a class="level is-mobile" href="#SharPyShell"><span class="level-left"><span class="level-item">246</span><span class="level-item">SharPyShell</span></span></a></li><li><a class="level is-mobile" href="#NetNTLMtoSilverTicket"><span class="level-left"><span class="level-item">247</span><span class="level-item">NetNTLMtoSilverTicket</span></span></a></li><li><a class="level is-mobile" href="#host-scan"><span class="level-left"><span class="level-item">248</span><span class="level-item">host_scan</span></span></a></li><li><a class="level is-mobile" href="#CVE-2020-14179"><span class="level-left"><span class="level-item">249</span><span class="level-item">CVE-2020-14179</span></span></a></li><li><a class="level is-mobile" href="#Defeat-Defender"><span class="level-left"><span class="level-item">250</span><span class="level-item">Defeat-Defender</span></span></a></li><li><a class="level is-mobile" href="#feroxbuster"><span class="level-left"><span class="level-item">251</span><span class="level-item">feroxbuster</span></span></a></li><li><a class="level is-mobile" href="#DiscoverSubdomain"><span class="level-left"><span class="level-item">252</span><span class="level-item">DiscoverSubdomain</span></span></a></li><li><a class="level is-mobile" href="#gus-proxy"><span class="level-left"><span class="level-item">253</span><span class="level-item">gus-proxy</span></span></a></li><li><a class="level is-mobile" href="#OA-EXP"><span class="level-left"><span class="level-item">254</span><span class="level-item">OA-EXP</span></span></a></li><li><a class="level is-mobile" href="#pydictor"><span class="level-left"><span class="level-item">255</span><span class="level-item">pydictor</span></span></a></li><li><a class="level is-mobile" href="#ThinkphpRCE"><span class="level-left"><span class="level-item">256</span><span class="level-item">ThinkphpRCE</span></span></a></li><li><a class="level is-mobile" href="#CVE-2021-21985-PoC"><span class="level-left"><span class="level-item">257</span><span class="level-item">CVE-2021-21985_PoC</span></span></a></li><li><a class="level is-mobile" href="#hooker"><span class="level-left"><span class="level-item">258</span><span class="level-item">hooker</span></span></a></li><li><a class="level is-mobile" href="#lightsocks"><span class="level-left"><span class="level-item">259</span><span class="level-item">lightsocks</span></span></a></li><li><a class="level is-mobile" href="#subDomainsBrute"><span class="level-left"><span class="level-item">260</span><span class="level-item">subDomainsBrute</span></span></a></li><li><a class="level is-mobile" href="#Cerberus"><span class="level-left"><span class="level-item">261</span><span class="level-item">Cerberus</span></span></a></li><li><a class="level is-mobile" href="#Responder"><span class="level-left"><span class="level-item">262</span><span class="level-item">Responder</span></span></a></li><li><a class="level is-mobile" href="#RW-Password"><span class="level-left"><span class="level-item">263</span><span class="level-item">RW_Password</span></span></a></li><li><a class="level is-mobile" href="#AttackDetection"><span class="level-left"><span class="level-item">264</span><span class="level-item">AttackDetection</span></span></a></li><li><a class="level is-mobile" href="#frida-ssl-logger"><span class="level-left"><span class="level-item">265</span><span class="level-item">frida_ssl_logger</span></span></a></li><li><a class="level is-mobile" href="#ESFileExplorerOpenPortVuln"><span class="level-left"><span class="level-item">266</span><span class="level-item">ESFileExplorerOpenPortVuln</span></span></a></li><li><a class="level is-mobile" href="#windows-exec-ways"><span class="level-left"><span class="level-item">267</span><span class="level-item">windows_exec_ways</span></span></a></li><li><a class="level is-mobile" href="#ipio"><span class="level-left"><span class="level-item">268</span><span class="level-item">ipio</span></span></a></li><li><a class="level is-mobile" href="#web-hub"><span class="level-left"><span class="level-item">269</span><span class="level-item">web-hub</span></span></a></li><li><a class="level is-mobile" href="#report"><span class="level-left"><span class="level-item">270</span><span class="level-item">report</span></span></a></li><li><a class="level is-mobile" href="#gonsole"><span class="level-left"><span class="level-item">271</span><span class="level-item">gonsole</span></span></a></li><li><a class="level is-mobile" href="#BerylEnigma"><span class="level-left"><span class="level-item">272</span><span class="level-item">BerylEnigma</span></span></a></li><li><a class="level is-mobile" href="#redis-rogue-server"><span class="level-left"><span class="level-item">273</span><span class="level-item">redis-rogue-server</span></span></a></li><li><a class="level is-mobile" href="#awesome-security-weixin-official-accounts"><span class="level-left"><span class="level-item">274</span><span class="level-item">awesome-security-weixin-official-accounts</span></span></a></li><li><a class="level is-mobile" href="#AwesomeScript"><span class="level-left"><span class="level-item">275</span><span class="level-item">AwesomeScript</span></span></a></li><li><a class="level is-mobile" href="#KnockOutlook"><span class="level-left"><span class="level-item">276</span><span class="level-item">KnockOutlook</span></span></a></li><li><a class="level is-mobile" href="#reGeorg"><span class="level-left"><span class="level-item">277</span><span class="level-item">reGeorg</span></span></a></li><li><a class="level is-mobile" href="#SUDO-KILLER"><span class="level-left"><span class="level-item">278</span><span class="level-item">SUDO_KILLER</span></span></a></li><li><a class="level is-mobile" href="#SrcData"><span class="level-left"><span class="level-item">279</span><span class="level-item">SrcData</span></span></a></li><li><a class="level is-mobile" href="#go-shellcode-webimg-load"><span class="level-left"><span class="level-item">280</span><span class="level-item">go-shellcode-webimg-load</span></span></a></li><li><a class="level is-mobile" href="#local-exploits"><span class="level-left"><span class="level-item">281</span><span class="level-item">local-exploits</span></span></a></li><li><a class="level is-mobile" href="#weblogger"><span class="level-left"><span class="level-item">282</span><span class="level-item">weblogger</span></span></a></li><li><a class="level is-mobile" href="#POC-EXP"><span class="level-left"><span class="level-item">283</span><span class="level-item">POC-EXP</span></span></a></li><li><a class="level is-mobile" href="#SharpBeacon"><span class="level-left"><span class="level-item">284</span><span class="level-item">SharpBeacon</span></span></a></li><li><a class="level is-mobile" href="#CloudFail"><span class="level-left"><span class="level-item">285</span><span class="level-item">CloudFail</span></span></a></li><li><a class="level is-mobile" href="#taowu-cobalt-strike"><span class="level-left"><span class="level-item">286</span><span class="level-item">taowu-cobalt-strike</span></span></a></li><li><a class="level is-mobile" href="#kubernetes-hardening-guidance"><span class="level-left"><span class="level-item">287</span><span class="level-item">kubernetes-hardening-guidance</span></span></a></li><li><a class="level is-mobile" href="#aem-hacker"><span class="level-left"><span class="level-item">288</span><span class="level-item">aem-hacker</span></span></a></li><li><a class="level is-mobile" href="#Masscan-to-Nmap"><span class="level-left"><span class="level-item">289</span><span class="level-item">Masscan_to_Nmap</span></span></a></li><li><a class="level is-mobile" href="#ProxyPoolWithUI"><span class="level-left"><span class="level-item">290</span><span class="level-item">ProxyPoolWithUI</span></span></a></li><li><a class="level is-mobile" href="#HikPwn"><span class="level-left"><span class="level-item">291</span><span class="level-item">HikPwn</span></span></a></li><li><a class="level is-mobile" href="#SatanSword"><span class="level-left"><span class="level-item">292</span><span class="level-item">SatanSword</span></span></a></li><li><a class="level is-mobile" href="#ILSpy"><span class="level-left"><span class="level-item">293</span><span class="level-item">ILSpy</span></span></a></li><li><a class="level is-mobile" href="#dirmap"><span class="level-left"><span class="level-item">294</span><span class="level-item">dirmap</span></span></a></li><li><a class="level is-mobile" href="#HIkPy"><span class="level-left"><span class="level-item">295</span><span class="level-item">HIkPy</span></span></a></li><li><a class="level is-mobile" href="#DBJ"><span class="level-left"><span class="level-item">296</span><span class="level-item">DBJ</span></span></a></li><li><a class="level is-mobile" href="#leprechaun"><span class="level-left"><span class="level-item">297</span><span class="level-item">leprechaun</span></span></a></li><li><a class="level is-mobile" href="#shiro-attack"><span class="level-left"><span class="level-item">298</span><span class="level-item">shiro_attack</span></span></a></li><li><a class="level is-mobile" href="#MYSQL-SQL-BYPASS-WIKI"><span class="level-left"><span class="level-item">299</span><span class="level-item">MYSQL_SQL_BYPASS_WIKI</span></span></a></li><li><a class="level is-mobile" href="#WMIHACKER"><span class="level-left"><span class="level-item">300</span><span class="level-item">WMIHACKER</span></span></a></li><li><a class="level is-mobile" href="#DarkEye"><span class="level-left"><span class="level-item">301</span><span class="level-item">DarkEye</span></span></a></li><li><a class="level is-mobile" href="#dfunc-bypasser"><span class="level-left"><span class="level-item">302</span><span class="level-item">dfunc-bypasser</span></span></a></li><li><a class="level is-mobile" href="#weblogic-infodetector"><span class="level-left"><span class="level-item">303</span><span class="level-item">weblogic-infodetector</span></span></a></li><li><a class="level is-mobile" href="#ADHuntTool"><span class="level-left"><span class="level-item">304</span><span class="level-item">ADHuntTool</span></span></a></li><li><a class="level is-mobile" href="#windows-resources"><span class="level-left"><span class="level-item">305</span><span class="level-item">windows-resources</span></span></a></li><li><a class="level is-mobile" href="#Catch-Browser"><span class="level-left"><span class="level-item">306</span><span class="level-item">Catch-Browser</span></span></a></li><li><a class="level is-mobile" href="#exp-hub"><span class="level-left"><span class="level-item">307</span><span class="level-item">exp-hub</span></span></a></li><li><a class="level is-mobile" href="#HiveNightmare"><span class="level-left"><span class="level-item">308</span><span class="level-item">HiveNightmare</span></span></a></li><li><a class="level is-mobile" href="#MemoryShell"><span class="level-left"><span class="level-item">309</span><span class="level-item">MemoryShell</span></span></a></li><li><a class="level is-mobile" href="#Godzilla"><span class="level-left"><span class="level-item">310</span><span class="level-item">Godzilla</span></span></a></li><li><a class="level is-mobile" href="#chunked-coding-converter"><span class="level-left"><span class="level-item">311</span><span class="level-item">chunked-coding-converter</span></span></a></li><li><a class="level is-mobile" href="#JuicyPotato"><span class="level-left"><span class="level-item">312</span><span class="level-item">JuicyPotato</span></span></a></li><li><a class="level is-mobile" href="#awspx"><span class="level-left"><span class="level-item">313</span><span class="level-item">awspx</span></span></a></li><li><a class="level is-mobile" href="#adalanche"><span class="level-left"><span class="level-item">314</span><span class="level-item">adalanche</span></span></a></li><li><a class="level is-mobile" href="#checkburp"><span class="level-left"><span class="level-item">315</span><span class="level-item">checkburp</span></span></a></li><li><a class="level is-mobile" href="#CTFWPS"><span class="level-left"><span class="level-item">316</span><span class="level-item">CTFWPS</span></span></a></li><li><a class="level is-mobile" href="#fixgz"><span class="level-left"><span class="level-item">317</span><span class="level-item">fixgz</span></span></a></li><li><a class="level is-mobile" href="#wabt"><span class="level-left"><span class="level-item">318</span><span class="level-item">wabt</span></span></a></li><li><a class="level is-mobile" href="#SecurityInterviewGuide"><span class="level-left"><span class="level-item">319</span><span class="level-item">SecurityInterviewGuide</span></span></a></li><li><a class="level is-mobile" href="#ReiAyanami"><span class="level-left"><span class="level-item">320</span><span class="level-item">ReiAyanami</span></span></a></li><li><a class="level is-mobile" href="#CVE-2021-23132"><span class="level-left"><span class="level-item">321</span><span class="level-item">CVE-2021-23132</span></span></a></li><li><a class="level is-mobile" href="#POChouse"><span class="level-left"><span class="level-item">322</span><span class="level-item">POChouse</span></span></a></li><li><a class="level is-mobile" href="#fastjson-rce-tool"><span class="level-left"><span class="level-item">323</span><span class="level-item">fastjson_rce_tool</span></span></a></li><li><a class="level is-mobile" href="#nishang-0-7-6"><span class="level-left"><span class="level-item">324</span><span class="level-item">nishang-0.7.6</span></span></a></li><li><a class="level is-mobile" href="#spawn"><span class="level-left"><span class="level-item">325</span><span class="level-item">spawn</span></span></a></li><li><a class="level is-mobile" href="#SharpDetectionNTLMSSP"><span class="level-left"><span class="level-item">326</span><span class="level-item">SharpDetectionNTLMSSP</span></span></a></li><li><a class="level is-mobile" href="#WeblogicScan"><span class="level-left"><span class="level-item">327</span><span class="level-item">WeblogicScan</span></span></a></li><li><a class="level is-mobile" href="#bscan"><span class="level-left"><span class="level-item">328</span><span class="level-item">bscan</span></span></a></li><li><a class="level is-mobile" href="#zuthaka"><span class="level-left"><span class="level-item">329</span><span class="level-item">zuthaka</span></span></a></li><li><a class="level is-mobile" href="#BloodHound"><span class="level-left"><span class="level-item">330</span><span class="level-item">BloodHound</span></span></a></li><li><a class="level is-mobile" href="#Finger"><span class="level-left"><span class="level-item">331</span><span class="level-item">Finger</span></span></a></li><li><a class="level is-mobile" href="#virus"><span class="level-left"><span class="level-item">332</span><span class="level-item">virus</span></span></a></li><li><a class="level is-mobile" href="#penum"><span class="level-left"><span class="level-item">333</span><span class="level-item">penum</span></span></a></li><li><a class="level is-mobile" href="#As-Exploits"><span class="level-left"><span class="level-item">334</span><span class="level-item">As-Exploits</span></span></a></li><li><a class="level is-mobile" href="#MDAT"><span class="level-left"><span class="level-item">335</span><span class="level-item">MDAT</span></span></a></li><li><a class="level is-mobile" href="#krbrelayx"><span class="level-left"><span class="level-item">336</span><span class="level-item">krbrelayx</span></span></a></li><li><a class="level is-mobile" href="#SprayingToolkit"><span class="level-left"><span class="level-item">337</span><span class="level-item">SprayingToolkit</span></span></a></li><li><a class="level is-mobile" href="#MeetC2"><span class="level-left"><span class="level-item">338</span><span class="level-item">MeetC2</span></span></a></li><li><a class="level is-mobile" href="#PassDecode-jar"><span class="level-left"><span class="level-item">339</span><span class="level-item">PassDecode-jar</span></span></a></li><li><a class="level is-mobile" href="#BadAssMacros"><span class="level-left"><span class="level-item">340</span><span class="level-item">BadAssMacros</span></span></a></li><li><a class="level is-mobile" href="#bufferfly"><span class="level-left"><span class="level-item">341</span><span class="level-item">bufferfly</span></span></a></li><li><a class="level is-mobile" href="#chikienumerator"><span class="level-left"><span class="level-item">342</span><span class="level-item">chikienumerator</span></span></a></li><li><a class="level is-mobile" href="#GTFOBins-github-io"><span class="level-left"><span class="level-item">343</span><span class="level-item">GTFOBins.github.io</span></span></a></li><li><a class="level is-mobile" href="#linux-kernel-exploits"><span class="level-left"><span class="level-item">344</span><span class="level-item">linux-kernel-exploits</span></span></a></li><li><a class="level is-mobile" href="#About-Attack"><span class="level-left"><span class="level-item">345</span><span class="level-item">About-Attack</span></span></a></li><li><a class="level is-mobile" href="#AliyunAccessKeyTools"><span class="level-left"><span class="level-item">346</span><span class="level-item">AliyunAccessKeyTools</span></span></a></li><li><a class="level is-mobile" href="#C2concealer"><span class="level-left"><span class="level-item">347</span><span class="level-item">C2concealer</span></span></a></li><li><a class="level is-mobile" href="#drupwn"><span class="level-left"><span class="level-item">348</span><span class="level-item">drupwn</span></span></a></li><li><a class="level is-mobile" href="#vscan"><span class="level-left"><span class="level-item">349</span><span class="level-item">vscan</span></span></a></li><li><a class="level is-mobile" href="#dnSpy"><span class="level-left"><span class="level-item">350</span><span class="level-item">dnSpy</span></span></a></li><li><a class="level is-mobile" href="#SharpRDPThief"><span class="level-left"><span class="level-item">351</span><span class="level-item">SharpRDPThief</span></span></a></li></ul></div></div><script src="/js/toc.js" defer></script></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">Recents</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-02-09T16:00:00.000Z">2022-02-10</time></p><p class="title"><a href="/NodeBlog%20@%20HackTheBox.html">NodeBlog @ HackTheBox</a></p><p class="categories"><a href="/categories/%E8%A7%A3%E9%A2%98%E8%AE%B0%E5%BD%95/">解题记录</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-02-09T16:00:00.000Z">2022-02-10</time></p><p class="title"><a href="/Quick%20@%20HackTheBox.html">Quick @ HackTheBox</a></p><p class="categories"><a href="/categories/%E8%A7%A3%E9%A2%98%E8%AE%B0%E5%BD%95/">解题记录</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-02-07T16:00:00.000Z">2022-02-08</time></p><p class="title"><a href="/Flustered%20@%20HackTheBox.html">Flustered @ HackTheBox</a></p><p class="categories"><a href="/categories/%E8%A7%A3%E9%A2%98%E8%AE%B0%E5%BD%95/">解题记录</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-02-06T16:00:00.000Z">2022-02-07</time></p><p class="title"><a href="/Reel2%20@%20HackTheBox.html">Reel2 @ HackTheBox</a></p><p class="categories"><a href="/categories/%E8%A7%A3%E9%A2%98%E8%AE%B0%E5%BD%95/">解题记录</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2022-01-27T16:00:00.000Z">2022-01-28</time></p><p class="title"><a href="/Union%20@%20HackTheBox.html">Union @ HackTheBox</a></p><p class="categories"><a href="/categories/%E8%A7%A3%E9%A2%98%E8%AE%B0%E5%BD%95/">解题记录</a></p></div></article></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">Tags</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/HackTheBox/"><span class="tag">HackTheBox</span><span class="tag">88</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Pen/"><span class="tag">Pen</span><span class="tag">8</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Tips/"><span class="tag">Tips</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Tools/"><span class="tag">Tools</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Web-Security-Learning/"><span class="tag">Web-Security-Learning</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/pen/"><span class="tag">pen</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/sqli/"><span class="tag">sqli</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E5%9F%9F%E6%B8%97%E9%80%8F/"><span class="tag">域渗透</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%9A%8F%E7%AC%94/"><span class="tag">随笔</span><span class="tag">1</span></a></div></div></div></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/">iN1t0&#039;s Blog</a><p class="is-size-7"><span>&copy; 2022 iN1t0</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://unpkg.com/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://unpkg.com/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://unpkg.com/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "This website uses cookies to improve your experience.",
+          dismiss: "Got it!",
+          allow: "Allow cookies",
+          deny: "Decline",
+          link: "Learn more",
+          policy: "Cookie Policy",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://unpkg.com/lightgallery@1.10.0/dist/js/lightgallery.min.js" defer></script><script src="https://unpkg.com/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>

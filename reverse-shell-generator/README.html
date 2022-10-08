@@ -1,0 +1,52 @@
+<h1 id="reverse-shell-generator"><a href="#reverse-shell-generator" class="headerlink" title="reverse-shell-generator"></a>reverse-shell-generator</h1><!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<p><a href="#contributors-"><img src="https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square" alt="All Contributors"></a></p>
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+<p>Hosted Reverse Shell generator with a ton of functionality – (great for CTFs)<br><br> <a href="https://app.netlify.com/sites/brave-swartz-5dcdab/deploys"><img src="https://api.netlify.com/api/v1/badges/46dbabe0-23b7-42e6-b04b-e1769dc455ce/deploy-status" alt="Netlify Status"></a></p>
+<h3 id="Hosted-Instance"><a href="#Hosted-Instance" class="headerlink" title="Hosted Instance"></a>Hosted Instance</h3><p><a href="https://revshells.com/">https://revshells.com</a></p>
+<h3 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h3><ul>
+<li>Generate common listeners and reverse shells</li>
+<li>Raw mode to cURL shells to your machine.</li>
+<li>Button to increment the listening port number by 1</li>
+<li>URI and Base64 encoding</li>
+<li>LocalStorage to persist your configuration</li>
+<li>Dark and Light Modes</li>
+</ul>
+<h3 id="Screenshot"><a href="#Screenshot" class="headerlink" title="Screenshot"></a>Screenshot</h3><p><img src="https://user-images.githubusercontent.com/44453666/111888563-02430f80-89b4-11eb-9e17-ea3de014cf69.png" alt="image"></p>
+<h2 id="Dev"><a href="#Dev" class="headerlink" title="Dev"></a>Dev</h2><p>It’s recommended to use the netlify dev command if you’re wanting to modify any of the server functions, such as for raw link support:</p>
+<pre><code>npx netlify dev
+</code></pre>
+<h2 id="Using-Docker"><a href="#Using-Docker" class="headerlink" title="Using Docker"></a>Using Docker</h2><p>Simply run the following commands within this repository to spin up the instance locally using a Docker container</p>
+<pre><code>docker build -t reverse_shell_generator .
+
+docker run -d -p 80:80 reverse_shell_generator
+</code></pre>
+<p>Browse to <a href="http://localhost/">http://localhost:80</a></p>
+<h2 id="Contributors-✨"><a href="#Contributors-✨" class="headerlink" title="Contributors ✨"></a>Contributors ✨</h2><p>Thanks goes to these wonderful people (<a href="https://allcontributors.org/docs/en/emoji-key">emoji key</a>):</p>
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://ryanmontgomery.me"><img src="https://avatars.githubusercontent.com/u/44453666?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ryan Montgomery</b></sub></a><br /><a href="https://github.com/0dayCTF/reverse-shell-generator/pulls?q=is%3Apr+reviewed-by%3A0dayCTF" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://briskets.io"><img src="https://avatars.githubusercontent.com/u/58673953?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chris Wild</b></sub></a><br /><a href="#projectManagement-briskets" title="Project Management">📆</a> <a href="#tool-briskets" title="Tools">🔧</a> <a href="#infra-briskets" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#design-briskets" title="Design">🎨</a></td>
+    <td align="center"><a href="https://papadope.net/"><img src="https://avatars.githubusercontent.com/u/28659477?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chris Papadopoulos</b></sub></a><br /><a href="#design-Papadope" title="Design">🎨</a></td>
+    <td align="center"><a href="https://www.alanfoster.me/"><img src="https://avatars.githubusercontent.com/u/1271782?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alan Foster</b></sub></a><br /><a href="#infra-AlanFoster" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://muir.land"><img src="https://avatars.githubusercontent.com/u/58998623?v=4?s=100" width="100px;" alt=""/><br /><sub><b>AG</b></sub></a><br /><a href="#maintenance-MuirlandOracle" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/0x03f3"><img src="https://avatars.githubusercontent.com/u/24409121?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Joseph Rose</b></sub></a><br /><a href="#ideas-0x03f3" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/JabbaCS"><img src="https://avatars.githubusercontent.com/u/68778279?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jabba</b></sub></a><br /><a href="#data-JabbaCS" title="Data">🔣</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://www.jake-ruston.com"><img src="https://avatars.githubusercontent.com/u/22551835?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jake Ruston</b></sub></a><br /><a href="#data-Jake-Ruston" title="Data">🔣</a></td>
+    <td align="center"><a href="https://h0j3n.github.io/"><img src="https://avatars.githubusercontent.com/u/51261763?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Muhammad Ali</b></sub></a><br /><a href="#tool-H0j3n" title="Tools">🔧</a></td>
+    <td align="center"><a href="http://sprucelab.site"><img src="https://avatars.githubusercontent.com/u/33971688?v=4?s=100" width="100px;" alt=""/><br /><sub><b>edrapac</b></sub></a><br /><a href="#tool-edrapac" title="Tools">🔧</a></td>
+    <td align="center"><a href="https://epi052.gitlab.io/notes-to-self/"><img src="https://avatars.githubusercontent.com/u/43392618?v=4?s=100" width="100px;" alt=""/><br /><sub><b>epi</b></sub></a><br /><a href="#tool-epi052" title="Tools">🔧</a></td>
+    <td align="center"><a href="https://skerritt.blog"><img src="https://avatars.githubusercontent.com/u/10378052?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brandon</b></sub></a><br /><a href="https://github.com/0dayCTF/reverse-shell-generator/commits?author=bee-san" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+<p>This project follows the <a href="https://github.com/all-contributors/all-contributors">all-contributors</a> specification. Contributions of any kind welcome!</p>
